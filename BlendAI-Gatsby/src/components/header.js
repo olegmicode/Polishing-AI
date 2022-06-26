@@ -1,8 +1,6 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
 import { Logo } from "../utils/imgImport"
 import { nav_menus } from "../utils/staticData"
-import ConnectUs from "./common/connect-with-us"
 
 const Header = () => {
   const [hambugerActive, setHambugerActiveState] = useState(false)
@@ -22,20 +20,17 @@ const Header = () => {
   return (
     <header className="container">
       <nav className="navbar">
-        <Link to="/">
+        <a href="/">
           <img className="logo" src={Logo} alt="logo" />
-        </Link>
+        </a>
         <ul className={navMenuClsName}>
           {nav_menus.map((item, idx) => (
             <li className="nav-item" key={idx}>
-              <Link className="nav-link" activeClassName="active" to={item.to}>
+              <a className="nav-link" activeClassName="active" href={item.to}>
                 {item.name}
-              </Link>
+              </a>
             </li>
           ))}
-          <li className="nav-item mt-auto">
-            <ConnectUs />
-          </li>
         </ul>
         <div
           className={humbugerClsName}
