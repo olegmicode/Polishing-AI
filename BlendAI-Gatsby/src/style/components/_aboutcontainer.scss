@@ -5,8 +5,38 @@
     .left-block {
         width: 65%;
         height: 600px;
+        position: relative;
+
         .image-block {
             width: 75%;
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+        .sidebar-img {
+            position: absolute;
+            width: 250px;
+            right: 30px;
+            top: 40px;
+            z-index: 2;
+        }
+        .tooltips-img {
+            position: absolute;
+            width: 250px;
+            left: 180px;
+            top: 155px;
+            z-index: 3;
+        }
+        .dot-img {
+            position: absolute;
+            width: 50px;
+            left: 160px;
+            top: 215px;
+            z-index: 3;
+
         }
     }
 
@@ -17,7 +47,7 @@
         .about-right-text {
             font-size: 50px;
             line-height: 1.2;
-          
+
         }
 
     }
