@@ -1,0 +1,24 @@
+.about-container {
+    background-color: $RobinsEggBlue;
+    padding-top: 150px;
+
+    .left-block {
+        width: 65%;
+        height: 600px;
+        .image-block {
+            width: 75%;
+        }
+    }
+
+    .right-block {
+        width: 35%;
+        color: white;
+
+        .about-right-text {
+            font-size: 50px;
+            line-height: 1.2;
+          
+        }
+
+    }
+}

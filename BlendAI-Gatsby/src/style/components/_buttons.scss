@@ -1,0 +1,47 @@
+.btn {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+
+    &-blueberry {
+        background-color: $blueberry;
+
+        &:hover {
+            color: $RobinsEggBlue;
+            transition: all 0.2s ease-in;
+        }
+    }
+
+    &-transparent {
+        color: $cello;
+        background-color: transparent;
+        border: 1px solid $blueberrywhite;
+
+        &:hover {
+            color: $RobinsEggBlue;
+            border: 1px solid $RobinsEggBlue;
+        }
+    }
+
+    &-CaribbeanGreen {
+        font-size: 18px;
+        line-height: 1.55;
+        font-weight: 100;
+        border-width: 0px;
+        background-position: center center;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+        box-shadow: 0px 4px 8px 0px rgb(29 44 143 / 30%);
+        background-color: $RobinsEggBlue;
+        &:hover {
+            color: white;
+        }
+    }
+
+}

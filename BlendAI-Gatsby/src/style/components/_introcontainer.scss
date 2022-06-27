@@ -1,0 +1,32 @@
+.intro-container {
+    background-color: $blueberry;
+    padding-top: 50px;
+
+    .left-block {
+        width: 50%;
+        height: 600px;
+        color: white;
+        .sm-text {
+            font-size: 22px;
+            font-family: 'NunitoSans', Arial, sans-serif;
+            line-height: 1.55;
+            font-weight: 600;
+        }
+    }
+
+    .right-block {
+        width: 50%;
+
+        .bgimg {
+            height: 100%;
+            background-image: url(../images/contents/shoes_main.png);
+            border-radius: 8px;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-color: transparent;
+            border-style: solid;
+        }
+    }
+
+}

@@ -31,7 +31,10 @@ const Header = () => {
               </a>
             </li>
           ))}
+          <li><a href="#" className="btn btn-blueberry"> Sign Up</a></li>
+          <li><a href="#" className="btn btn-transparent">Login</a></li>
         </ul>
+
         <div
           className={humbugerClsName}
           onClick={hamburgerHandler}
