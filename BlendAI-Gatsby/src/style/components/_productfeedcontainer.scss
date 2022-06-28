@@ -1,0 +1,61 @@
+.productfeed-container {
+    background-color: $OrangeSoda;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    .left-block {
+        width: 50%;
+        text-align: center;
+        height: 450px;
+        .product-img-block {
+            img {
+                max-width: 120px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+
+        .arrow-img {
+            width: 275px;
+        }
+
+        .platforms-block {
+            position: relative;
+
+            img {
+                position: absolute;
+                margin-left: -180px;
+                max-width: 360px;
+            }
+
+            img:nth-child(1) {
+                z-index: 1;
+                margin-left: -230px;
+            }
+
+            img:nth-child(2) {
+                z-index: 2;
+                margin-top: 20px;
+            }
+
+            img:nth-child(3) {
+                z-index: 3;
+                margin-left: -130px;
+                margin-top: 40px;
+            }
+
+
+        }
+    }
+
+    .right-block {
+        width: 50%;
+        color: white;
+        align-self: center;
+        .text-productfeed {
+            font-size: 20px;
+            line-height: 1.55;
+            font-weight: 400;
+        }
+    }
+}
