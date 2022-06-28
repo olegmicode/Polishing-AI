@@ -1,0 +1,41 @@
+.createads-container {
+    background-color: $LavenderMagenta;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: white;
+    overflow: hidden;
+
+    .left-block {
+        width: 65%;
+        position: relative;
+        height: 600px;
+
+        .img-adsmin {
+            width: 100%;
+            position: absolute;
+        }
+
+        .img-rect {
+            position: absolute;
+            width: 300px;
+            margin-top: 245px;
+        }
+
+        .img-hand {
+            position: absolute;
+            width: 280px;
+            top: 400px;
+            left: 165px;
+        }
+        .img-vector3 {
+            position: absolute;
+            width: 530px;
+            top: 500px;
+            left: 165px;
+        }
+    }
+
+    .right-block {
+        width: 35%;
+    }
+}
