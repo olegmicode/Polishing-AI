@@ -11,6 +11,7 @@ import line_7 from "../images/line_7-min.png"
 import line_6 from "../images/line_6-min.png"
 import line_8 from "../images/line_8-min.png"
 
+
 export const Logo = logo
 export const DotMin = dotmin
 export const GroupArrow = grouparrow
