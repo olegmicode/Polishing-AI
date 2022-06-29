@@ -44,4 +44,13 @@
         }
     }
 
+    &-white {
+        font-size: 18px;
+        line-height: 1.55;
+        font-weight: 100;
+        border-width: 0px;
+        background-color: white;
+        color: $cello;
+    }
+
 }
