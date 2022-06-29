@@ -6,6 +6,7 @@ import Services from "../components/home/services"
 import ProductFeed from "../components/home/productfeed"
 import CreateAds from "../components/home/createads"
 import MngAudiences from "../components/home/mngaudiences"
+import Multipleadchannels from "../components/home/multipleadchannels"
 import Pricing from "../components/home/pricing"
 
 const IndexPage = () => (
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <ProductFeed></ProductFeed>
     <CreateAds></CreateAds>
     <MngAudiences></MngAudiences>
+    <Multipleadchannels></Multipleadchannels>
     <Pricing></Pricing>
   </Layout>
 )

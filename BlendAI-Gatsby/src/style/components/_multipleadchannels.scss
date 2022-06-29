@@ -1,0 +1,58 @@
+.multipleadchannels-container {
+    background-color: $RobinsEggBlue;
+    padding-top: 50px;
+    color: white;
+    height: 700px;
+
+    .left-block {
+        width: 65%;
+
+        .vector3 {
+            width: 400px;
+        }
+
+        .channels-block {
+            position: relative;
+
+            img {
+                position: absolute;
+               
+            }
+
+            img:nth-child(1) {
+                z-index: 1;
+                width: 250px;
+            }
+
+            img:nth-child(2) {
+                z-index: 2;
+                top: 120px;
+                left: 15px;
+                width: 60%;
+            }
+
+            img:nth-child(3) {
+                z-index: 3;
+                top: 200px;
+                left: 35px;
+                width: 60%;
+            }
+            img:nth-child(4) {
+                z-index: 3;
+                top: 280px;
+                left: 55px;
+                width: 60%;
+            }
+            img:nth-child(5) {
+                z-index: 3;
+                top: 360px;
+                left: 75px;
+                width: 60%;
+            }
+        }
+    }
+
+    .right-block {
+        width: 35%;
+    }
+}
