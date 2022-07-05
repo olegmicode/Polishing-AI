@@ -1,0 +1,13 @@
+.pricing-container {
+    background-color: $cello;
+    padding-top: 120px;
+    height: 600px;
+    color: white;
+    .left-block {
+        width: 35%;
+    }
+    .right-block {
+        width: 65%;
+      
+    }
+}

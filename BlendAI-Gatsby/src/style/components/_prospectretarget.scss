@@ -1,0 +1,30 @@
+.prospectretarget-container {
+    background-color: $periwinkle;
+    padding-top: 120px;
+    height: 700px;
+    color: $cello;
+
+    .left-block {
+        width: 65%;
+
+        .shopping-img {
+            width: 500px;
+        }
+
+        .bt-text {
+            width: 360px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            font-size: 36px;
+            line-height: 1.2;
+            font-weight: 100;
+            opacity: 0.6;
+        }
+    }
+
+    .right-block {
+        width: 35%;
+
+    }
+}

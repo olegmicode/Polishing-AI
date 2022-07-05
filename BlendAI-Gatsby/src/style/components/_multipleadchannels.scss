@@ -2,13 +2,14 @@
     background-color: $RobinsEggBlue;
     padding-top: 50px;
     color: white;
-    height: 700px;
+    height: 850px;
 
     .left-block {
         width: 65%;
 
-        .vector3 {
+        .vector3blue {
             width: 400px;
+            margin-left: 100px;
         }
 
         .channels-block {
@@ -16,7 +17,7 @@
 
             img {
                 position: absolute;
-               
+
             }
 
             img:nth-child(1) {
@@ -37,18 +38,33 @@
                 left: 35px;
                 width: 60%;
             }
+
             img:nth-child(4) {
                 z-index: 3;
                 top: 280px;
                 left: 55px;
                 width: 60%;
             }
+
             img:nth-child(5) {
                 z-index: 3;
                 top: 360px;
                 left: 75px;
                 width: 60%;
             }
+            img:nth-child(6) {
+                z-index: 3;
+                top: 525px;
+                left: 75px;
+                width: 690px;
+            }
+        }
+
+        .admin-img {
+            position: absolute;
+            width: 500px;
+            margin-left: 125px;
+            z-index: 5;
         }
     }
 

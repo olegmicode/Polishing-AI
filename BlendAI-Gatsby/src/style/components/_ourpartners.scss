@@ -1,0 +1,16 @@
+.ourpartners-container {
+    background-color: $iceberg;
+    padding-top: 120px;
+    height: 320px;
+    color: #222e63;
+    .left-block {
+        width: 30%;
+    }
+    .right-block {
+        width: 70%;
+        .partner-img {
+            width: 20%;
+            margin-left: 5%;
+        }
+    }
+}
