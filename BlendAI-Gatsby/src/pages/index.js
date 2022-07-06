@@ -1,4 +1,5 @@
 import * as React from "react"
+
 import Layout from "../components/layout"
 import Intro from "../components/home/intro"
 import About from "../components/home/about"
@@ -12,9 +13,13 @@ import ProspectRetarget from "../components/home/prospectretarget"
 import OurPartners from "../components/home/ourpartners"
 import Pricing from "../components/home/pricing"
 import RecentViews from "../components/home/recentviews"
+import Contact from "../components/home/contact"
+
+
 
 const IndexPage = () => (
   <Layout>
+    <Contact></Contact>
     <Intro></Intro>
     <About></About>
     <Services></Services>
@@ -26,7 +31,7 @@ const IndexPage = () => (
     <ProspectRetarget></ProspectRetarget>
     <OurPartners></OurPartners>
     <Pricing></Pricing>
-    <RecentViews></RecentViews>
+    <RecentViews></RecentViews> 
   </Layout>
 )
 export default IndexPage

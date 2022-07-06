@@ -1,0 +1,45 @@
+#rec227711832 .t-submit:hover {
+    background-color: #00cab7 !important;
+    color: #ffffff !important;
+}
+
+#rec227711832 .t-submit {
+    -webkit-transition: background-color 0.2s ease-in-out,
+        color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out,
+        color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out;
+}
+#rec227711832 input::-webkit-input-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}
+#rec227711832 input::-moz-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}
+#rec227711832 input:-moz-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}
+#rec227711832 input:-ms-input-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}
+#rec227711832 textarea::-webkit-input-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}
+#rec227711832 textarea::-moz-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}
+#rec227711832 textarea:-moz-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}
+#rec227711832 textarea:-ms-input-placeholder {
+  color: #222e63;
+  opacity: 0.5;
+}

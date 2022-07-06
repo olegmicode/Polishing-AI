@@ -1,32 +1,289 @@
 import React from "react"
+import "./measureresults.css"
 
 import { CharacterW } from "../../utils/imgImport"
-import ChartsMin from "../../images/contents/charts-min.png"
-
+import ChartsMin from "../../images/tild6239-6364-4137-b464-323063383465__charts-min.png"
+import { SignupEnable } from "../../utils/imgImport"
+import {SignupHover } from "../../utils/imgImport"
 
 
 const MeasureResults = ({ data }) => (
     <div id="measureresults" className="measureresults-container">
-        <div className="d-flex container">
-            <div className="left-block">
-                <div>Step 4.</div>
-                <h2>Measure results</h2>
-                <div>Measure return on ad spend accurately with sales attributed directly to your adverts thanks to our integration with your store.</div>
-                <div>
-                    <a className="btn btn-white" href="https://app.blend-ai.com/#/auth/ecommerce" target="_blank">SIGN UP</a>
+        <div
+            id="rec225496984"
+            class="r t-rec"
+            data-animationappear="off"
+            data-record-type="396"
+        >
+
+            <div class="t396">
+                <div
+                    class="t396__artboard"
+                    data-artboard-recid="225496984"
+                    data-artboard-height="900"
+                    data-artboard-height-res-640="1060"
+                    data-artboard-height-res-320="870"
+                    data-artboard-height_vh=""
+                    data-artboard-valign="center"
+                    data-artboard-upscale="grid"
+                    data-artboard-ovrflw="visible"
+                >
+                    <div class="t396__carrier" data-artboard-recid="225496984"></div>
+                    <div class="t396__filter" data-artboard-recid="225496984"></div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841598889024363"
+                        data-elem-id="1598889024363"
+                        data-elem-type="text"
+                        data-field-top-value="260"
+                        data-field-top-res-640-value="136"
+                        data-field-top-res-480-value="136"
+                        data-field-top-res-320-value="136"
+                        data-field-left-value="23"
+                        data-field-left-res-640-value="92"
+                        data-field-left-res-480-value="11"
+                        data-field-left-res-320-value="11"
+                        data-field-width-value="360"
+                        data-field-width-res-320-value="260"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                    >
+                        <h2 class="tn-atom" field="tn_text_1598889024363">
+                            Measure results
+                        </h2>
+                    </div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841598889024372"
+                        data-elem-id="1598889024372"
+                        data-elem-type="text"
+                        data-field-top-value="319"
+                        data-field-top-res-960-value="319"
+                        data-field-top-res-640-value="195"
+                        data-field-top-res-480-value="195"
+                        data-field-top-res-320-value="194"
+                        data-field-left-value="22"
+                        data-field-left-res-960-value="22"
+                        data-field-left-res-640-value="91"
+                        data-field-left-res-480-value="10"
+                        data-field-left-res-320-value="10"
+                        data-field-width-value="400"
+                        data-field-width-res-960-value="350"
+                        data-field-width-res-480-value="460"
+                        data-field-width-res-320-value="300"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                    >
+                        <div class="tn-atom" field="tn_text_1598889024372">
+                            Measure return on ad spend accurately with sales attributed
+                            directly to your adverts thanks to our integration with your
+                            store. <br />
+                        </div>
+                    </div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841598889024381"
+                        data-elem-id="1598889024381"
+                        data-elem-type="text"
+                        data-field-top-value="205"
+                        data-field-top-res-640-value="81"
+                        data-field-top-res-480-value="81"
+                        data-field-left-value="22"
+                        data-field-left-res-640-value="91"
+                        data-field-left-res-480-value="10"
+                        data-field-width-value="80"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                    >
+                        <div class="tn-atom" field="tn_text_1598889024381">Step 4.</div>
+                    </div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841598889670378"
+                        data-elem-id="1598889670378"
+                        data-elem-type="image"
+                        data-field-top-value="130"
+                        data-field-top-res-960-value="135"
+                        data-field-top-res-640-value="433"
+                        data-field-top-res-480-value="410"
+                        data-field-top-res-320-value="417"
+                        data-field-left-value="970"
+                        data-field-left-res-960-value="680"
+                        data-field-left-res-640-value="356"
+                        data-field-left-res-480-value="360"
+                        data-field-left-res-320-value="170"
+                        data-field-width-value="595"
+                        data-field-width-res-640-value="535"
+                        data-field-width-res-320-value="325"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                        data-field-filewidth-value="596"
+                        data-field-fileheight-value="518"
+                    >
+                        <div class="tn-atom">
+                            <img
+                                class="tn-atom__img t-img"
+                                data-original="../../images/tild6634-3165-4261-a164-343164353564__character.svg"
+                                src={CharacterW}
+                                imgfield="tn_img_1598889670378"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841598889801732"
+                        data-elem-id="1598889801732"
+                        data-elem-type="image"
+                        data-field-top-value="155"
+                        data-field-top-res-960-value="160"
+                        data-field-top-res-640-value="455"
+                        data-field-top-res-480-value="432"
+                        data-field-top-res-320-value="430"
+                        data-field-left-value="450"
+                        data-field-left-res-960-value="380"
+                        data-field-left-res-640-value="0"
+                        data-field-left-res-480-value="4"
+                        data-field-left-res-320-value="-10"
+                        data-field-width-value="595"
+                        data-field-width-res-960-value="520"
+                        data-field-width-res-640-value="480"
+                        data-field-width-res-320-value="320"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                        data-animate-sbs-event="blockintoview"
+                        data-animate-sbs-trg="0.5"
+                        data-animate-sbs-trgofst="0"
+                        data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':190,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':'1000','mx':0,'my':0,'sx':'1','sy':'1','op':1,'ro':'0','bl':'0','ea':'easeInOut','dt':'0'}]"
+                        data-field-filewidth-value="1176"
+                        data-field-fileheight-value="984"
+                    >
+                        <div class="tn-atom">
+                            <img
+                                class="tn-atom__img t-img"
+                                data-original="../../images/tild6239-6364-4137-b464-323063383465__charts-min.png"
+                                src={ChartsMin}
+                                imgfield="tn_img_1598889801732"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841599148751104"
+                        data-elem-id="1599148751104"
+                        data-elem-type="image"
+                        data-field-top-value="483"
+                        data-field-top-res-640-value="359"
+                        data-field-top-res-480-value="328"
+                        data-field-left-value="22"
+                        data-field-left-res-640-value="91"
+                        data-field-left-res-480-value="10"
+                        data-field-width-value="200"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                        data-field-filewidth-value="400"
+                        data-field-fileheight-value="128"
+                    >
+                        <div class="tn-atom">
+                            <img
+                                class="tn-atom__img t-img"
+                                data-original="../../images/tild3037-6533-4665-b164-663737303463__sign_up_enable.png"
+                                src={SignupEnable}
+                                imgfield="tn_img_1599148751104"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841599148751113"
+                        data-elem-id="1599148751113"
+                        data-elem-type="image"
+                        data-field-top-value="483"
+                        data-field-top-res-640-value="359"
+                        data-field-top-res-480-value="328"
+                        data-field-left-value="22"
+                        data-field-left-res-640-value="91"
+                        data-field-left-res-480-value="10"
+                        data-field-width-value="200"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                        data-animate-sbs-event="hover"
+                        data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':200,'mx':'0','my':0,'sx':'1','sy':'1','op':1,'ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
+                        data-field-filewidth-value="400"
+                        data-field-fileheight-value="128"
+                    >
+                        <a class="tn-atom" href="https://app.blend-ai.com/#/auth/shopify">
+                            <img
+                                class="tn-atom__img t-img"
+                                data-original="../../images/tild6531-3065-4166-b266-643432666635__sign_up_hover.png"
+                                src={SignupHover}
+                                imgfield="tn_img_1599148751113"
+                            />
+                        </a>
+                    </div>
+                    <div
+                        class="t396__elem tn-elem tn-elem__2254969841599462044795"
+                        data-elem-id="1599462044795"
+                        data-elem-type="text"
+                        data-field-top-value="660"
+                        data-field-top-res-960-value="595"
+                        data-field-top-res-640-value="870"
+                        data-field-top-res-480-value="845"
+                        data-field-top-res-320-value="720"
+                        data-field-left-value="620"
+                        data-field-left-res-960-value="490"
+                        data-field-left-res-640-value="90"
+                        data-field-left-res-480-value="90"
+                        data-field-left-res-320-value="10"
+                        data-field-width-value="300"
+                        data-field-width-res-960-value="280"
+                        data-field-width-res-320-value="240"
+                        data-field-axisy-value="top"
+                        data-field-axisx-value="left"
+                        data-field-container-value="grid"
+                        data-field-topunits-value="px"
+                        data-field-leftunits-value="px"
+                        data-field-heightunits-value=""
+                        data-field-widthunits-value="px"
+                    >
+                        <div class="tn-atom" field="tn_text_1599462044795">
+                            Manage your entire portfolio of online ads.
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className="right-block">
-                <div className="img-block">
-                    <img className="chart-img" src={ChartsMin} />
-                    <h2 className="text">
-                        Manage your entire portfolio of online ads.
-                    </h2>
-                    <img className="characterw-img" src={CharacterW} />
-
-                </div>
-
-            </div>
+            <script>
+                $(document).ready(function () {
+                    // t396_init("225496984");
+                });
+            </script>
         </div>
     </div>
 )
