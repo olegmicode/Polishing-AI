@@ -9,13 +9,13 @@ const OurPartners = ({ data }) => (
     <div id="ourpartners" className="ourpartners-container">
         <div
             id="rec232184578"
-            class="r t-rec"
+            className="r t-rec"
             data-animationappear="off"
             data-record-type="396"
         >
-            <div class="t396">
+            <div className="t396">
                 <div
-                    class="t396__artboard"
+                    className="t396__artboard"
                     data-artboard-recid="232184578"
                     data-artboard-height="360"
                     data-artboard-height-res-960="320"
@@ -27,10 +27,10 @@ const OurPartners = ({ data }) => (
                     data-artboard-upscale=""
                     data-artboard-ovrflw=""
                 >
-                    <div class="t396__carrier" data-artboard-recid="232184578"></div>
-                    <div class="t396__filter" data-artboard-recid="232184578"></div>
+                    <div className="t396__carrier" data-artboard-recid="232184578"></div>
+                    <div className="t396__filter" data-artboard-recid="232184578"></div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2321845781598890093555"
+                        className="t396__elem tn-elem tn-elem__2321845781598890093555"
                         data-elem-id="1598890093555"
                         data-elem-type="text"
                         data-field-top-value="101"
@@ -53,12 +53,12 @@ const OurPartners = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <h2 class="tn-atom" field="tn_text_1598890093555">
+                        <h2 className="tn-atom" field="tn_text_1598890093555">
                             Our partners
                         </h2>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2321845781598890093562"
+                        className="t396__elem tn-elem tn-elem__2321845781598890093562"
                         data-elem-id="1598890093562"
                         data-elem-type="text"
                         data-field-top-value="160"
@@ -83,12 +83,12 @@ const OurPartners = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1598890093562">
+                        <div className="tn-atom" field="tn_text_1598890093562">
                             Blend AI is a marketing partner of leading social platforms.
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2321845781600784926587"
+                        className="t396__elem tn-elem tn-elem__2321845781600784926587"
                         data-elem-id="1600784926587"
                         data-elem-type="image"
                         data-field-top-value="150"
@@ -116,17 +116,17 @@ const OurPartners = ({ data }) => (
                         data-field-filewidth-value="336"
                         data-field-fileheight-value="140"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6666-3530-4564-b363-643864646138__facebook-marketing-p.png"
+                                className="tn-atom__img t-img"
+                                data-original={FbPartner}
                                 src={FbPartner}
                                 imgfield="tn_img_1600784926587"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2321845781600784972693"
+                        className="t396__elem tn-elem tn-elem__2321845781600784972693"
                         data-elem-id="1600784972693"
                         data-elem-type="image"
                         data-field-top-value="115"
@@ -153,17 +153,17 @@ const OurPartners = ({ data }) => (
                         data-field-filewidth-value="576"
                         data-field-fileheight-value="504"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6539-3364-4562-b830-383430613965__officialpartner-badg.png"
+                                className="tn-atom__img t-img"
+                                data-original={OfficialPartner}
                                 src={OfficialPartner}
                                 imgfield="tn_img_1600784972693"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2321845781600784992356"
+                        className="t396__elem tn-elem tn-elem__2321845781600784992356"
                         data-elem-id="1600784992356"
                         data-elem-type="image"
                         data-field-top-value="150"
@@ -191,17 +191,17 @@ const OurPartners = ({ data }) => (
                         data-field-filewidth-value="1680"
                         data-field-fileheight-value="560"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild3332-3562-4733-b764-623762623161__marketing-partners-l.png"
+                                className="tn-atom__img t-img"
+                                data-original={MarketingPartner}
                                 src={MarketingPartner}
                                 imgfield="tn_img_1600784992356"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2321845781600785021964"
+                        className="t396__elem tn-elem tn-elem__2321845781600785021964"
                         data-elem-id="1600785021964"
                         data-elem-type="image"
                         data-field-top-value="150"
@@ -229,10 +229,10 @@ const OurPartners = ({ data }) => (
                         data-field-filewidth-value="282"
                         data-field-fileheight-value="128"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6564-3234-4163-b439-363132333039__google-partner-seekl.png"
+                                className="tn-atom__img t-img"
+                                data-original={GooglePartner}
                                 src={GooglePartner}
                                 imgfield="tn_img_1600785021964"
                             />

@@ -7,14 +7,14 @@ const Footer = () => (
   <footer className="footer">
     <div
       id="rec226479320"
-      class="r t-rec"
+      className="r t-rec"
       data-animationappear="off"
       data-record-type="396"
     >
       
-      <div class="t396">
+      <div className="t396">
         <div
-          class="t396__artboard"
+          className="t396__artboard"
           data-artboard-recid="226479320"
           data-artboard-height="130"
           data-artboard-height-res-320="250"
@@ -23,10 +23,10 @@ const Footer = () => (
           data-artboard-upscale=""
           data-artboard-ovrflw=""
         >
-          <div class="t396__carrier" data-artboard-recid="226479320"></div>
-          <div class="t396__filter" data-artboard-recid="226479320"></div>
+          <div className="t396__carrier" data-artboard-recid="226479320"></div>
+          <div className="t396__filter" data-artboard-recid="226479320"></div>
           <div
-            class="t396__elem tn-elem tn-elem__2264793201599148361969"
+            className="t396__elem tn-elem tn-elem__2264793201599148361969"
             data-elem-id="1599148361969"
             data-elem-type="image"
             data-field-top-value="26"
@@ -48,9 +48,9 @@ const Footer = () => (
             data-field-filewidth-value="280"
             data-field-fileheight-value="64"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
+                className="tn-atom__img t-img"
                 data-original={LogoBlack}
                 src={LogoBlack}
                 imgfield="tn_img_1599148361969"
@@ -58,7 +58,7 @@ const Footer = () => (
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2264793201599148547451"
+            className="t396__elem tn-elem tn-elem__2264793201599148547451"
             data-elem-id="1599148547451"
             data-elem-type="text"
             data-field-top-value="30"
@@ -81,12 +81,12 @@ const Footer = () => (
             data-field-heightunits-value=""
             data-field-widthunits-value="px"
           >
-            <div class="tn-atom" field="tn_text_1599148547451">
+            <div className="tn-atom" field="tn_text_1599148547451">
               Drop us a line
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2264793201599148573268"
+            className="t396__elem tn-elem tn-elem__2264793201599148573268"
             data-elem-id="1599148573268"
             data-elem-type="button"
             data-field-top-value="20"
@@ -110,10 +110,10 @@ const Footer = () => (
             data-field-heightunits-value=""
             data-field-widthunits-value=""
           >
-            <a class="tn-atom" href="#popup:contact us">CONTACT US</a>
+            <a className="tn-atom" href="#popup:contact us">CONTACT US</a>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2264793201610709018424"
+            className="t396__elem tn-elem tn-elem__2264793201610709018424"
             data-elem-id="1610709018424"
             data-elem-type="text"
             data-field-top-value="86"
@@ -138,7 +138,7 @@ const Footer = () => (
             data-field-heightunits-value=""
             data-field-widthunits-value="px"
           >
-            <div class="tn-atom" field="tn_text_1610709018424">
+            <div className="tn-atom" field="tn_text_1610709018424">
               ©2021 All Rights Reserved.
               <a
                 href="/privacy_policy"

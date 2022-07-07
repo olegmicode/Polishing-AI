@@ -10,13 +10,13 @@ const Intro = ({ data }) => (
   <div id="intro" className="intro-container">
     <div
       id="rec294576515"
-      class="r t-rec"
+      className="r t-rec"
       data-animationappear="off"
       data-record-type="396"
     >
-      <div class="t396">
+      <div className="t396">
         <div
-          class="t396__artboard"
+          className="t396__artboard"
           data-artboard-recid="294576515"
           data-artboard-height="800"
           data-artboard-height-res-960="670"
@@ -28,10 +28,10 @@ const Intro = ({ data }) => (
           data-artboard-upscale="grid"
           data-artboard-ovrflw="visible"
         >
-          <div class="t396__carrier" data-artboard-recid="294576515"></div>
-          <div class="t396__filter" data-artboard-recid="294576515"></div>
+          <div className="t396__carrier" data-artboard-recid="294576515"></div>
+          <div className="t396__filter" data-artboard-recid="294576515"></div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151470210011265 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151470210011265 t-animate"
             data-elem-id="1470210011265"
             data-elem-type="text"
             data-field-top-value="145"
@@ -60,12 +60,12 @@ const Intro = ({ data }) => (
             data-animate-duration="1"
             data-animate-distance="100"
           >
-            <h1 class="tn-atom" field="tn_text_1470210011265">
+            <h1 className="tn-atom" field="tn_text_1470210011265">
               Focus on your business —<br />leave the ads to us
             </h1>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151598861479822 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151598861479822 t-animate"
             data-elem-id="1598861479822"
             data-elem-type="text"
             data-field-top-value="345"
@@ -95,13 +95,13 @@ const Intro = ({ data }) => (
             data-animate-delay="0.1"
             data-animate-distance="100"
           >
-            <div class="tn-atom" field="tn_text_1598861479822">
+            <div className="tn-atom" field="tn_text_1598861479822">
               Creating and managing online advertisments has never been
               easier.<br />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151599580706341 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151599580706341 t-animate"
             data-elem-id="1599580706341"
             data-elem-type="image"
             data-field-top-value="80"
@@ -135,9 +135,9 @@ const Intro = ({ data }) => (
             data-field-filewidth-value="640"
             data-field-fileheight-value="468"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
+                className="tn-atom__img t-img"
                 data-original={FBMin}
                 src={FBMin}
                 imgfield="tn_img_1599580706341"
@@ -145,7 +145,7 @@ const Intro = ({ data }) => (
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151599580706363 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151599580706363 t-animate"
             data-elem-id="1599580706363"
             data-elem-type="image"
             data-field-top-value="379"
@@ -179,17 +179,17 @@ const Intro = ({ data }) => (
             data-field-filewidth-value="530"
             data-field-fileheight-value="626"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild3232-3063-4231-b733-303431393035__insta-min.png"
+                className="tn-atom__img t-img"
+                data-original={InstaMin}
                 src={InstaMin}
                 imgfield="tn_img_1599580706363"
               />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151599580706371 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151599580706371 t-animate"
             data-elem-id="1599580706371"
             data-elem-type="image"
             data-field-top-value="633"
@@ -223,17 +223,17 @@ const Intro = ({ data }) => (
             data-field-filewidth-value="680"
             data-field-fileheight-value="514"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild3037-3330-4130-a339-623031343433__twitter-min.png"
+                className="tn-atom__img t-img"
+                data-original={TwitterMin}
                 src={TwitterMin}
                 imgfield="tn_img_1599580706371"
               />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616416750790 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616416750790 t-animate"
             data-elem-id="1616416750790"
             data-elem-type="shape"
             data-field-top-value="693"
@@ -271,15 +271,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild6662-3237-4862-a361-613939383763__stroller_twitter.png"
               style={{
-                backgroundImage: `url('../../images/tild6662-3237-4862-a361-613939383763__-__resize__20x__stroller_twitter.png');`
+                backgroundImage: "url(../../images/tild6662-3237-4862-a361-613939383763__-__resize__20x__stroller_twitter.png)"
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616416826174 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616416826174 t-animate"
             data-elem-id="1616416826174"
             data-elem-type="shape"
             data-field-top-value="142"
@@ -317,15 +317,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3239-6263-4036-a532-316138336665__stroller_fb.png"
               style={{
-                backgroundImage: `url('../../images/tild3239-6263-4036-a532-316138336665__-__resize__20x__stroller_fb.png')`
+                backgroundImage: 'url(../../images/tild3239-6263-4036-a532-316138336665__-__resize__20x__stroller_fb.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616416876415 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616416876415 t-animate"
             data-elem-id="1616416876415"
             data-elem-type="shape"
             data-field-top-value="501"
@@ -361,15 +361,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild6361-3064-4331-b939-353232386637__stroller_google.png"
               style={{
-                backgroundImage: `url('../../images/tild6361-3064-4331-b939-353232386637__-__resize__20x__stroller_google.png')`
+                backgroundImage: 'url(../../images/tild6361-3064-4331-b939-353232386637__-__resize__20x__stroller_google.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616417440825 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616417440825 t-animate"
             data-elem-id="1616417440825"
             data-elem-type="shape"
             data-field-top-value="435"
@@ -407,15 +407,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild6136-6333-4635-b463-663637626235__stroller_insta.png"
               style={{
-                backgroundImage: `url('../../images/tild6136-6333-4635-b463-663637626235__-__resize__20x__stroller_insta.png')`
+                backgroundImage: 'url(../../images/tild6136-6333-4635-b463-663637626235__-__resize__20x__stroller_insta.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616419383643 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616419383643 t-animate"
             data-elem-id="1616419383643"
             data-elem-type="button"
             data-field-top-value="457"
@@ -449,7 +449,7 @@ const Intro = ({ data }) => (
             data-animate-distance="100"
           >
             <a
-              class="tn-atom js-click-zero-stat"
+              className="tn-atom js-click-zero-stat"
               href="https://app.blend-ai.com/#/auth/ecommerce"
               target="_blank"
               data-tilda-event-name="/tilda/click/rec294576515/button1616419383643"
@@ -457,7 +457,7 @@ const Intro = ({ data }) => (
             >
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616496480325 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616496480325 t-animate"
             data-elem-id="1616496480325"
             data-elem-type="shape"
             data-field-top-value="142"
@@ -494,15 +494,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3734-6364-4262-a531-386634376263__sofa_fb-1.png"
               style={{
-                backgroundImage: `url('../../images/tild3734-6364-4262-a531-386634376263__-__resize__20x__sofa_fb-1.png');`
+                backgroundImage: 'url(../../images/tild3734-6364-4262-a531-386634376263__-__resize__20x__sofa_fb-1.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616496542381 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616496542381 t-animate"
             data-elem-id="1616496542381"
             data-elem-type="shape"
             data-field-top-value="501"
@@ -537,15 +537,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild6465-3431-4636-b164-356265333039__sofa_google.png"
               style={{
-                backgroundImage: `url('../../images/tild6465-3431-4636-b164-356265333039__-__resize__20x__sofa_google.png');`
+                backgroundImage: 'url(../../images/tild6465-3431-4636-b164-356265333039__-__resize__20x__sofa_google.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616496562949 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616496562949 t-animate"
             data-elem-id="1616496562949"
             data-elem-type="shape"
             data-field-top-value="435"
@@ -582,15 +582,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3337-3863-4539-a264-343235653436__sofa_fb.png"
               style={{
-                backgroundImage: `url('../../images/tild3337-3863-4539-a264-343235653436__-__resize__20x__sofa_fb.png');`
+                backgroundImage: 'url(../../images/tild3337-3863-4539-a264-343235653436__-__resize__20x__sofa_fb.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616496605755 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616496605755 t-animate"
             data-elem-id="1616496605755"
             data-elem-type="shape"
             data-field-top-value="693"
@@ -628,15 +628,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3162-6336-4239-a365-383363326564__sofar_bing.png"
               style={{
-                backgroundImage: `url('../../images/tild3162-6336-4239-a365-383363326564__-__resize__20x__sofar_bing.png');`
+                backgroundImage: 'url(../../images/tild3162-6336-4239-a365-383363326564__-__resize__20x__sofar_bing.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616506319528 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616506319528 t-animate"
             data-elem-id="1616506319528"
             data-elem-type="shape"
             data-field-top-value="435"
@@ -673,15 +673,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3736-3133-4232-b764-373162396461__bag_insta.png"
               style={{
-                backgroundImage: `url('../../images/tild3736-3133-4232-b764-373162396461__-__resize__20x__bag_insta.png');`
+                backgroundImage: 'url(../../images/tild3736-3133-4232-b764-373162396461__-__resize__20x__bag_insta.png);'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616506417742 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616506417742 t-animate"
             data-elem-id="1616506417742"
             data-elem-type="shape"
             data-field-top-value="142"
@@ -718,15 +718,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3039-3037-4165-b337-313639616535__bag_fb.png"
               style={{
-                backgroundImage: `url('../../images/tild3039-3037-4165-b337-313639616535__-__resize__20x__bag_fb.png');`
+                backgroundImage: 'url(../../images/tild3039-3037-4165-b337-313639616535__-__resize__20x__bag_fb.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616506845355 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616506845355 t-animate"
             data-elem-id="1616506845355"
             data-elem-type="shape"
             data-field-top-value="501"
@@ -761,15 +761,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild6235-3937-4637-a335-646163353065__bag_google.png"
               style={{
-                backgroundImage: `url('../../images/tild6235-3937-4637-a335-646163353065__-__resize__20x__bag_google.png');`
+                backgroundImage: 'url(../../images/tild6235-3937-4637-a335-646163353065__-__resize__20x__bag_google.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616506872278 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616506872278 t-animate"
             data-elem-id="1616506872278"
             data-elem-type="shape"
             data-field-top-value="693"
@@ -807,15 +807,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3535-3639-4838-a563-663830333136__bag_bing.png"
               style={{
-                backgroundImage: `url('../../images/tild3535-3639-4838-a563-663830333136__-__resize__20x__bag_bing.png');`
+                backgroundImage: 'url(../../images/tild3535-3639-4838-a563-663830333136__-__resize__20x__bag_bing.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616508491292 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616508491292 t-animate"
             data-elem-id="1616508491292"
             data-elem-type="shape"
             data-field-top-value="142"
@@ -852,15 +852,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3830-3839-4866-b834-623462313762__shoes_fb.png"
               style={{
-                backgroundImage: `url('../../images/tild3830-3839-4866-b834-623462313762__-__resize__20x__shoes_fb.png');`
+                backgroundImage: 'url(../../images/tild3830-3839-4866-b834-623462313762__-__resize__20x__shoes_fb.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616508539364 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616508539364 t-animate"
             data-elem-id="1616508539364"
             data-elem-type="shape"
             data-field-top-value="139"
@@ -896,15 +896,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3936-3234-4033-b338-353262343230__shoes_main.png"
               style={{
-                backgroundImage: `url('../../images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png');`
+                backgroundImage: 'url(../../images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616508582576 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616508582576 t-animate"
             data-elem-id="1616508582576"
             data-elem-type="shape"
             data-field-top-value="435"
@@ -941,15 +941,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3139-3538-4565-b464-306363376264__shoes_insta.png"
               style={{
-                backgroundImage: `url('../../images/tild3139-3538-4565-b464-306363376264__-__resize__20x__shoes_insta.png');`
+                backgroundImage: 'url(../../images/tild3139-3538-4565-b464-306363376264__-__resize__20x__shoes_insta.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616508620151 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616508620151 t-animate"
             data-elem-id="1616508620151"
             data-elem-type="shape"
             data-field-top-value="693"
@@ -987,15 +987,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3733-3465-4734-b733-303639353131__shoes_bing.png"
               style={{
-                backgroundImage: `url('../../images/tild3733-3465-4734-b733-303639353131__-__resize__20x__shoes_bing.png');`
+                backgroundImage: 'url(../../images/tild3733-3465-4734-b733-303639353131__-__resize__20x__shoes_bing.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151616508666944 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151616508666944 t-animate"
             data-elem-id="1616508666944"
             data-elem-type="shape"
             data-field-top-value="501"
@@ -1030,15 +1030,15 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3138-6235-4138-b032-663535366332__shoes_google.png"
               style={{
-                backgroundImage: `url('../../images/tild3138-6235-4138-b032-663535366332__-__resize__20x__shoes_google.png');`
+                backgroundImage: 'url(../../images/tild3138-6235-4138-b032-663535366332__-__resize__20x__shoes_google.png)'
               }}
             ></div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151648638183416 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151648638183416 t-animate"
             data-elem-id="1648638183416"
             data-elem-type="image"
             data-field-top-value="485"
@@ -1072,17 +1072,17 @@ const Intro = ({ data }) => (
             data-field-filewidth-value="626"
             data-field-fileheight-value="250"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild6163-6365-4532-a334-366366313232__google-min.png"
+                className="tn-atom__img t-img"
+                data-original={GoogleMin}
                 src={GoogleMin}
                 imgfield="tn_img_1648638183416"
               />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2945765151648711868466 t-animate"
+            className="t396__elem tn-elem tn-elem__2945765151648711868466 t-animate"
             data-elem-id="1648711868466"
             data-elem-type="shape"
             data-field-top-value="149px"
@@ -1118,10 +1118,10 @@ const Intro = ({ data }) => (
             data-animate-mobile="y"
           >
             <div
-              class="tn-atom t-bgimg"
+              className="tn-atom t-bgimg"
               data-original="../../images/tild3936-3234-4033-b338-353262343230__shoes_main.png"
               style={{
-                backgroundImage: "url('../../images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png');"
+                backgroundImage: 'url(../../images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
               }}
             ></div>
           </div>

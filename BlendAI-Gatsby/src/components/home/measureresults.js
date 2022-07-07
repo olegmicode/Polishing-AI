@@ -11,14 +11,14 @@ const MeasureResults = ({ data }) => (
     <div id="measureresults" className="measureresults-container">
         <div
             id="rec225496984"
-            class="r t-rec"
+            className="r t-rec"
             data-animationappear="off"
             data-record-type="396"
         >
 
-            <div class="t396">
+            <div className="t396">
                 <div
-                    class="t396__artboard"
+                    className="t396__artboard"
                     data-artboard-recid="225496984"
                     data-artboard-height="900"
                     data-artboard-height-res-640="1060"
@@ -28,10 +28,10 @@ const MeasureResults = ({ data }) => (
                     data-artboard-upscale="grid"
                     data-artboard-ovrflw="visible"
                 >
-                    <div class="t396__carrier" data-artboard-recid="225496984"></div>
-                    <div class="t396__filter" data-artboard-recid="225496984"></div>
+                    <div className="t396__carrier" data-artboard-recid="225496984"></div>
+                    <div className="t396__filter" data-artboard-recid="225496984"></div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841598889024363"
+                        className="t396__elem tn-elem tn-elem__2254969841598889024363"
                         data-elem-id="1598889024363"
                         data-elem-type="text"
                         data-field-top-value="260"
@@ -52,12 +52,12 @@ const MeasureResults = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <h2 class="tn-atom" field="tn_text_1598889024363">
+                        <h2 className="tn-atom" field="tn_text_1598889024363">
                             Measure results
                         </h2>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841598889024372"
+                        className="t396__elem tn-elem tn-elem__2254969841598889024372"
                         data-elem-id="1598889024372"
                         data-elem-type="text"
                         data-field-top-value="319"
@@ -82,14 +82,14 @@ const MeasureResults = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1598889024372">
+                        <div className="tn-atom" field="tn_text_1598889024372">
                             Measure return on ad spend accurately with sales attributed
                             directly to your adverts thanks to our integration with your
                             store. <br />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841598889024381"
+                        className="t396__elem tn-elem tn-elem__2254969841598889024381"
                         data-elem-id="1598889024381"
                         data-elem-type="text"
                         data-field-top-value="205"
@@ -107,10 +107,10 @@ const MeasureResults = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1598889024381">Step 4.</div>
+                        <div className="tn-atom" field="tn_text_1598889024381">Step 4.</div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841598889670378"
+                        className="t396__elem tn-elem tn-elem__2254969841598889670378"
                         data-elem-id="1598889670378"
                         data-elem-type="image"
                         data-field-top-value="130"
@@ -136,17 +136,17 @@ const MeasureResults = ({ data }) => (
                         data-field-filewidth-value="596"
                         data-field-fileheight-value="518"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6634-3165-4261-a164-343164353564__character.svg"
+                                className="tn-atom__img t-img"
+                                data-original={CharacterW}
                                 src={CharacterW}
                                 imgfield="tn_img_1598889670378"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841598889801732"
+                        className="t396__elem tn-elem tn-elem__2254969841598889801732"
                         data-elem-id="1598889801732"
                         data-elem-type="image"
                         data-field-top-value="155"
@@ -177,17 +177,17 @@ const MeasureResults = ({ data }) => (
                         data-field-filewidth-value="1176"
                         data-field-fileheight-value="984"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6239-6364-4137-b464-323063383465__charts-min.png"
+                                className="tn-atom__img t-img"
+                                data-original={ChartsMin}
                                 src={ChartsMin}
                                 imgfield="tn_img_1598889801732"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841599148751104"
+                        className="t396__elem tn-elem tn-elem__2254969841599148751104"
                         data-elem-id="1599148751104"
                         data-elem-type="image"
                         data-field-top-value="483"
@@ -207,17 +207,17 @@ const MeasureResults = ({ data }) => (
                         data-field-filewidth-value="400"
                         data-field-fileheight-value="128"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild3037-6533-4665-b164-663737303463__sign_up_enable.png"
+                                className="tn-atom__img t-img"
+                                data-original={SignupEnable}
                                 src={SignupEnable}
                                 imgfield="tn_img_1599148751104"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841599148751113"
+                        className="t396__elem tn-elem tn-elem__2254969841599148751113"
                         data-elem-id="1599148751113"
                         data-elem-type="image"
                         data-field-top-value="483"
@@ -239,17 +239,17 @@ const MeasureResults = ({ data }) => (
                         data-field-filewidth-value="400"
                         data-field-fileheight-value="128"
                     >
-                        <a class="tn-atom" href="https://app.blend-ai.com/#/auth/shopify">
+                        <a className="tn-atom" href="https://app.blend-ai.com/#/auth/shopify">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6531-3065-4166-b266-643432666635__sign_up_hover.png"
+                                className="tn-atom__img t-img"
+                                data-original={SignupHover}
                                 src={SignupHover}
                                 imgfield="tn_img_1599148751113"
                             />
                         </a>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254969841599462044795"
+                        className="t396__elem tn-elem tn-elem__2254969841599462044795"
                         data-elem-id="1599462044795"
                         data-elem-type="text"
                         data-field-top-value="660"
@@ -273,7 +273,7 @@ const MeasureResults = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1599462044795">
+                        <div className="tn-atom" field="tn_text_1599462044795">
                             Manage your entire portfolio of online ads.
                         </div>
                     </div>

@@ -9,14 +9,14 @@ const CreateAds = ({ data }) => (
     <div id="createads" className="createads-container">
         <div
             id="rec225446007"
-            class="r t-rec"
+            className="r t-rec"
             data-animationappear="off"
             data-record-type="396"
         >
 
-            <div class="t396">
+            <div className="t396">
                 <div
-                    class="t396__artboard"
+                    className="t396__artboard"
                     data-artboard-recid="225446007"
                     data-artboard-height="880"
                     data-artboard-height-res-960="830"
@@ -28,10 +28,10 @@ const CreateAds = ({ data }) => (
                     data-artboard-upscale=""
                     data-artboard-ovrflw="visible"
                 >
-                    <div class="t396__carrier" data-artboard-recid="225446007"></div>
-                    <div class="t396__filter" data-artboard-recid="225446007"></div>
+                    <div className="t396__carrier" data-artboard-recid="225446007"></div>
+                    <div className="t396__filter" data-artboard-recid="225446007"></div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071598880049829"
+                        className="t396__elem tn-elem tn-elem__2254460071598880049829"
                         data-elem-id="1598880049829"
                         data-elem-type="image"
                         data-field-top-value="140"
@@ -58,17 +58,17 @@ const CreateAds = ({ data }) => (
                         data-field-filewidth-value="738"
                         data-field-fileheight-value="504"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6461-3731-4131-a438-346363383636__ad-min.png"
+                                className="tn-atom__img t-img"
+                                data-original={Adsmin}
                                 src={Adsmin}
                                 imgfield="tn_img_1598880049829"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071598880838326"
+                        className="t396__elem tn-elem tn-elem__2254460071598880838326"
                         data-elem-id="1598880838326"
                         data-elem-type="image"
                         data-field-top-value="530"
@@ -99,17 +99,17 @@ const CreateAds = ({ data }) => (
                         data-field-filewidth-value="598"
                         data-field-fileheight-value="1107"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6633-6562-4936-b031-326137343330__hand.png"
+                                className="tn-atom__img t-img"
+                                data-original={Hand}
                                 src={Hand}
                                 imgfield="tn_img_1598880838326"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071598881201577"
+                        className="t396__elem tn-elem tn-elem__2254460071598881201577"
                         data-elem-id="1598881201577"
                         data-elem-type="text"
                         data-field-top-value="231"
@@ -131,10 +131,10 @@ const CreateAds = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <h2 class="tn-atom" field="tn_text_1598881201577">Create Ads</h2>
+                        <h2 className="tn-atom" field="tn_text_1598881201577">Create Ads</h2>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071598881295720"
+                        className="t396__elem tn-elem tn-elem__2254460071598881295720"
                         data-elem-id="1598881295720"
                         data-elem-type="text"
                         data-field-top-value="290"
@@ -159,7 +159,7 @@ const CreateAds = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1598881295720">
+                        <div className="tn-atom" field="tn_text_1598881295720">
                             Say goodbye to platform fatigue and start testing new channels
                             for your digital marketing.<br /><br />Create one version of
                             your ad and publish it across multiple advertising channels with
@@ -167,7 +167,7 @@ const CreateAds = ({ data }) => (
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071598881324223"
+                        className="t396__elem tn-elem tn-elem__2254460071598881324223"
                         data-elem-id="1598881324223"
                         data-elem-type="text"
                         data-field-top-value="176"
@@ -189,10 +189,10 @@ const CreateAds = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1598881324223">Step 1.</div>
+                        <div className="tn-atom" field="tn_text_1598881324223">Step 1.</div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071598881393025"
+                        className="t396__elem tn-elem tn-elem__2254460071598881393025"
                         data-elem-id="1598881393025"
                         data-elem-type="text"
                         data-field-top-value="600"
@@ -218,12 +218,12 @@ const CreateAds = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1598881393025">
+                        <div className="tn-atom" field="tn_text_1598881393025">
                             Create ads easily with our ad wizard.
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071598883041521"
+                        className="t396__elem tn-elem tn-elem__2254460071598883041521"
                         data-elem-id="1598883041521"
                         data-elem-type="image"
                         data-field-top-value="386"
@@ -255,17 +255,17 @@ const CreateAds = ({ data }) => (
                         data-field-filewidth-value="963"
                         data-field-fileheight-value="1019"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6333-3334-4736-a132-653934613065__rectangle_165.png"
+                                className="tn-atom__img t-img"
+                                data-original={Rectangle}
                                 src={Rectangle}
                                 imgfield="tn_img_1598883041521"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071599231862763"
+                        className="t396__elem tn-elem tn-elem__2254460071599231862763"
                         data-elem-id="1599231862763"
                         data-elem-type="image"
                         data-field-top-value="625"
@@ -293,10 +293,10 @@ const CreateAds = ({ data }) => (
                         data-field-filewidth-value="1413"
                         data-field-fileheight-value="1030"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild6364-3630-4966-b133-353934613339__vector_3-min.png"
+                                className="tn-atom__img t-img"
+                                data-original={Vector3}
                                 src={Vector3}
                                 imgfield="tn_img_1599231862763"
 
@@ -304,7 +304,7 @@ const CreateAds = ({ data }) => (
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2254460071612885017783"
+                        className="t396__elem tn-elem tn-elem__2254460071612885017783"
                         data-elem-id="1612885017783"
                         data-elem-type="shape"
                         data-field-top-value="881"
@@ -331,7 +331,7 @@ const CreateAds = ({ data }) => (
                         data-field-heightunits-value="px"
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom"></div>
+                        <div className="tn-atom"></div>
                     </div>
                 </div>
             </div>

@@ -10,13 +10,13 @@ const Header = () => {
     <header className="container">
       <div
         id="rec246667908"
-        class="r t-rec"
+        className="r t-rec"
         data-animationappear="off"
         data-record-type="131"
       >
-        <div class="t123">
-          <div class="t-container_100">
-            <div class="t-width t-width_100">
+        <div className="t123">
+          <div className="t-container_100">
+            <div className="t-width t-width_100">
               <link
                 rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"
@@ -27,25 +27,25 @@ const Header = () => {
       </div>
       <div
         id="rec290925405"
-        class="r t-rec t-screenmin-640px"
+        className="r t-rec t-screenmin-640px"
         data-animationappear="off"
         data-record-type="257"
         data-screen-min="640px"
       >
         <div id="nav290925405marker"></div>
-        <div class="t228__mobile t228__positionfixed">
-          <div class="t228__mobile_container">
-            <div class="t228__mobile_text t-name t-name_md" field="text">
+        <div className="t228__mobile t228__positionfixed">
+          <div className="t228__mobile_container">
+            <div className="t228__mobile_text t-name t-name_md" field="text">
               &nbsp;
             </div>
-            <div class="t228__burger">
+            <div className="t228__burger">
               <span></span> <span></span> <span></span> <span></span>
             </div>
           </div>
         </div>
         <div
           id="nav290925405"
-          class="t228 t228__hidden t228__positionfixed"
+          className="t228 t228__hidden t228__positionfixed"
           style={{ backgroundColor: `rgba(255, 255, 255, 1); height: 64px` }}
           data-bgcolor-hex="#ffffff"
           data-bgcolor-rgba="rgba(255,255,255,1)"
@@ -57,26 +57,26 @@ const Header = () => {
           data-menu-items-align="center"
           data-menu="yes"
         >
-          <div class="t228__maincontainer" style={{ height: "64px" }}>
-            <div class="t228__padding40px"></div>
-            <div class="t228__leftside">
-              <div class="t228__leftcontainer">
+          <div className="t228__maincontainer" style={{ height: "64px" }}>
+            <div className="t228__padding40px"></div>
+            <div className="t228__leftside">
+              <div className="t228__leftcontainer">
                 <a href="https://blend-ai.com" >
                   <img
                     src={Logo}
-                    class="t228__imglogo"
+                    className="t228__imglogo"
                     imgfield="img"
                     style={{ maxHeight: "80px" }}
                     alt="BlendAi"
                   /></a>
               </div>
             </div>
-            <div class="t228__centerside">
-              <div class="t228__centercontainer">
-                <ul class="t228__list t228__list_hidden">
-                  <li class="t228__list_item" style={{ padding: "0 30px 0 0" }}>
+            <div className="t228__centerside">
+              <div className="t228__centercontainer">
+                <ul className="t228__list t228__list_hidden">
+                  <li className="t228__list_item" style={{ padding: "0 30px 0 0" }}>
                     <a
-                      class="t-menu__link-item"
+                      className="t-menu__link-item"
                       href="#about"
                       data-menu-submenu-hook=""
                       style={{
@@ -89,9 +89,9 @@ const Header = () => {
                     >About</a
                     >
                   </li>
-                  <li class="t228__list_item" style={{ padding: "0 30px" }}>
+                  <li className="t228__list_item" style={{ padding: "0 30px" }}>
                     <a
-                      class="t-menu__link-item"
+                      className="t-menu__link-item"
                       href="#services"
                       data-menu-submenu-hook=""
                       style={{
@@ -104,9 +104,9 @@ const Header = () => {
                     >Services</a
                     >
                   </li>
-                  <li class="t228__list_item" style={{ padding: "0 30px" }}>
+                  <li className="t228__list_item" style={{ padding: "0 30px" }}>
                     <a
-                      class="t-menu__link-item"
+                      className="t-menu__link-item"
                       href="#productfeed"
                       data-menu-submenu-hook=""
                       style={{
@@ -119,9 +119,9 @@ const Header = () => {
                     >Product Feed</a
                     >
                   </li>
-                  <li class="t228__list_item" style={{ padding: "0 0 0 30px" }}>
+                  <li className="t228__list_item" style={{ padding: "0 0 0 30px" }}>
                     <a
-                      class="t-menu__link-item"
+                      className="t-menu__link-item"
                       href="#pricing"
                       data-menu-submenu-hook=""
                       style={{
@@ -137,15 +137,15 @@ const Header = () => {
                 </ul>
               </div>
             </div>
-            <div class="t228__rightside">
-              <div class="t228__rightcontainer">
-                <div class="t228__right_buttons">
-                  <div class="t228__right_buttons_wrap">
-                    <div class="t228__right_buttons_but">
+            <div className="t228__rightside">
+              <div className="t228__rightcontainer">
+                <div className="t228__right_buttons">
+                  <div className="t228__right_buttons_wrap">
+                    <div className="t228__right_buttons_but">
                       <a
                         href="https://app.blend-ai.com/#/auth/ecommerce"
                         target="_blank"
-                        class="t-btn js-click-stat"
+                        className="t-btn js-click-stat"
                         data-tilda-event-name="/tilda/click/rec290925405/button1"
                         style={{
                           color: "#ffffff",
@@ -162,11 +162,11 @@ const Header = () => {
                         </table>
                       </a>
                     </div>
-                    <div class="t228__right_buttons_but">
+                    <div className="t228__right_buttons_but">
                       <a
                         href="https://app.blend-ai.com/#/auth/login"
                         target=""
-                        class="t-btn js-click-stat"
+                        className="t-btn js-click-stat"
                         data-tilda-event-name="/tilda/click/rec290925405/button2"
                         style={{
                           color: "#222e63",
@@ -187,7 +187,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div class="t228__padding40px"></div>
+            <div className="t228__padding40px"></div>
           </div>
         </div>
 
@@ -234,15 +234,15 @@ const Header = () => {
 
       <div
         id="rec290926020"
-        class="r t-rec t-screenmax-640px"
+        className="r t-rec t-screenmax-640px"
         data-animationappear="off"
         data-record-type="396"
         data-screen-max="640px"
       >
 
-        <div class="t396">
+        <div className="t396">
           <div
-            class="t396__artboard"
+            className="t396__artboard"
             data-artboard-recid="290926020"
             data-artboard-height="64"
             data-artboard-height-res-320="64"
@@ -251,10 +251,10 @@ const Header = () => {
             data-artboard-upscale="grid"
             data-artboard-ovrflw=""
           >
-            <div class="t396__carrier" data-artboard-recid="290926020"></div>
-            <div class="t396__filter" data-artboard-recid="290926020"></div>
+            <div className="t396__carrier" data-artboard-recid="290926020"></div>
+            <div className="t396__filter" data-artboard-recid="290926020"></div>
             <div
-              class="t396__elem tn-elem tn-elem__2909260201599720199226"
+              className="t396__elem tn-elem tn-elem__2909260201599720199226"
               data-elem-id="1599720199226"
               data-elem-type="image"
               data-field-top-value="20"
@@ -273,16 +273,16 @@ const Header = () => {
               data-field-filewidth-value="140"
               data-field-fileheight-value="32"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
+                  className="tn-atom__img t-img"
                   data-original={Logo}
                   imgfield="tn_img_1599720199226"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2909260201599720264742"
+              className="t396__elem tn-elem tn-elem__2909260201599720264742"
               data-elem-id="1599720264742"
               data-elem-type="button"
               data-field-top-value="12"
@@ -311,14 +311,14 @@ const Header = () => {
               data-field-widthunits-value=""
             >
               <a
-                class="tn-atom js-click-zero-stat"
+                className="tn-atom js-click-zero-stat"
                 href="https://app.blend-ai.com/#/auth/login"
                 data-tilda-event-name="/tilda/click/rec290926020/button1599720264742"
               >Log In</a
               >
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2909260201599720426760"
+              className="t396__elem tn-elem tn-elem__2909260201599720426760"
               data-elem-id="1599720426760"
               data-elem-type="button"
               data-field-top-value="12"
@@ -347,7 +347,7 @@ const Header = () => {
               data-field-widthunits-value=""
             >
               <a
-                class="tn-atom js-click-zero-stat"
+                className="tn-atom js-click-zero-stat"
                 href="https://app.blend-ai.com/#/auth/ecommerce"
                 data-tilda-event-name="/tilda/click/rec290926020/button1599720426760"
               >Sign Up</a

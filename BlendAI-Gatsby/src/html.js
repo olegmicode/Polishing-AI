@@ -11,7 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        {/* <script src="../../js/jquery-1.10.2.min.js" crossOrigin="anonymous"/> */}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" crossOrigin="anonymous"/>
         {/* <script src="./static/hammer.min.js" crossOrigin="anonymous"/>
         <script src="./static/lazyload-1.3.min.js" crossOrigin="anonymous"/>
         <script src="./static/tilda-animation-1.0.min.js" crossOrigin="anonymous"/>
@@ -28,7 +28,7 @@ export default function HTML(props) {
         <script src="./static/tilda-zoom-2.0.min.js" crossOrigin="anonymous"/> */}
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes}>
+      <body className="t-body" {...props.bodyAttributes}>
         {props.preBodyComponents}
         <div
           key={`body`}

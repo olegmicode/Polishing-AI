@@ -10,14 +10,14 @@ const MngAudiences = ({ data }) => (
   <div id="mngaudience" className="mngaudiences-container">
     <div
         id="rec225458528"
-        class="r t-rec"
+        className="r t-rec"
         data-animationappear="off"
         data-record-type="396"
       >
         
-        <div class="t396">
+        <div className="t396">
           <div
-            class="t396__artboard"
+            className="t396__artboard"
             data-artboard-recid="225458528"
             data-artboard-height="930"
             data-artboard-height-res-960="750"
@@ -29,10 +29,10 @@ const MngAudiences = ({ data }) => (
             data-artboard-upscale=""
             data-artboard-ovrflw="visible"
           >
-            <div class="t396__carrier" data-artboard-recid="225458528"></div>
-            <div class="t396__filter" data-artboard-recid="225458528"></div>
+            <div className="t396__carrier" data-artboard-recid="225458528"></div>
+            <div className="t396__filter" data-artboard-recid="225458528"></div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281598881632905"
+              className="t396__elem tn-elem tn-elem__2254585281598881632905"
               data-elem-id="1598881632905"
               data-elem-type="text"
               data-field-top-value="285"
@@ -55,12 +55,12 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <h2 class="tn-atom" field="tn_text_1598881632905">
+              <h2 className="tn-atom" field="tn_text_1598881632905">
                 Manage audiences
               </h2>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281598881632912"
+              className="t396__elem tn-elem tn-elem__2254585281598881632912"
               data-elem-id="1598881632912"
               data-elem-type="text"
               data-field-top-value="344"
@@ -84,14 +84,14 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1598881632912">
+              <div className="tn-atom" field="tn_text_1598881632912">
                 You don't need to be an expert to craft new target audiences for
                 your ads.<br /><br />Blend makes audience creation easy for
                 everyone.
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281598881632918"
+              className="t396__elem tn-elem tn-elem__2254585281598881632918"
               data-elem-id="1598881632918"
               data-elem-type="text"
               data-field-top-value="230"
@@ -113,10 +113,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1598881632918">Step 2.</div>
+              <div className="tn-atom" field="tn_text_1598881632918">Step 2.</div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281598881821815"
+              className="t396__elem tn-elem tn-elem__2254585281598881821815"
               data-elem-id="1598881821815"
               data-elem-type="image"
               data-field-top-value="195"
@@ -142,17 +142,17 @@ const MngAudiences = ({ data }) => (
               data-field-filewidth-value="1022"
               data-field-fileheight-value="1011"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3137-3631-4636-b462-333236363661__character_1-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={Character1min}
                   src={Character1min}
                   imgfield="tn_img_1598881821815"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281598881868732"
+              className="t396__elem tn-elem tn-elem__2254585281598881868732"
               data-elem-id="1598881868732"
               data-elem-type="text"
               data-field-top-value="615"
@@ -176,12 +176,12 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1598881868732">
+              <div className="tn-atom" field="tn_text_1598881868732">
                 Define your target audiences with ease.
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281598881901954"
+              className="t396__elem tn-elem tn-elem__2254585281598881901954"
               data-elem-id="1598881901954"
               data-elem-type="image"
               data-field-top-value="69"
@@ -210,17 +210,17 @@ const MngAudiences = ({ data }) => (
               data-field-filewidth-value="462"
               data-field-fileheight-value="373"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6636-3933-4535-b839-643964656139__user_card.png"
+                  className="tn-atom__img t-img"
+                  data-original={UserCard}
                   src={UserCard}
                   imgfield="tn_img_1598881901954"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599128751436"
+              className="t396__elem tn-elem tn-elem__2254585281599128751436"
               data-elem-id="1599128751436"
               data-elem-type="shape"
               data-field-top-value="297"
@@ -255,10 +255,10 @@ const MngAudiences = ({ data }) => (
               data-animate-sbs-trgofst="0"
               data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':0,'my':0,'sx':1,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0},{'ti':500,'mx':57,'my':0,'sx':1.4,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0},{'ti':800,'mx':0,'my':0,'sx':1,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0}]"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599128846931"
+              className="t396__elem tn-elem tn-elem__2254585281599128846931"
               data-elem-id="1599128846931"
               data-elem-type="shape"
               data-field-top-value="286"
@@ -287,10 +287,10 @@ const MngAudiences = ({ data }) => (
               data-animate-sbs-trgofst="0"
               data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':500,'mx':0,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':'0'},{'ti':500,'mx':108,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':'0'},{'ti':800,'mx':0,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':'0'}]"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599128915541"
+              className="t396__elem tn-elem tn-elem__2254585281599128915541"
               data-elem-id="1599128915541"
               data-elem-type="shape"
               data-field-top-value="354"
@@ -315,10 +315,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value="px"
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129069793"
+              className="t396__elem tn-elem tn-elem__2254585281599129069793"
               data-elem-id="1599129069793"
               data-elem-type="shape"
               data-field-top-value="433"
@@ -345,10 +345,10 @@ const MngAudiences = ({ data }) => (
               data-animate-sbs-trgofst="0"
               data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':400,'mx':0,'my':0,'sx':1,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0},{'ti':700,'mx':88,'my':0,'sx':2.4,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0},{'ti':'1000','mx':0,'my':0,'sx':1,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0}]"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129080163"
+              className="t396__elem tn-elem tn-elem__2254585281599129080163"
               data-elem-id="1599129080163"
               data-elem-type="shape"
               data-field-top-value="422"
@@ -377,10 +377,10 @@ const MngAudiences = ({ data }) => (
               data-animate-sbs-trgofst="0"
               data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':600,'mx':170,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':400},{'ti':1200,'mx':0,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':'0'}]"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129137517"
+              className="t396__elem tn-elem tn-elem__2254585281599129137517"
               data-elem-id="1599129137517"
               data-elem-type="shape"
               data-field-top-value="501"
@@ -411,10 +411,10 @@ const MngAudiences = ({ data }) => (
               data-animate-sbs-trgofst="0"
               data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':1,'sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':0},{'ti':800,'mx':127,'my':0,'sx':7,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0},{'ti':1000,'mx':0,'my':0,'sx':1,'sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0}]"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129151818"
+              className="t396__elem tn-elem tn-elem__2254585281599129151818"
               data-elem-id="1599129151818"
               data-elem-type="shape"
               data-field-top-value="492"
@@ -443,10 +443,10 @@ const MngAudiences = ({ data }) => (
               data-animate-sbs-trgofst="0"
               data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0},{'ti':800,'mx':233,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0},{'ti':1000,'mx':0,'my':0,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'easeInOut','dt':0}]"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129163876"
+              className="t396__elem tn-elem tn-elem__2254585281599129163876"
               data-elem-id="1599129163876"
               data-elem-type="shape"
               data-field-top-value="297"
@@ -476,10 +476,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value="px"
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129275299"
+              className="t396__elem tn-elem tn-elem__2254585281599129275299"
               data-elem-id="1599129275299"
               data-elem-type="shape"
               data-field-top-value="364"
@@ -506,10 +506,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value="px"
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129311832"
+              className="t396__elem tn-elem tn-elem__2254585281599129311832"
               data-elem-id="1599129311832"
               data-elem-type="shape"
               data-field-top-value="433"
@@ -535,10 +535,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value="px"
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599129321909"
+              className="t396__elem tn-elem tn-elem__2254585281599129321909"
               data-elem-id="1599129321909"
               data-elem-type="shape"
               data-field-top-value="501"
@@ -564,10 +564,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value="px"
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom"></div>
+              <div className="tn-atom"></div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599141932841"
+              className="t396__elem tn-elem tn-elem__2254585281599141932841"
               data-elem-id="1599141932841"
               data-elem-type="image"
               data-field-top-value="539"
@@ -591,17 +591,17 @@ const MngAudiences = ({ data }) => (
               data-field-filewidth-value="400"
               data-field-fileheight-value="128"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3331-6332-4164-b461-373933323639__sign_up_enable.png"
+                  className="tn-atom__img t-img"
+                  data-original={SignupEnable}
                   src={SignupEnable}
                   imgfield="tn_img_1599141932841"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599141932848"
+              className="t396__elem tn-elem tn-elem__2254585281599141932848"
               data-elem-id="1599141932848"
               data-elem-type="image"
               data-field-top-value="539"
@@ -627,17 +627,17 @@ const MngAudiences = ({ data }) => (
               data-field-filewidth-value="400"
               data-field-fileheight-value="128"
             >
-              <a class="tn-atom" href="https://app.blend-ai.com/#/auth/shopify">
+              <a className="tn-atom" href="https://app.blend-ai.com/#/auth/shopify">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6432-3132-4638-b434-643662343866__sign_up_hover.png"
+                  className="tn-atom__img t-img"
+                  data-original={SignupHover}
                   src={SignupHover}
                   imgfield="tn_img_1599141932848"
                 />
               </a>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599143926500"
+              className="t396__elem tn-elem tn-elem__2254585281599143926500"
               data-elem-id="1599143926500"
               data-elem-type="text"
               data-field-top-value="290"
@@ -659,10 +659,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1599143926500">Gender</div>
+              <div className="tn-atom" field="tn_text_1599143926500">Gender</div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599143976937"
+              className="t396__elem tn-elem tn-elem__2254585281599143976937"
               data-elem-id="1599143976937"
               data-elem-type="text"
               data-field-top-value="360"
@@ -684,10 +684,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1599143976937">Age</div>
+              <div className="tn-atom" field="tn_text_1599143976937">Age</div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599144016997"
+              className="t396__elem tn-elem tn-elem__2254585281599144016997"
               data-elem-id="1599144016997"
               data-elem-type="text"
               data-field-top-value="427"
@@ -709,10 +709,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1599144016997">Interests</div>
+              <div className="tn-atom" field="tn_text_1599144016997">Interests</div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599144036952"
+              className="t396__elem tn-elem tn-elem__2254585281599144036952"
               data-elem-id="1599144036952"
               data-elem-type="text"
               data-field-top-value="495"
@@ -734,10 +734,10 @@ const MngAudiences = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1599144036952">Job</div>
+              <div className="tn-atom" field="tn_text_1599144036952">Job</div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254585281599661010642"
+              className="t396__elem tn-elem tn-elem__2254585281599661010642"
               data-elem-id="1599661010642"
               data-elem-type="image"
               data-field-top-value="710"
@@ -765,10 +765,10 @@ const MngAudiences = ({ data }) => (
               data-field-filewidth-value="1509"
               data-field-fileheight-value="650"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6438-3865-4339-b466-383331643761__vector_4-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={Vector4}
                   src={Vector4}
                   imgfield="tn_img_1599661010642"
                 />

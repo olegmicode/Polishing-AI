@@ -10,43 +10,25 @@ import CampaignOverviewTooltips from "../../images/tild3339-3163-4965-b639-38633
 const About = ({ data }) => {
 
   useEffect(() => {
-    // $('h2').css('color', 'red');
-    // setTimeout(() => {
-    //   const script = document.createElement("script")
-    //   script.src =
-    //     "tilda-blocks-2.7.js"
-    //   let jqueryScript = document.getElementsByTagName("script")
-    //   let src = Array.from(jqueryScript).filter(item => item.src === script.src)
-    //   if (src.length === 0) {
-    //     document.body.appendChild(script)
-    //   }
-    //   script.addEventListener("load", () => {
-    //     // t396_init("225394903");
-    //     // tilda-blocks-2.7.
-    //     console.log("About loaded")
-    //   })
-    // }, 500);
-    // $(document).ready(function () {
-    //   console.log("The answer is don't think about it!")
-    // });
+   
   }, [])
 
   return (
     <div>
-      <div id="rec261086492" class="r t-rec" data-record-type="215">
+      <div id="rec261086492" className="r t-rec" data-record-type="215">
         <a name="about" style={{ fontSize: 0 }}></a>
       </div>
       <div
         id="rec225394903"
-        class="r t-rec t-rec_pb_0"
+        className="r t-rec t-rec_pb_0"
         style={{ paddingBottom: "0px" }}
         data-animationappear="off"
         data-record-type="396"
       >
 
-        <div class="t396">
+        <div className="t396">
           <div
-            class="t396__artboard"
+            className="t396__artboard"
             data-artboard-recid="225394903"
             data-artboard-height="760"
             data-artboard-height-res-960="750"
@@ -57,10 +39,10 @@ const About = ({ data }) => {
             data-artboard-upscale=""
             data-artboard-ovrflw="visible"
           >
-            <div class="t396__carrier" data-artboard-recid="225394903"></div>
-            <div class="t396__filter" data-artboard-recid="225394903"></div>
+            <div className="t396__carrier" data-artboard-recid="225394903"></div>
+            <div className="t396__filter" data-artboard-recid="225394903"></div>
             <div
-              class="t396__elem tn-elem tn-elem__2253949031598875098592 t-animate"
+              className="t396__elem tn-elem tn-elem__2253949031598875098592 t-animate"
               data-elem-id="1598875098592"
               data-elem-type="text"
               data-field-top-value="290"
@@ -90,12 +72,12 @@ const About = ({ data }) => {
               data-animate-delay="0.6"
               data-animate-distance="50"
             >
-              <h2 class="tn-atom" field="tn_text_1598875098592">
+              <h2 className="tn-atom" field="tn_text_1598875098592">
                 Making online advertising easy for everyone.
               </h2>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2253949031599489601275 t-animate"
+              className="t396__elem tn-elem tn-elem__2253949031599489601275 t-animate"
               data-elem-id="1599489601275"
               data-elem-type="image"
               data-field-top-value="160"
@@ -126,9 +108,9 @@ const About = ({ data }) => {
               data-field-filewidth-value="1068"
               data-field-fileheight-value="840"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
+                  className="tn-atom__img t-img"
                   data-original={CampaignOverview}
                   src={CampaignOverview}
                   imgfield="tn_img_1599489601275"
@@ -136,7 +118,7 @@ const About = ({ data }) => {
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2253949031599489637723 t-animate"
+              className="t396__elem tn-elem tn-elem__2253949031599489637723 t-animate"
               data-elem-id="1599489637723"
               data-elem-type="image"
               data-field-top-value="195"
@@ -168,17 +150,17 @@ const About = ({ data }) => {
               data-field-filewidth-value="488"
               data-field-fileheight-value="896"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3662-3164-4838-a630-663338646437__sidebar.png"
+                  className="tn-atom__img t-img"
+                  data-original={CampaignOverviewSidebar}
                   src={CampaignOverviewSidebar}
                   imgfield="tn_img_1599489637723"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2253949031599497419170"
+              className="t396__elem tn-elem tn-elem__2253949031599497419170"
               data-elem-id="1599497419170"
               data-elem-type="image"
               data-field-top-value="373"
@@ -205,17 +187,17 @@ const About = ({ data }) => {
               data-field-filewidth-value="72"
               data-field-fileheight-value="72"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6530-3530-4235-b761-373235616634__dot-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={DotMin}
                   src={DotMin}
                   imgfield="tn_img_1599497419170"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2253949031599497499130"
+              className="t396__elem tn-elem tn-elem__2253949031599497499130"
               data-elem-id="1599497499130"
               data-elem-type="image"
               data-field-top-value="312"
@@ -242,10 +224,10 @@ const About = ({ data }) => {
               data-field-filewidth-value="398"
               data-field-fileheight-value="320"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3339-3163-4965-b639-386333346333__tooltips.png"
+                  className="tn-atom__img t-img"
+                  data-original={CampaignOverviewTooltips}
                   src={CampaignOverviewTooltips}
                   imgfield="tn_img_1599497499130"
                 />
@@ -253,11 +235,11 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
-        {/* <script>
+        <script>
           $(document).ready(function () {
-            t396_init("225394903")
+            // t396_init("225394903")
           });
-        </script> */}
+        </script>
       </div>
     </div>
   )

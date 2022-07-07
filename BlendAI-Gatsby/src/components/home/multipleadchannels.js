@@ -18,14 +18,14 @@ const Multipleadchannels = ({ data }) => (
     <div id="multipleadchannels" className="multipleadchannels-container">
       <div
         id="rec225479802"
-        class="r t-rec"
+        className="r t-rec"
         data-animationappear="off"
         data-record-type="396"
       >
         
-        <div class="t396">
+        <div className="t396">
           <div
-            class="t396__artboard"
+            className="t396__artboard"
             data-artboard-recid="225479802"
             data-artboard-height="1000"
             data-artboard-height-res-960="860"
@@ -37,10 +37,10 @@ const Multipleadchannels = ({ data }) => (
             data-artboard-upscale=""
             data-artboard-ovrflw="visible"
           >
-            <div class="t396__carrier" data-artboard-recid="225479802"></div>
-            <div class="t396__filter" data-artboard-recid="225479802"></div>
+            <div className="t396__carrier" data-artboard-recid="225479802"></div>
+            <div className="t396__filter" data-artboard-recid="225479802"></div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021598884642155"
+              className="t396__elem tn-elem tn-elem__2254798021598884642155"
               data-elem-id="1598884642155"
               data-elem-type="text"
               data-field-top-value="365"
@@ -62,12 +62,12 @@ const Multipleadchannels = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <h2 class="tn-atom" field="tn_text_1598884642155">
+              <h2 className="tn-atom" field="tn_text_1598884642155">
                 Multiple ad channels
               </h2>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021598884642164"
+              className="t396__elem tn-elem tn-elem__2254798021598884642164"
               data-elem-id="1598884642164"
               data-elem-type="text"
               data-field-top-value="424"
@@ -92,14 +92,14 @@ const Multipleadchannels = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1598884642164">
+              <div className="tn-atom" field="tn_text_1598884642164">
                 Tired of learning new ad channels? <br /><br />Our support for
                 multiple advertising channels lets you quickly spread your
                 message and trial new strategies in seconds. <br />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021598884642168"
+              className="t396__elem tn-elem tn-elem__2254798021598884642168"
               data-elem-id="1598884642168"
               data-elem-type="text"
               data-field-top-value="310"
@@ -119,10 +119,10 @@ const Multipleadchannels = ({ data }) => (
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1598884642168">Step 3.</div>
+              <div className="tn-atom" field="tn_text_1598884642168">Step 3.</div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021598885259842"
+              className="t396__elem tn-elem tn-elem__2254798021598885259842"
               data-elem-id="1598885259842"
               data-elem-type="image"
               data-field-top-value="130"
@@ -152,17 +152,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="1016"
               data-field-fileheight-value="620"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6433-3265-4434-b738-346534643133__blend_ad-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={AdminImg}
                   src={AdminImg}
                   imgfield="tn_img_1598885259842"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021598885640298"
+              className="t396__elem tn-elem tn-elem__2254798021598885640298"
               data-elem-id="1598885640298"
               data-elem-type="image"
               data-field-top-value="250"
@@ -192,17 +192,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="838"
               data-field-fileheight-value="592"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6237-3061-4130-b133-393437316231__facebook_ad.png"
+                  className="tn-atom__img t-img"
+                  data-original={FbAdImg}
                   src={FbAdImg}
                   imgfield="tn_img_1598885640298"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021598885752849"
+              className="t396__elem tn-elem tn-elem__2254798021598885752849"
               data-elem-id="1598885752849"
               data-elem-type="image"
               data-field-top-value="130"
@@ -232,17 +232,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="556"
               data-field-fileheight-value="676"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3734-6433-4265-a361-376664326338__instagram_ad-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={InstagramAdImg}
                   src={InstagramAdImg}
                   imgfield="tn_img_1598885752849"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599232345532"
+              className="t396__elem tn-elem tn-elem__2254798021599232345532"
               data-elem-id="1599232345532"
               data-elem-type="image"
               data-field-top-value="350"
@@ -272,17 +272,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="838"
               data-field-fileheight-value="592"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3836-3564-4639-a531-313737616639__google_ad-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={GgadImg}
                   src={GgadImg}
                   imgfield="tn_img_1599232345532"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599232472471"
+              className="t396__elem tn-elem tn-elem__2254798021599232472471"
               data-elem-id="1599232472471"
               data-elem-type="image"
               data-field-top-value="460"
@@ -312,17 +312,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="838"
               data-field-fileheight-value="592"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3038-3838-4264-b666-346135313131__linked_in_ad-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={LkadImg}
                   src={LkadImg}
                   imgfield="tn_img_1599232472471"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599232481074"
+              className="t396__elem tn-elem tn-elem__2254798021599232481074"
               data-elem-id="1599232481074"
               data-elem-type="image"
               data-field-top-value="570"
@@ -352,17 +352,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="838"
               data-field-fileheight-value="592"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3764-3661-4134-b633-306433643662__twitter_ad-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={TwadImg}
                   src={TwadImg}
                   imgfield="tn_img_1599232481074"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599489865571"
+              className="t396__elem tn-elem tn-elem__2254798021599489865571"
               data-elem-id="1599489865571"
               data-elem-type="image"
               data-field-top-value="305"
@@ -394,17 +394,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="253"
               data-field-fileheight-value="393"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6538-3235-4633-a662-363732633936__line_6-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={Line6}
                   src={Line6}
                   imgfield="tn_img_1599489865571"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599490178897"
+              className="t396__elem tn-elem tn-elem__2254798021599490178897"
               data-elem-id="1599490178897"
               data-elem-type="image"
               data-field-top-value="305"
@@ -436,17 +436,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="183"
               data-field-fileheight-value="199"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6262-3937-4834-b833-363837353961__line_7-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={Line7}
                   src={Line7}
                   imgfield="tn_img_1599490178897"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599490340587"
+              className="t396__elem tn-elem tn-elem__2254798021599490340587"
               data-elem-id="1599490340587"
               data-elem-type="image"
               data-field-top-value="305"
@@ -478,17 +478,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="392"
               data-field-fileheight-value="765"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild3836-3439-4061-b430-316461653533__line_8-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={Line8}
                   src={Line8}
                   imgfield="tn_img_1599490340587"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599490405097"
+              className="t396__elem tn-elem tn-elem__2254798021599490405097"
               data-elem-id="1599490405097"
               data-elem-type="image"
               data-field-top-value="63"
@@ -520,17 +520,17 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="809"
               data-field-fileheight-value="120"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6631-3438-4262-b339-356562313733__vector_3-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={Vector3Blue}
                   src={Vector3Blue}
                   imgfield="tn_img_1599490405097"
                 />
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2254798021599659282627"
+              className="t396__elem tn-elem tn-elem__2254798021599659282627"
               data-elem-id="1599659282627"
               data-elem-type="image"
               data-field-top-value="746"
@@ -558,10 +558,10 @@ const Multipleadchannels = ({ data }) => (
               data-field-filewidth-value="1413"
               data-field-fileheight-value="1030"
             >
-              <div class="tn-atom">
+              <div className="tn-atom">
                 <img
-                  class="tn-atom__img t-img"
-                  data-original="../../images/tild6364-3630-4966-b133-353934613339__vector_3-min.png"
+                  className="tn-atom__img t-img"
+                  data-original={Vector3}
                   src={Vector3}
                   imgfield="tn_img_1599659282627"
                 />

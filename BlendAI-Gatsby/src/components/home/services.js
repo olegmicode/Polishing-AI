@@ -12,7 +12,7 @@ const Services = ({ data }) => {
     setTimeout(() => {
       const script = document.createElement("script")
       script.src =
-        "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+        "tilda-blocks-2.7.js"
       let jqueryScript = document.getElementsByTagName("script")
       let src = Array.from(jqueryScript).filter(item => item.src === script.src)
       if (src.length === 0) {
@@ -37,20 +37,20 @@ const Services = ({ data }) => {
         Blend connects to your store helping you measure the impact your ads are having on revenue.
       </div>
     </div> */}
-      <div id="rec261087063" class="r t-rec" data-record-type="215">
+      <div id="rec261087063" className="r t-rec" data-record-type="215">
         <a name="services" style={{ fontSize: 0 }}></a>
       </div>
       <div
         id="rec225410738"
-        class="r t-rec t-rec_pt_0 t-rec_pb_0"
+        className="r t-rec t-rec_pt_0 t-rec_pb_0"
         style={{ paddingTop: "0px", paddingBottom: "0px"}}
       data-animationappear="off"
       data-record-type="396"
       >
 
-      <div class="t396">
+      <div className="t396">
         <div
-          class="t396__artboard"
+          className="t396__artboard"
           data-artboard-recid="225410738"
           data-artboard-height="900"
           data-artboard-height-res-960="780"
@@ -62,10 +62,10 @@ const Services = ({ data }) => {
           data-artboard-upscale="grid"
           data-artboard-ovrflw=""
         >
-          <div class="t396__carrier" data-artboard-recid="225410738"></div>
-          <div class="t396__filter" data-artboard-recid="225410738"></div>
+          <div className="t396__carrier" data-artboard-recid="225410738"></div>
+          <div className="t396__filter" data-artboard-recid="225410738"></div>
           <div
-            class="t396__elem tn-elem tn-elem__2254107381598875497653"
+            className="t396__elem tn-elem tn-elem__2254107381598875497653"
             data-elem-id="1598875497653"
             data-elem-type="text"
             data-field-top-value="555"
@@ -91,13 +91,13 @@ const Services = ({ data }) => {
             data-field-heightunits-value=""
             data-field-widthunits-value="px"
           >
-            <div class="tn-atom" field="tn_text_1598875497653">
+            <div className="tn-atom" field="tn_text_1598875497653">
               Blend connects to your store helping you measure the impact your
               ads are having on revenue.
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2254107381598875645951"
+            className="t396__elem tn-elem tn-elem__2254107381598875645951"
             data-elem-id="1598875645951"
             data-elem-type="image"
             data-field-top-value="235"
@@ -125,9 +125,9 @@ const Services = ({ data }) => {
             data-field-filewidth-value="724"
             data-field-fileheight-value="508"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
+                className="tn-atom__img t-img"
                 data-original={ShopifyImg}
                 src={ShopifyImg}
                 imgfield="tn_img_1598875645951"
@@ -135,7 +135,7 @@ const Services = ({ data }) => {
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2254107381598875671311"
+            className="t396__elem tn-elem tn-elem__2254107381598875671311"
             data-elem-id="1598875671311"
             data-elem-type="image"
             data-field-top-value="235"
@@ -163,9 +163,9 @@ const Services = ({ data }) => {
             data-field-filewidth-value="724"
             data-field-fileheight-value="508"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
+                className="tn-atom__img t-img"
                 data-original={MarapostImg}
                 src={MarapostImg}
                 imgfield="tn_img_1598875671311"
@@ -173,7 +173,7 @@ const Services = ({ data }) => {
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2254107381598875683272"
+            className="t396__elem tn-elem tn-elem__2254107381598875683272"
             data-elem-id="1598875683272"
             data-elem-type="image"
             data-field-top-value="235"
@@ -201,9 +201,9 @@ const Services = ({ data }) => {
             data-field-filewidth-value="724"
             data-field-fileheight-value="508"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
+                className="tn-atom__img t-img"
                 data-original={WoocommerceImg}
                 src={WoocommerceImg}
                 imgfield="tn_img_1598875683272"
@@ -211,7 +211,7 @@ const Services = ({ data }) => {
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2254107381599233670935"
+            className="t396__elem tn-elem tn-elem__2254107381599233670935"
             data-elem-id="1599233670935"
             data-elem-type="text"
             data-field-top-value="140"
@@ -234,7 +234,7 @@ const Services = ({ data }) => {
             data-field-heightunits-value=""
             data-field-widthunits-value="px"
           >
-            <h2 class="tn-atom" field="tn_text_1599233670935">
+            <h2 className="tn-atom" field="tn_text_1599233670935">
               Ecommerce Platforms
             </h2>
           </div>

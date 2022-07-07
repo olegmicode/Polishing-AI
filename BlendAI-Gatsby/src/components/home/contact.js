@@ -7,22 +7,22 @@ const Contact = ({ data }) => {
         <div>
             <div
                 id="rec227711832"
-                class="r t-rec"
+                className="r t-rec"
                 style={{ backgroundColor: "#ffffff" }}
                 data-record-type="702"
                 data-bg-color="#ffffff"
             >
-                <div class="t702">
+                <div className="t702">
                     <div
-                        class="t-popup"
+                        className="t-popup"
                         data-tooltip-hook="#popup:contact us"
                         data-track-popup="/tilda/popup/rec227711832/opened"
                         style={{ backgroundColor: "rgba(34, 46, 99, 0.8)" }}
                     >
-                        <div class="t-popup__close">
-                            <div class="t-popup__close-wrapper">
+                        <div className="t-popup__close">
+                            <div className="t-popup__close-wrapper">
                                 <svg
-                                    class="t-popup__close-icon"
+                                    className="t-popup__close-icon"
                                     width="23px"
                                     height="23px"
                                     viewBox="0 0 23 23"
@@ -55,13 +55,13 @@ const Contact = ({ data }) => {
                             </div>
                         </div>
                         <div
-                            class="t-popup__container t-width t-width_6"
+                            className="t-popup__container t-width t-width_6"
                             style={{ backgroundColor: "#ffffff" }}
                         >
-                            <div class="t702__wrapper">
-                                <div class="t702__text-wrapper t-align_left">
+                            <div className="t702__wrapper">
+                                <div className="t702__text-wrapper t-align_left">
                                     <div
-                                        class="t702__title t-title t-title_xxs"
+                                        className="t702__title t-title t-title_xxs"
                                         style={{
                                             color: "#222e63",
                                             fontSize: "26px",
@@ -72,7 +72,7 @@ const Contact = ({ data }) => {
                                         Contact us
                                     </div>
                                     <div
-                                        class="t702__descr t-descr t-descr_xs"
+                                        className="t702__descr t-descr t-descr_xs"
                                         style={{
                                             color: "#222e63",
                                             fontWeight: 500,
@@ -91,14 +91,14 @@ const Contact = ({ data }) => {
                                     method="POST"
                                     data-formactiontype="2"
                                     data-inputbox=".t-input-group"
-                                    class="t-form js-form-proccess t-form_inputs-total_3"
+                                    className="t-form js-form-proccess t-form_inputs-total_3"
                                     data-success-callback="t702_onSuccess"
                                 >
                                     <input
                                         type="hidden"
                                         name="formservices[]"
                                         value="a5b3b290dfea0e65f76691b39b423610"
-                                        class="js-formaction-services"
+                                        className="js-formaction-services"
                                     />
                                     <input
                                         type="hidden"
@@ -107,7 +107,7 @@ const Contact = ({ data }) => {
                                         value=" Contact us"
                                     />
                                     <div
-                                        class="js-successbox t-form__successbox t-text t-text_md"
+                                        className="js-successbox t-form__successbox t-text t-text_md"
                                         style={{
                                             display: "none",
                                             color: "#222e63",
@@ -116,17 +116,17 @@ const Contact = ({ data }) => {
                                     >
                                         Thank you! Your data has been submitted.
                                     </div>
-                                    <div class="t-form__inputsbox">
+                                    <div className="t-form__inputsbox">
                                         <div
-                                            class="t-input-group t-input-group_em"
+                                            className="t-input-group t-input-group_em"
                                             data-input-lid="1495810354468"
                                         >
-                                            <div class="t-input-block">
+                                            <div className="t-input-block">
                                                 <input
                                                     type="text"
                                                     autocomplete="email"
                                                     name="email"
-                                                    class="t-input js-tilda-rule"
+                                                    className="t-input js-tilda-rule"
                                                     value=""
                                                     placeholder="*Your email"
                                                     data-tilda-req="1"
@@ -137,19 +137,19 @@ const Contact = ({ data }) => {
                                                         borderRadius: "2px",
                                                     }}
                                                 />
-                                                <div class="t-input-error"></div>
+                                                <div className="t-input-error"></div>
                                             </div>
                                         </div>
                                         <div
-                                            class="t-input-group t-input-group_ph"
+                                            className="t-input-group t-input-group_ph"
                                             data-input-lid="1495810359387"
                                         >
-                                            <div class="t-input-block">
+                                            <div className="t-input-block">
                                                 <input
                                                     type="tel"
                                                     autocomplete="tel"
                                                     name="phone"
-                                                    class="t-input js-tilda-rule"
+                                                    className="t-input js-tilda-rule"
                                                     value=""
                                                     placeholder="Your phone number"
                                                     data-tilda-rule="phone"
@@ -160,17 +160,17 @@ const Contact = ({ data }) => {
                                                         borderRadius: "2px",
                                                     }}
                                                 />
-                                                <div class="t-input-error"></div>
+                                                <div className="t-input-error"></div>
                                             </div>
                                         </div>
                                         <div
-                                            class="t-input-group t-input-group_ta"
+                                            className="t-input-group t-input-group_ta"
                                             data-input-lid="1495810410810"
                                         >
-                                            <div class="t-input-block">
+                                            <div className="t-input-block">
                                                 <textarea
                                                     name="comment"
-                                                    class="t-input js-tilda-rule"
+                                                    className="t-input js-tilda-rule"
                                                     placeholder="*Your comment"
                                                     data-tilda-req="1"
                                                     style={{
@@ -181,43 +181,43 @@ const Contact = ({ data }) => {
                                                     }}
                                                     rows="3"
                                                 ></textarea>
-                                                <div class="t-input-error"></div>
+                                                <div className="t-input-error"></div>
                                             </div>
                                         </div>
-                                        <div class="t-form__errorbox-middle">
+                                        <div className="t-form__errorbox-middle">
                                             <div
-                                                class="js-errorbox-all t-form__errorbox-wrapper"
+                                                className="js-errorbox-all t-form__errorbox-wrapper"
                                                 style={{ display: "none" }}
                                             >
-                                                <div class="t-form__errorbox-text t-text t-text_md">
+                                                <div className="t-form__errorbox-text t-text t-text_md">
                                                     <p
-                                                        class="t-form__errorbox-item js-rule-error js-rule-error-all"
+                                                        className="t-form__errorbox-item js-rule-error js-rule-error-all"
                                                     ></p>
                                                     <p
-                                                        class="t-form__errorbox-item js-rule-error js-rule-error-req"
+                                                        className="t-form__errorbox-item js-rule-error js-rule-error-req"
                                                     ></p>
                                                     <p
-                                                        class="t-form__errorbox-item js-rule-error js-rule-error-email"
+                                                        className="t-form__errorbox-item js-rule-error js-rule-error-email"
                                                     ></p>
                                                     <p
-                                                        class="t-form__errorbox-item js-rule-error js-rule-error-name"
+                                                        className="t-form__errorbox-item js-rule-error js-rule-error-name"
                                                     ></p>
                                                     <p
-                                                        class="t-form__errorbox-item js-rule-error js-rule-error-phone"
+                                                        className="t-form__errorbox-item js-rule-error js-rule-error-phone"
                                                     ></p>
                                                     <p
-                                                        class="t-form__errorbox-item js-rule-error js-rule-error-minlength"
+                                                        className="t-form__errorbox-item js-rule-error js-rule-error-minlength"
                                                     ></p>
                                                     <p
-                                                        class="t-form__errorbox-item js-rule-error js-rule-error-string"
+                                                        className="t-form__errorbox-item js-rule-error js-rule-error-string"
                                                     ></p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="t-form__submit">
+                                        <div className="t-form__submit">
                                             <button
                                                 type="submit"
-                                                class="t-submit"
+                                                className="t-submit"
                                                 style={{
                                                     color: "#ffffff",
                                                     backgroundColor: "#6a85fc",
@@ -228,32 +228,32 @@ const Contact = ({ data }) => {
                                             </button>
                                         </div>
                                     </div>
-                                    <div class="t-form__errorbox-bottom">
+                                    <div className="t-form__errorbox-bottom">
                                         <div
-                                            class="js-errorbox-all t-form__errorbox-wrapper"
+                                            className="js-errorbox-all t-form__errorbox-wrapper"
                                             style={{ display: "none" }}
                                         >
-                                            <div class="t-form__errorbox-text t-text t-text_md">
+                                            <div className="t-form__errorbox-text t-text t-text_md">
                                                 <p
-                                                    class="t-form__errorbox-item js-rule-error js-rule-error-all"
+                                                    className="t-form__errorbox-item js-rule-error js-rule-error-all"
                                                 ></p>
                                                 <p
-                                                    class="t-form__errorbox-item js-rule-error js-rule-error-req"
+                                                    className="t-form__errorbox-item js-rule-error js-rule-error-req"
                                                 ></p>
                                                 <p
-                                                    class="t-form__errorbox-item js-rule-error js-rule-error-email"
+                                                    className="t-form__errorbox-item js-rule-error js-rule-error-email"
                                                 ></p>
                                                 <p
-                                                    class="t-form__errorbox-item js-rule-error js-rule-error-name"
+                                                    className="t-form__errorbox-item js-rule-error js-rule-error-name"
                                                 ></p>
                                                 <p
-                                                    class="t-form__errorbox-item js-rule-error js-rule-error-phone"
+                                                    className="t-form__errorbox-item js-rule-error js-rule-error-phone"
                                                 ></p>
                                                 <p
-                                                    class="t-form__errorbox-item js-rule-error js-rule-error-minlength"
+                                                    className="t-form__errorbox-item js-rule-error js-rule-error-minlength"
                                                 ></p>
                                                 <p
-                                                    class="t-form__errorbox-item js-rule-error js-rule-error-string"
+                                                    className="t-form__errorbox-item js-rule-error js-rule-error-string"
                                                 ></p>
                                             </div>
                                         </div>
@@ -261,7 +261,7 @@ const Contact = ({ data }) => {
                                 </form>
 
                                 <div
-                                    class="t702__form-bottom-text t-text t-text_xs t-align_left"
+                                    className="t702__form-bottom-text t-text t-text_xs t-align_left"
                                 >
                                     <div style={{ color: "#222e63" }} data-customstyle="yes">
                                         By clicking the button you agree to our
@@ -286,11 +286,11 @@ const Contact = ({ data }) => {
                 </div>
                 <script>
                     $(document).ready(function () {
-                        // setTimeout(function () {
-                        //   t702_initPopup("227711832"),
-                        // }, 500),
+                        setTimeout(function() {
+                        //   t702_initPopup("227711832") // tilda-blocks-2.7.js
+                        }, 500)
 
-                    }),
+                    })
                 </script>
 
             </div>

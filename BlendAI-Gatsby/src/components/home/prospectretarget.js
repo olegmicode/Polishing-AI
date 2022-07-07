@@ -6,14 +6,14 @@ const ProspectRetarget = ({ data }) => (
     <div id="prospectretarget" className="prospectretarget-container">
         <div
             id="rec225509389"
-            class="r t-rec"
+            className="r t-rec"
             data-animationappear="off"
             data-record-type="396"
         >
 
-            <div class="t396">
+            <div className="t396">
                 <div
-                    class="t396__artboard"
+                    className="t396__artboard"
                     data-artboard-recid="225509389"
                     data-artboard-height="860"
                     data-artboard-height-res-960="720"
@@ -25,10 +25,10 @@ const ProspectRetarget = ({ data }) => (
                     data-artboard-upscale=""
                     data-artboard-ovrflw=""
                 >
-                    <div class="t396__carrier" data-artboard-recid="225509389"></div>
-                    <div class="t396__filter" data-artboard-recid="225509389"></div>
+                    <div className="t396__carrier" data-artboard-recid="225509389"></div>
+                    <div className="t396__filter" data-artboard-recid="225509389"></div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2255093891598890093555"
+                        className="t396__elem tn-elem tn-elem__2255093891598890093555"
                         data-elem-id="1598890093555"
                         data-elem-type="text"
                         data-field-top-value="261"
@@ -51,12 +51,12 @@ const ProspectRetarget = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <h2 class="tn-atom" field="tn_text_1598890093555">
+                        <h2 className="tn-atom" field="tn_text_1598890093555">
                             Prospect &amp; Retarget
                         </h2>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2255093891598890093562"
+                        className="t396__elem tn-elem tn-elem__2255093891598890093562"
                         data-elem-id="1598890093562"
                         data-elem-type="text"
                         data-field-top-value="320"
@@ -81,14 +81,14 @@ const ProspectRetarget = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1598890093562">
+                        <div className="tn-atom" field="tn_text_1598890093562">
                             Automatic prospecting and retargeting, spend allocation and
                             constant monitoring means your ad budget is working harder,
                             smarter and maximising return.
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2255093891599148240283"
+                        className="t396__elem tn-elem tn-elem__2255093891599148240283"
                         data-elem-id="1599148240283"
                         data-elem-type="image"
                         data-field-top-value="145"
@@ -115,17 +115,17 @@ const ProspectRetarget = ({ data }) => (
                         data-field-filewidth-value="1476"
                         data-field-fileheight-value="974"
                     >
-                        <div class="tn-atom">
+                        <div className="tn-atom">
                             <img
-                                class="tn-atom__img t-img"
-                                data-original="../../images/tild3434-3566-4236-b161-343535656132__shopping-min_2.png"
+                                className="tn-atom__img t-img"
+                                data-original={ShoppingMin2}
                                 src={ShoppingMin2}
                                 imgfield="tn_img_1599148240283"
                             />
                         </div>
                     </div>
                     <div
-                        class="t396__elem tn-elem tn-elem__2255093891599462078538"
+                        className="t396__elem tn-elem tn-elem__2255093891599462078538"
                         data-elem-id="1599462078538"
                         data-elem-type="text"
                         data-field-top-value="650"
@@ -150,7 +150,7 @@ const ProspectRetarget = ({ data }) => (
                         data-field-heightunits-value=""
                         data-field-widthunits-value="px"
                     >
-                        <div class="tn-atom" field="tn_text_1599462078538">
+                        <div className="tn-atom" field="tn_text_1599462078538">
                             Maximise your return on ad spend.
                         </div>
                     </div>

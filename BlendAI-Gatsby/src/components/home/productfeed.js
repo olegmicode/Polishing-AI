@@ -12,19 +12,19 @@ import "./productFeed.css"
 const ProductFeed = ({ data }) => (
   <div id="productfeed" className="productfeed-container">
 
-    <div id="rec261087265" class="r t-rec" data-record-type="215">
+    <div id="rec261087265" className="r t-rec" data-record-type="215">
       <a name="productfeed" style={{ fontSize: "0" }}></a>
     </div>
     <div
       id="rec279166044"
-      class="r t-rec"
+      className="r t-rec"
       data-animationappear="off"
       data-record-type="396"
     >
 
-      <div class="t396">
+      <div className="t396">
         <div
-          class="t396__artboard"
+          className="t396__artboard"
           data-artboard-recid="279166044"
           data-artboard-height="810"
           data-artboard-height-res-960="670"
@@ -36,10 +36,10 @@ const ProductFeed = ({ data }) => (
           data-artboard-upscale=""
           data-artboard-ovrflw="visible"
         >
-          <div class="t396__carrier" data-artboard-recid="279166044"></div>
-          <div class="t396__filter" data-artboard-recid="279166044"></div>
+          <div className="t396__carrier" data-artboard-recid="279166044"></div>
+          <div className="t396__filter" data-artboard-recid="279166044"></div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441598884642155"
+            className="t396__elem tn-elem tn-elem__2791660441598884642155"
             data-elem-id="1598884642155"
             data-elem-type="text"
             data-field-top-value="187"
@@ -64,12 +64,12 @@ const ProductFeed = ({ data }) => (
             data-field-heightunits-value=""
             data-field-widthunits-value="px"
           >
-            <h2 class="tn-atom" field="tn_text_1598884642155">
+            <h2 className="tn-atom" field="tn_text_1598884642155">
               Product Feed
             </h2>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441598884642164"
+            className="t396__elem tn-elem tn-elem__2791660441598884642164"
             data-elem-id="1598884642164"
             data-elem-type="text"
             data-field-top-value="250"
@@ -95,7 +95,7 @@ const ProductFeed = ({ data }) => (
             data-field-heightunits-value=""
             data-field-widthunits-value="px"
           >
-            <div class="tn-atom" field="tn_text_1598884642164">
+            <div className="tn-atom" field="tn_text_1598884642164">
               Showcase your products on Google, Facebook, Bing and TikTok.
               <br /><br />Blend integrates your store's inventory with major
               advertising platforms by creating a high-converting product
@@ -105,7 +105,7 @@ const ProductFeed = ({ data }) => (
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441616584424277 t-animate"
+            className="t396__elem tn-elem tn-elem__2791660441616584424277 t-animate"
             data-elem-id="1616584424277"
             data-elem-type="image"
             data-field-top-value="89"
@@ -133,9 +133,9 @@ const ProductFeed = ({ data }) => (
             data-field-filewidth-value="282"
             data-field-fileheight-value="328"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
+                className="tn-atom__img t-img"
                 data-original={Shoes}
                 src={Shoes}
                 imgfield="tn_img_1616584424277"
@@ -143,7 +143,7 @@ const ProductFeed = ({ data }) => (
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441616584459787 t-animate"
+            className="t396__elem tn-elem tn-elem__2791660441616584459787 t-animate"
             data-elem-id="1616584459787"
             data-elem-type="image"
             data-field-top-value="89"
@@ -172,17 +172,17 @@ const ProductFeed = ({ data }) => (
             data-field-filewidth-value="282"
             data-field-fileheight-value="328"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild6436-3134-4332-a463-353334626631__group_708.png"
+                className="tn-atom__img t-img"
+                data-original={Ruler}
                 src={Ruler}
                 imgfield="tn_img_1616584459787"
               />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441616584463076 t-animate"
+            className="t396__elem tn-elem tn-elem__2791660441616584463076 t-animate"
             data-elem-id="1616584463076"
             data-elem-type="image"
             data-field-top-value="89"
@@ -211,9 +211,9 @@ const ProductFeed = ({ data }) => (
             data-field-filewidth-value="282"
             data-field-fileheight-value="328"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
+                className="tn-atom__img t-img"
                 data-original={Tshirt}
                 src={Tshirt}
                 imgfield="tn_img_1616584463076"
@@ -221,7 +221,7 @@ const ProductFeed = ({ data }) => (
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441616584796737 t-animate"
+            className="t396__elem tn-elem tn-elem__2791660441616584796737 t-animate"
             data-elem-id="1616584796737"
             data-elem-type="image"
             data-field-top-value="335"
@@ -251,17 +251,17 @@ const ProductFeed = ({ data }) => (
             data-field-filewidth-value="1116"
             data-field-fileheight-value="658"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild3764-6131-4363-b335-616435333837__frame_777.png"
+                className="tn-atom__img t-img"
+                data-original={BingFrame}
                 src={BingFrame}
                 imgfield="tn_img_1616584796737"
               />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441616584822421 t-animate"
+            className="t396__elem tn-elem tn-elem__2791660441616584822421 t-animate"
             data-elem-id="1616584822421"
             data-elem-type="image"
             data-field-top-value="369"
@@ -291,17 +291,17 @@ const ProductFeed = ({ data }) => (
             data-field-filewidth-value="1116"
             data-field-fileheight-value="658"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild3062-6534-4866-b962-663237333765__frame_778.png"
+                className="tn-atom__img t-img"
+                data-original={FbFrame}
                 src={FbFrame}
                 imgfield="tn_img_1616584822421"
               />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441616584855982 t-animate"
+            className="t396__elem tn-elem tn-elem__2791660441616584855982 t-animate"
             data-elem-id="1616584855982"
             data-elem-type="image"
             data-field-top-value="405"
@@ -331,17 +331,17 @@ const ProductFeed = ({ data }) => (
             data-field-filewidth-value="1116"
             data-field-fileheight-value="658"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild6232-6539-4139-b462-323761643364__frame_779.png"
+                className="tn-atom__img t-img"
+                data-original={GgFrame}
                 src={GgFrame}
                 imgfield="tn_img_1616584855982"
               />
             </div>
           </div>
           <div
-            class="t396__elem tn-elem tn-elem__2791660441616584925547 t-animate"
+            className="t396__elem tn-elem tn-elem__2791660441616584925547 t-animate"
             data-elem-id="1616584925547"
             data-elem-type="image"
             data-field-top-value="259"
@@ -371,10 +371,10 @@ const ProductFeed = ({ data }) => (
             data-field-filewidth-value="613"
             data-field-fileheight-value="161"
           >
-            <div class="tn-atom">
+            <div className="tn-atom">
               <img
-                class="tn-atom__img t-img"
-                data-original="../../images/tild3266-3533-4637-b464-373562663261__group_715.png"
+                className="tn-atom__img t-img"
+                data-original={GroupArrow}
                 src={GroupArrow}
                 imgfield="tn_img_1616584925547"
               />
