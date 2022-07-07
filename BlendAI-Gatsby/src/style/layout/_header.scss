@@ -3,128 +3,128 @@ header {
     // margin-top: 20px;
   }
 
-  .navbar {
-    flex-wrap: nowrap;
-    border-radius: 24px;
-    padding: 23px 0;
+  // .navbar {
+  //   flex-wrap: nowrap;
+  //   border-radius: 24px;
+  //   padding: 23px 0;
 
-    @include mq("md") {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
+  //   @include mq("md") {
+  //     padding-left: 30px;
+  //     padding-right: 30px;
+  //   }
 
-    @include mq("lg") {
-      padding-left: 50px;
-      padding-right: 50px;
-    }
+  //   @include mq("lg") {
+  //     padding-left: 50px;
+  //     padding-right: 50px;
+  //   }
 
-    @include mq("xl") {
-      padding-left: 70px;
-      padding-right: 70px;
-    }
+  //   @include mq("xl") {
+  //     padding-left: 70px;
+  //     padding-right: 70px;
+  //   }
 
-    .connect-us {
-      display: none;
-    }
+  //   .connect-us {
+  //     display: none;
+  //   }
 
-    &-nav {
-      flex-direction: row;
-      align-items: center;
-      margin-left: auto;
+  //   &-nav {
+  //     flex-direction: row;
+  //     align-items: center;
+  //     margin-left: auto;
 
-      .nav-item {
-        flex-shrink: 0;
+  //     .nav-item {
+  //       flex-shrink: 0;
 
-        @include mq("lg") {
-          margin-left: 30px;
-        }
+  //       @include mq("lg") {
+  //         margin-left: 30px;
+  //       }
 
-        .nav-link {
-          padding: 10px;
-          color: #222e63;
-          font-size: 19px;
-          font-weight: 500;
-          line-height: 24px;
+  //       .nav-link {
+  //         padding: 10px;
+  //         color: #222e63;
+  //         font-size: 19px;
+  //         font-weight: 500;
+  //         line-height: 24px;
 
-          &:hover {
-            color: #00CAB7;
-          }
+  //         &:hover {
+  //           color: #00CAB7;
+  //         }
 
-          @include mq("lg", max) {
-            font-size: 16px;
-          }
+  //         @include mq("lg", max) {
+  //           font-size: 16px;
+  //         }
 
-          @include mq("md", max) {
-            font-size: 24px;
-            line-height: 31px;
-          }
-        }
-      }
+  //         @include mq("md", max) {
+  //           font-size: 24px;
+  //           line-height: 31px;
+  //         }
+  //       }
+  //     }
 
-      @include mq("md", max) {
-        display: none;
+  //     @include mq("md", max) {
+  //       display: none;
 
-        &.active {
-          display: flex;
-          position: absolute;
-          top: 83px;
-          left: 0px;
-          width: 101vw;
-          height: calc(100vh - 83px);
-          padding-top: 30px;
-          margin-left: -20px;
-          background: white;
-          flex-direction: column;
-          z-index: 99;
-          overflow: auto;
-          touch-action: none;
+  //       &.active {
+  //         display: flex;
+  //         position: absolute;
+  //         top: 83px;
+  //         left: 0px;
+  //         width: 101vw;
+  //         height: calc(100vh - 83px);
+  //         padding-top: 30px;
+  //         margin-left: -20px;
+  //         background: white;
+  //         flex-direction: column;
+  //         z-index: 99;
+  //         overflow: auto;
+  //         touch-action: none;
 
-          .nav-item {
-            width: calc(100% - 40px);
+  //         .nav-item {
+  //           width: calc(100% - 40px);
 
-            .nav-link {
-              font-family: "Nunito Sans";
-              line-height: 31.34px;
-              color: black;
+  //           .nav-link {
+  //             font-family: "Nunito Sans";
+  //             line-height: 31.34px;
+  //             color: black;
 
-              &.active {
-                color: $red;
-                background-color: white;
-              }
-            }
-          }
+  //             &.active {
+  //               color: $red;
+  //               background-color: white;
+  //             }
+  //           }
+  //         }
 
-          .connect-us {
-            display: block;
-            background-color: white;
-            padding-left: 0;
-            padding-right: 0;
-            padding-bottom: 100px;
+  //         .connect-us {
+  //           display: block;
+  //           background-color: white;
+  //           padding-left: 0;
+  //           padding-right: 0;
+  //           padding-bottom: 100px;
 
-            p {
-              color: black;
-              text-align: left;
-              white-space: normal;
-            }
+  //           p {
+  //             color: black;
+  //             text-align: left;
+  //             white-space: normal;
+  //           }
 
-            ul {
-              justify-content: flex-start;
-            }
-          }
-        }
-      }
-    }
+  //           ul {
+  //             justify-content: flex-start;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
 
-    @include mq("md") {
-      .hamburger {
-        display: none;
-      }
-    }
-  }
+  //   @include mq("md") {
+  //     .hamburger {
+  //       display: none;
+  //     }
+  //   }
+  // }
 }
 
 // Hamburger Button
-.hamburger {
+.t228__burger {
   position: relative;
   padding: 0;
   border-radius: 50%;

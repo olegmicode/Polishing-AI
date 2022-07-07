@@ -1,10 +1,24 @@
-import React from "react"
+import React, { useState } from "react"
 import "./header.css"
 
 import { Logo } from "../utils/imgImport"
 
 
 const Header = () => {
+  const [hambugerActive, setHambugerActiveState] = useState(false)
+
+  const hamburgerHandler = () => {
+    setHambugerActiveState(!hambugerActive)
+  }
+
+  let humbugerClsName = "t228__burger "
+  let navMenuClsName = "t228 t228__positionfixed "
+
+  if (hambugerActive) {
+    humbugerClsName += "active"
+  } else {
+    navMenuClsName += "t228__hidden"
+  }
 
   return (
     <header className="container">
@@ -38,14 +52,22 @@ const Header = () => {
             <div className="t228__mobile_text t-name t-name_md" field="text">
               &nbsp;
             </div>
-            <div className="t228__burger">
-              <span></span> <span></span> <span></span> <span></span>
+            <div
+              className={humbugerClsName}
+              onClick={hamburgerHandler}
+              onKeyDown={hamburgerHandler}
+              role="button"
+              tabIndex="0"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
           </div>
         </div>
         <div
           id="nav290925405"
-          className="t228 t228__hidden t228__positionfixed"
+          className={navMenuClsName}
           style={{ backgroundColor: "rgba(255, 255, 255, 1)", height: "64px" }}
           data-bgcolor-hex="#ffffff"
           data-bgcolor-rgba="rgba(255,255,255,1)"
