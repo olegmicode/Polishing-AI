@@ -1,61 +1,31 @@
-import React, { useEffect } from "react"
+import React, { useState, useEffect } from "react"
 // import RangeSlider from "../common/rangeslider";
 import "./pricing.css"
 import $ from 'jquery'
 
 const Pricing = ({ data }) => {
+  const [value, onChange] = useState(100);
+
+  const formatNumber = (x) => {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  const getPercent = (x) => {
+    return Number(x / 1000 * 100);
+  }
   useEffect(() => {
-    $(document).ready(function () {
-      //   $(function () {
-      //     var centerInfoWindow = function () {
-      //       if (window.innerWidth > 960) {
-      //         $(".info-arrow").show();
-      //         var position = $("#custom-handle").position();
-      //         var handleWidth = $("#custom-handle").outerWidth();
-      //         var width = $(".info-window").outerWidth();
-      //         var left = position.left + handleWidth / 2;
-      //         var leftWindow = left - width / 2;
-      //         $(".info-window").css({
-      //           left: leftWindow - 4,
-      //         });
-      //       } else {
-      //         $(".info-window").removeAttr("style");
-      //         $(".info-arrow").hide();
-      //       }
-      //     };
-      //     var setValue = function (value) {
-      //       $(".fee-amount").text(
-      //         "$" + (value / 10).toLocaleString()
-      //       );
-      //     };
-      //     var handle = $("#custom-handle");
-      //     $("#slider").slider({
-      //       range: "min",
-      //       min: 1000,
-      //       max: 10000,
-      //       step: 100,
-      //       value: 5800,
-      //       create: function () {
-      //         var value = $(this).slider("value");
-      //         handle.text("$" + value.toLocaleString());
-      //         centerInfoWindow();
-      //         setValue(value);
-      //       },
-      //       slide: function (event, ui) {
-      //         handle.text("$" + ui.value.toLocaleString());
-      //         centerInfoWindow();
-      //         setValue(ui.value);
-      //       },
-      //       change: function (event, ui) {
-      //         centerInfoWindow();
-      //         setValue(ui.value);
-      //       },
-      //     });
-      //     $(window).resize(function () {
-      //       centerInfoWindow();
-      //     });
-      //   })
-    })
+    const eleThumbText = document.querySelector('.thumb-text');
+    const eleInfoWindow = document.querySelector('.info-window');
+
+    if (eleThumbText && eleInfoWindow) {
+      eleThumbText.style.left = `calc(${value / 10}% - 60px)`;
+     
+      //Set range left position
+      // eleThumbText.style.transform = `translate(-${value / 10}%, 0px)`; //Set range translate to correct
+      eleThumbText.innerHTML = `$${formatNumber(value * 10)}`;
+      // .style.left = `calc(${Number(value / 1000 * 100)}% - 35px)`;
+      eleInfoWindow.style.left = `calc(${Number(value / 1000 * 100)}% - 170px)`;
+    }
   })
 
   return (
@@ -248,19 +218,40 @@ const Pricing = ({ data }) => {
                 {/* <div id="slider">
                   <div id="custom-handle" class="ui-slider-handle"></div>
                 </div> */}
-                <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                {/* custom range slider */}
+                <div className="slider-parent">
+                  <input
+                    type="range"
+                    min="100"
+                    max="1000"
+                    value={value}
+                    onChange={({ target: { value: radius } }) => {
+                      onChange(radius);
+                    }}
+                    style={{ backgroundSize: `${getPercent(value)}% 100%` }}
+                  />
+                  <div className="thumb-text">
+                    {/* ${`${formatNumber(value * 10)}`} */}
+                  </div>
+                  <div className="info-window">
+                    <div className="info-arrow"></div>
+                    <div className="info-title">Fee</div>
+                    <div className="info-desc">Based on your Ad spend</div>
+                    <div className="fee-amount">${`${value}`}</div>
+                    <div className="fee-dur">/month</div>
+                  </div>
+                </div>
+                {/* <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
                   <div id="custom-handle" class="ui-slider-handle ui-corner-all ui-state-default" tabindex="0" >$5,100</div>
-                <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style={{width: "45.5556%"}}></div></div>
+                  <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style={{ width: "45.5556%" }}></div></div>
                 <div class="info-window">
                   <div class="info-arrow"></div>
                   <div class="info-title">Fee</div>
                   <div class="info-desc">Based on your Ad spend</div>
                   <div class="fee-amount">$100</div>
                   <div class="fee-dur">/month</div>
-                </div>
-                <script type="application/javascript">
+                </div> */}
 
-                </script>
               </div>
             </div>
           </div>
