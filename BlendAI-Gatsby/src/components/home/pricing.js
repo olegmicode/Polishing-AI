@@ -1,12 +1,66 @@
-import React from "react"
+import React, { useEffect } from "react"
 // import RangeSlider from "../common/rangeslider";
 import "./pricing.css"
+import $ from 'jquery'
 
 const Pricing = ({ data }) => {
+  useEffect(() => {
+    $(document).ready(function () {
+      //   $(function () {
+      //     var centerInfoWindow = function () {
+      //       if (window.innerWidth > 960) {
+      //         $(".info-arrow").show();
+      //         var position = $("#custom-handle").position();
+      //         var handleWidth = $("#custom-handle").outerWidth();
+      //         var width = $(".info-window").outerWidth();
+      //         var left = position.left + handleWidth / 2;
+      //         var leftWindow = left - width / 2;
+      //         $(".info-window").css({
+      //           left: leftWindow - 4,
+      //         });
+      //       } else {
+      //         $(".info-window").removeAttr("style");
+      //         $(".info-arrow").hide();
+      //       }
+      //     };
+      //     var setValue = function (value) {
+      //       $(".fee-amount").text(
+      //         "$" + (value / 10).toLocaleString()
+      //       );
+      //     };
+      //     var handle = $("#custom-handle");
+      //     $("#slider").slider({
+      //       range: "min",
+      //       min: 1000,
+      //       max: 10000,
+      //       step: 100,
+      //       value: 5800,
+      //       create: function () {
+      //         var value = $(this).slider("value");
+      //         handle.text("$" + value.toLocaleString());
+      //         centerInfoWindow();
+      //         setValue(value);
+      //       },
+      //       slide: function (event, ui) {
+      //         handle.text("$" + ui.value.toLocaleString());
+      //         centerInfoWindow();
+      //         setValue(ui.value);
+      //       },
+      //       change: function (event, ui) {
+      //         centerInfoWindow();
+      //         setValue(ui.value);
+      //       },
+      //     });
+      //     $(window).resize(function () {
+      //       centerInfoWindow();
+      //     });
+      //   })
+    })
+  })
 
   return (
     <div id="pricing" className="pricing-container">
-      
+
       <div id="rec261085834" class="r t-rec" data-record-type="215">
         <a name="pricing" style={{ fontSize: "0" }}></a>
       </div>
@@ -191,76 +245,27 @@ const Pricing = ({ data }) => {
                 ></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 
-                <div id="slider">
+                {/* <div id="slider">
                   <div id="custom-handle" class="ui-slider-handle"></div>
-                </div>
+                </div> */}
+                <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                  <div id="custom-handle" class="ui-slider-handle ui-corner-all ui-state-default" tabindex="0" >$5,100</div>
+                <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style={{width: "45.5556%"}}></div></div>
                 <div class="info-window">
                   <div class="info-arrow"></div>
                   <div class="info-title">Fee</div>
                   <div class="info-desc">Based on your Ad spend</div>
-                  <div class="fee-amount">$580</div>
+                  <div class="fee-amount">$100</div>
                   <div class="fee-dur">/month</div>
                 </div>
                 <script type="application/javascript">
-                  {/* $(function () {
-                    var centerInfoWindow = function () {
-                      if (window.innerWidth > 960) {
-                        $(".info-arrow").show();
-                        var position = $("#custom-handle").position();
-                        var handleWidth = $("#custom-handle").outerWidth();
-                        var width = $(".info-window").outerWidth();
-                        var left = position.left + handleWidth / 2;
-                        var leftWindow = left - width / 2;
-                        $(".info-window").css({
-                          left: leftWindow - 4,
-                        });
-                      } else {
-                        $(".info-window").removeAttr("style");
-                        $(".info-arrow").hide();
-                      }
-                    };
-                    var setValue = function (value) {
-                      $(".fee-amount").text(
-                        "$" + (value / 10).toLocaleString()
-                      );
-                    };
-                    var handle = $("#custom-handle");
-                    $("#slider").slider({
-                      range: "min",
-                      min: 1000,
-                      max: 10000,
-                      step: 100,
-                      value: 5800,
-                      create: function () {
-                        var value = $(this).slider("value");
-                        handle.text("$" + value.toLocaleString());
-                        centerInfoWindow();
-                        setValue(value);
-                      },
-                      slide: function (event, ui) {
-                        handle.text("$" + ui.value.toLocaleString());
-                        centerInfoWindow();
-                        setValue(ui.value);
-                      },
-                      change: function (event, ui) {
-                        centerInfoWindow();
-                        setValue(ui.value);
-                      },
-                    });
-                    $(window).resize(function () {
-                      centerInfoWindow();
-                    });
-                  }); */}
+
                 </script>
               </div>
             </div>
           </div>
         </div>
-        <script>
-          $(document).ready(function () {
-            // t396_init("243411125");
-          });
-        </script>
+
       </div>
     </div>
   )

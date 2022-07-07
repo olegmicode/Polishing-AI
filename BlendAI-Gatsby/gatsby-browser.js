@@ -11,6 +11,8 @@ import "./src/style/css/tilda-slds-1.4.min.css"
 import "./src/style/css/tilda-zoom-2.0.min.css"
 import "./src/style/css/tilda-cover-1.0.min.css"
 import "./src/style/css/tilda-carousel-1.0.min.css"
+import "./src/style/css/jquery-ui.min.css"
+
 
 // const addScript = url => {
 //     const script = document.createElement("script")

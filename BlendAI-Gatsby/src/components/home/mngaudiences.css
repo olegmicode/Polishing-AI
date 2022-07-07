@@ -327,7 +327,7 @@
     z-index: 18;
     top: 69px;
     left: calc(50% - 600px + 822px);
-    width: 300px;
+    width: 0px !important;
 }
 
 #rec225458528 .tn-elem[data-elem-id="1598881901954"] .tn-atom {
@@ -347,7 +347,7 @@
     #rec225458528 .tn-elem[data-elem-id="1598881901954"] {
         top: 635px;
         left: calc(50% - 320px + 770px);
-        width: 220px;
+        width: 0px;
     }
 
     #rec225458528 .tn-elem[data-elem-id="1598881901954"] .tn-atom {

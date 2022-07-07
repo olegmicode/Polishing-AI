@@ -6,6 +6,27 @@ import InstaMin from "../../images/tild3232-3063-4231-b733-303431393035__insta-m
 import TwitterMin from "../../images/tild3037-3330-4130-a339-623031343433__twitter-min.png"
 import GoogleMin from "../../images/tild6163-6365-4532-a334-366366313232__google-min.png"
 
+import StrollerTwitterImg from "../../images/tild6662-3237-4862-a361-613939383763__stroller_twitter.png"
+import StrollerFbImg from "../../images/tild3239-6263-4036-a532-316138336665__stroller_fb.png"
+import StrollerGgImg from "../../images/tild6361-3064-4331-b939-353232386637__-__resize__20x__stroller_google.png"
+import StrollerInstaImg from "../../images/tild6136-6333-4635-b463-663637626235__stroller_insta.png"
+
+import SofaFbImg1 from "../../images/tild3734-6364-4262-a531-386634376263__sofa_fb-1.png"
+import SofaGgImg from "../../images/tild6465-3431-4636-b164-356265333039__sofa_google.png"
+import SofaFbImg from "../../images/tild3337-3863-4539-a264-343235653436__sofa_fb.png"
+import SofaBingImg from "../../images/tild3162-6336-4239-a365-383363326564__sofar_bing.png"
+
+import BagInstaImg from "../../images/tild3736-3133-4232-b764-373162396461__bag_insta.png"
+import BagFbImg from "../../images/tild3039-3037-4165-b337-313639616535__bag_fb.png"
+import BagGgImg from "../../images/tild6235-3937-4637-a335-646163353065__bag_google.png"
+import BagBingImg from "../../images/tild3535-3639-4838-a563-663830333136__bag_bing.png"
+
+import ShoesFbImg from "../../images/tild3830-3839-4866-b834-623462313762__shoes_fb.png"
+import ShoesMainImg from "../../images/tild3936-3234-4033-b338-353262343230__shoes_main.png"
+import ShoesBingImg from "../../images/tild3733-3465-4734-b733-303639353131__shoes_bing.png"
+import ShoesGgImg from "../../images/tild3138-6235-4138-b032-663535366332__shoes_google.png"
+import ShoesInsta from "../../images/tild3139-3538-4565-b464-306363376264__shoes_insta.png"
+
 const Intro = ({ data }) => (
   <div id="intro" className="intro-container">
     <div
@@ -272,9 +293,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild6662-3237-4862-a361-613939383763__stroller_twitter.png"
+              data-original={StrollerTwitterImg}
               style={{
-                backgroundImage: "url(../../images/tild6662-3237-4862-a361-613939383763__-__resize__20x__stroller_twitter.png)"
+                backgroundImage: "url(./images/tild6662-3237-4862-a361-613939383763__-__resize__20x__stroller_twitter.png)"
               }}
             ></div>
           </div>
@@ -318,9 +339,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3239-6263-4036-a532-316138336665__stroller_fb.png"
+              data-original={StrollerFbImg}
               style={{
-                backgroundImage: 'url(../../images/tild3239-6263-4036-a532-316138336665__-__resize__20x__stroller_fb.png)'
+                backgroundImage: 'url(./images/tild3239-6263-4036-a532-316138336665__-__resize__20x__stroller_fb.png)'
               }}
             ></div>
           </div>
@@ -362,9 +383,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild6361-3064-4331-b939-353232386637__stroller_google.png"
+              data-original={StrollerGgImg}
               style={{
-                backgroundImage: 'url(../../images/tild6361-3064-4331-b939-353232386637__-__resize__20x__stroller_google.png)'
+                backgroundImage: 'url(./images/tild6361-3064-4331-b939-353232386637__-__resize__20x__stroller_google.png)'
               }}
             ></div>
           </div>
@@ -408,9 +429,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild6136-6333-4635-b463-663637626235__stroller_insta.png"
+              data-original={StrollerInstaImg}
               style={{
-                backgroundImage: 'url(../../images/tild6136-6333-4635-b463-663637626235__-__resize__20x__stroller_insta.png)'
+                backgroundImage: 'url(./images/tild6136-6333-4635-b463-663637626235__-__resize__20x__stroller_insta.png)'
               }}
             ></div>
           </div>
@@ -495,9 +516,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3734-6364-4262-a531-386634376263__sofa_fb-1.png"
+              data-original={SofaFbImg1}
               style={{
-                backgroundImage: 'url(../../images/tild3734-6364-4262-a531-386634376263__-__resize__20x__sofa_fb-1.png)'
+                backgroundImage: 'url(./images/tild3734-6364-4262-a531-386634376263__-__resize__20x__sofa_fb-1.png)'
               }}
             ></div>
           </div>
@@ -538,9 +559,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild6465-3431-4636-b164-356265333039__sofa_google.png"
+              data-original={SofaGgImg}
               style={{
-                backgroundImage: 'url(../../images/tild6465-3431-4636-b164-356265333039__-__resize__20x__sofa_google.png)'
+                backgroundImage: 'url(./images/tild6465-3431-4636-b164-356265333039__-__resize__20x__sofa_google.png)'
               }}
             ></div>
           </div>
@@ -583,9 +604,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3337-3863-4539-a264-343235653436__sofa_fb.png"
+              data-original={SofaFbImg}
               style={{
-                backgroundImage: 'url(../../images/tild3337-3863-4539-a264-343235653436__-__resize__20x__sofa_fb.png)'
+                backgroundImage: 'url(./images/tild3337-3863-4539-a264-343235653436__-__resize__20x__sofa_fb.png)'
               }}
             ></div>
           </div>
@@ -629,9 +650,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3162-6336-4239-a365-383363326564__sofar_bing.png"
+              data-original={SofaBingImg}
               style={{
-                backgroundImage: 'url(../../images/tild3162-6336-4239-a365-383363326564__-__resize__20x__sofar_bing.png)'
+                backgroundImage: 'url(./images/tild3162-6336-4239-a365-383363326564__-__resize__20x__sofar_bing.png)'
               }}
             ></div>
           </div>
@@ -674,9 +695,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3736-3133-4232-b764-373162396461__bag_insta.png"
+              data-original={BagInstaImg}
               style={{
-                backgroundImage: 'url(../../images/tild3736-3133-4232-b764-373162396461__-__resize__20x__bag_insta.png);'
+                backgroundImage: 'url(./images/tild3736-3133-4232-b764-373162396461__-__resize__20x__bag_insta.png);'
               }}
             ></div>
           </div>
@@ -719,9 +740,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3039-3037-4165-b337-313639616535__bag_fb.png"
+              data-original={BagFbImg}
               style={{
-                backgroundImage: 'url(../../images/tild3039-3037-4165-b337-313639616535__-__resize__20x__bag_fb.png)'
+                backgroundImage: 'url(./images/tild3039-3037-4165-b337-313639616535__-__resize__20x__bag_fb.png)'
               }}
             ></div>
           </div>
@@ -762,9 +783,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild6235-3937-4637-a335-646163353065__bag_google.png"
+              data-original={BagGgImg}
               style={{
-                backgroundImage: 'url(../../images/tild6235-3937-4637-a335-646163353065__-__resize__20x__bag_google.png)'
+                backgroundImage: 'url(./images/tild6235-3937-4637-a335-646163353065__-__resize__20x__bag_google.png)'
               }}
             ></div>
           </div>
@@ -808,9 +829,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3535-3639-4838-a563-663830333136__bag_bing.png"
+              data-original={BagBingImg}
               style={{
-                backgroundImage: 'url(../../images/tild3535-3639-4838-a563-663830333136__-__resize__20x__bag_bing.png)'
+                backgroundImage: 'url(./images/tild3535-3639-4838-a563-663830333136__-__resize__20x__bag_bing.png)'
               }}
             ></div>
           </div>
@@ -853,9 +874,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3830-3839-4866-b834-623462313762__shoes_fb.png"
+              data-original={ShoesFbImg}
               style={{
-                backgroundImage: 'url(../../images/tild3830-3839-4866-b834-623462313762__-__resize__20x__shoes_fb.png)'
+                backgroundImage: 'url(./images/tild3830-3839-4866-b834-623462313762__-__resize__20x__shoes_fb.png)'
               }}
             ></div>
           </div>
@@ -897,9 +918,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3936-3234-4033-b338-353262343230__shoes_main.png"
+              data-original={ShoesMainImg}
               style={{
-                backgroundImage: 'url(../../images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
+                backgroundImage: 'url(./images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
               }}
             ></div>
           </div>
@@ -942,9 +963,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3139-3538-4565-b464-306363376264__shoes_insta.png"
+              data-original={ShoesInsta}
               style={{
-                backgroundImage: 'url(../../images/tild3139-3538-4565-b464-306363376264__-__resize__20x__shoes_insta.png)'
+                backgroundImage: 'url(./images/tild3139-3538-4565-b464-306363376264__-__resize__20x__shoes_insta.png)'
               }}
             ></div>
           </div>
@@ -988,9 +1009,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3733-3465-4734-b733-303639353131__shoes_bing.png"
+              data-original={ShoesBingImg}
               style={{
-                backgroundImage: 'url(../../images/tild3733-3465-4734-b733-303639353131__-__resize__20x__shoes_bing.png)'
+                backgroundImage: 'url(./images/tild3733-3465-4734-b733-303639353131__-__resize__20x__shoes_bing.png)'
               }}
             ></div>
           </div>
@@ -1031,9 +1052,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3138-6235-4138-b032-663535366332__shoes_google.png"
+              data-original={ShoesGgImg}
               style={{
-                backgroundImage: 'url(../../images/tild3138-6235-4138-b032-663535366332__-__resize__20x__shoes_google.png)'
+                backgroundImage: 'url(./images/tild3138-6235-4138-b032-663535366332__-__resize__20x__shoes_google.png)'
               }}
             ></div>
           </div>
@@ -1119,9 +1140,9 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original="../../images/tild3936-3234-4033-b338-353262343230__shoes_main.png"
+              data-original={ShoesMainImg}
               style={{
-                backgroundImage: 'url(../../images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
+                backgroundImage: 'url(./images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
               }}
             ></div>
           </div>

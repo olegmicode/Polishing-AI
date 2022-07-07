@@ -1,3 +1,347 @@
+#rec243411125 .t396__artboard {
+  height: 610px;
+  background-color: #222e63;
+}
+
+#rec243411125 .t396__filter {
+  height: 610px;
+}
+
+#rec243411125 .t396__carrier {
+  height: 610px;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec243411125 .t396__artboard {
+    height: 620px;
+  }
+
+  #rec243411125 .t396__filter {
+    height: 620px;
+  }
+
+  #rec243411125 .t396__carrier {
+    height: 620px;
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec243411125 .t396__artboard {
+    height: 700px;
+  }
+
+  #rec243411125 .t396__filter {
+    height: 700px;
+  }
+
+  #rec243411125 .t396__carrier {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec243411125 .t396__artboard {
+    height: 650px;
+  }
+
+  #rec243411125 .t396__filter {
+    height: 650px;
+  }
+
+  #rec243411125 .t396__carrier {
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec243411125 .t396__artboard {
+    height: 680px;
+  }
+
+  #rec243411125 .t396__filter {
+    height: 680px;
+  }
+
+  #rec243411125 .t396__carrier {
+    height: 680px;
+  }
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784887988"] {
+  color: #ffffff;
+  z-index: 1;
+  top: 102px;
+  left: calc(50% - 600px + 20px);
+  width: 360px;
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784887988"] .tn-atom {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "NunitoSans", Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 100;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887988"] {
+    top: 101px;
+    left: calc(50% - 480px + 20px);
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887988"] {
+    top: 91px;
+    left: calc(50% - 320px + 90px);
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887988"] {
+    top: 102px;
+    left: calc(50% - 240px + 10px);
+  }
+
+  #rec243411125 .tn-elem[data-elem-id="1603784887988"] .tn-atom {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887988"] {
+    top: 81px;
+    left: calc(50% - 160px + 10px);
+    width: 260px;
+  }
+
+  #rec243411125 .tn-elem[data-elem-id="1603784887988"] .tn-atom {
+    font-size: 32px;
+  }
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784887993"] {
+  color: #ffffff;
+  z-index: 2;
+  top: 161px;
+  left: calc(50% - 600px + 20px);
+  width: 400px;
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784887993"] .tn-atom {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "NunitoSans", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887993"] {
+    top: 165px;
+    left: calc(50% - 480px + 20px);
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887993"] {
+    top: 146px;
+    left: calc(50% - 320px + 90px);
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887993"] {
+    top: 152px;
+    left: calc(50% - 240px + 9px);
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784887993"] {
+    top: 131px;
+    left: calc(50% - 160px + 10px);
+    width: 270px;
+  }
+
+  #rec243411125 .tn-elem[data-elem-id="1603784887993"] .tn-atom {
+    font-size: 18px;
+  }
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784926374"] {
+  color: #ffffff;
+  z-index: 3;
+  top: 161px;
+  left: calc(50% - 600px + 520px);
+  width: 400px;
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784926374"] .tn-atom {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "NunitoSans", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784926374"] {
+    top: 165px;
+    left: calc(50% - 480px + 390px);
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784926374"] {
+    top: 251px;
+    left: calc(50% - 320px + 90px);
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784926374"] {
+    top: 206px;
+    left: calc(50% - 240px + 9px);
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784926374"] {
+    top: 220px;
+    left: calc(50% - 160px + 10px);
+    width: 300px;
+  }
+
+  #rec243411125 .tn-elem[data-elem-id="1603784926374"] .tn-atom {
+    font-size: 18px;
+  }
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784961295"] {
+  color: #b8becf;
+  z-index: 4;
+  top: 200px;
+  left: calc(50% - 600px + 520px);
+  width: 400px;
+}
+
+#rec243411125 .tn-elem[data-elem-id="1603784961295"] .tn-atom {
+  color: #b8becf;
+  font-size: 16px;
+  font-family: "NunitoSans", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784961295"] {
+    top: 210px;
+    left: calc(50% - 480px + 390px);
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784961295"] {
+    top: 290px;
+    left: calc(50% - 320px + 90px);
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784961295"] {
+    top: 245px;
+    left: calc(50% - 240px + 9px);
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec243411125 .tn-elem[data-elem-id="1603784961295"] {
+    top: 250px;
+    left: calc(50% - 160px + 10px);
+    width: 300px;
+  }
+
+  #rec243411125 .tn-elem[data-elem-id="1603784961295"] .tn-atom {
+    font-size: 18px;
+  }
+}
+
+#rec243411125 .tn-elem[data-elem-id="1604563123595"] {
+  z-index: 14;
+  top: 280px;
+  left: calc(50% - 600px + 520px);
+  width: 562px;
+  height: 170px;
+}
+
+#rec243411125 .tn-elem[data-elem-id="1604563123595"] .tn-atom {
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec243411125 .tn-elem[data-elem-id="1604563123595"] {
+    top: 290px;
+    left: calc(50% - 480px + 389px);
+    width: 536px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec243411125 .tn-elem[data-elem-id="1604563123595"] {
+    top: 370px;
+    left: calc(50% - 320px + 91px);
+    width: 483px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec243411125 .tn-elem[data-elem-id="1604563123595"] {
+    top: 321px;
+    left: calc(50% - 240px + 9px);
+    width: 462px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec243411125 .tn-elem[data-elem-id="1604563123595"] {
+    top: 359px;
+    left: calc(50% - 160px + 9px);
+    width: 302px;
+    height: 168px;
+  }
+}
+
 #custom-handle {
   top: -8px;
   text-align: center;
@@ -16,22 +360,27 @@
     0px 8px 16px rgba(67, 86, 100, 0.0780977);
   cursor: pointer;
 }
+
 #custom-handle:focus {
   outline: none;
 }
+
 .ui-widget.ui-widget-content.ui-corner-all {
   border: none;
   background-color: #344798;
   border-radius: 30px;
   height: 16px;
 }
+
 .ui-slider-range-min.ui-widget-header {
   background: #01988a;
   border-radius: 30px;
 }
+
 .ui-slider-horizontal {
   border: none;
 }
+
 .info-window {
   width: 267px;
   position: absolute;
@@ -42,6 +391,7 @@
   border-radius: 8px;
   padding: 16px 20px;
 }
+
 .info-window .info-arrow {
   width: 20px;
   height: 20px;
@@ -52,6 +402,7 @@
   background-color: #ffffff;
   border-radius: 6px;
 }
+
 .info-window .info-title {
   font-family: Nunito Sans;
   font-style: normal;
@@ -60,6 +411,7 @@
   line-height: 32px;
   color: #222e63;
 }
+
 .info-window .info-desc {
   font-family: Nunito Sans;
   font-style: normal;
@@ -69,6 +421,7 @@
   color: #778699;
   margin-bottom: 24px;
 }
+
 .info-window .fee-amount {
   font-family: Nunito Sans;
   font-style: normal;
@@ -77,6 +430,7 @@
   line-height: 32px;
   color: #00cab7;
 }
+
 .info-window .fee-dur {
   margin-top: 12px;
   font-family: Nunito Sans;

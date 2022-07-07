@@ -11,7 +11,11 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" crossOrigin="anonymous"/>
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossOrigin="anonymous"
+        />
         {/* <script src="./static/hammer.min.js" crossOrigin="anonymous"/>
         <script src="./static/lazyload-1.3.min.js" crossOrigin="anonymous"/>
         <script src="./static/tilda-animation-1.0.min.js" crossOrigin="anonymous"/>

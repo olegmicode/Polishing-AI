@@ -46,7 +46,7 @@ const Header = () => {
         <div
           id="nav290925405"
           className="t228 t228__hidden t228__positionfixed"
-          style={{ backgroundColor: `rgba(255, 255, 255, 1); height: 64px` }}
+          style={{ backgroundColor: "rgba(255, 255, 255, 1)", height: "64px" }}
           data-bgcolor-hex="#ffffff"
           data-bgcolor-rgba="rgba(255,255,255,1)"
           data-navmarker="nav290925405marker"

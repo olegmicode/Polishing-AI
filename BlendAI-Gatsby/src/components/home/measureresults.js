@@ -14,6 +14,7 @@ const MeasureResults = ({ data }) => (
             className="r t-rec"
             data-animationappear="off"
             data-record-type="396"
+            style={{overflow: "hidden"}}
         >
 
             <div className="t396">
