@@ -148,7 +148,7 @@ const Footer = () => (
               >
               and
               <a
-                href="/terms_conditions"
+                href="/terms"
                 style={{color: "#00cab7 !important"}}
                 target="_blank"
               >Terms and Conditions</a

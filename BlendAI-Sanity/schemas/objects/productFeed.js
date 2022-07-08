@@ -24,19 +24,10 @@ export default {
             title: 'Product Images',
             of: [
                 {
-                    name: 'image',
-                    type: 'image',
+
+                    type: 'mainImage',
                     title: 'Image',
-                    options: {
-                        hotspot: true,
-                    },
-                    fields: [
-                        {
-                            name: 'alt',
-                            type: 'string',
-                            title: 'Alternative text',
-                        },
-                    ],
+
                 },
             ],
 
@@ -50,19 +41,9 @@ export default {
             title: 'Ad Images',
             of: [
                 {
-                    name: 'image',
-                    type: 'image',
-                    title: 'Image',
-                    options: {
-                        hotspot: true,
-                    },
-                    fields: [
-                        {
-                            name: 'alt',
-                            type: 'string',
-                            title: 'Alternative text',
-                        },
-                    ],
+
+                    type: 'mainImage',
+
                 },
             ],
 
@@ -71,5 +52,5 @@ export default {
             },
         }
 
-    ],   
+    ],
 }

@@ -28,6 +28,7 @@ import pricing from './objects/pricing'
 import recentViews from './objects/recentViews'
 import blockContent from './objects/blockContent'
 import textWithTitle from './objects/textWithTitle'
+import mainImage from './objects/mainImage'
 
 
 
@@ -58,6 +59,7 @@ export default createSchema({
     pricing,
     recentViews,
     blockContent,
-    textWithTitle
+    textWithTitle,
+    mainImage
   ]),
 })

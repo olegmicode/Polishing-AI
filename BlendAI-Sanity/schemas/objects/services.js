@@ -19,24 +19,13 @@ export default {
             type: "string",
         },
         {
-            name: 'images',
+            name: 'platformImages',
             type: 'array',
-            title: 'Images',
+            title: 'Platform Images',
             of: [
                 {
-                    name: 'image',
-                    type: 'image',
-                    title: 'Image',
-                    options: {
-                        hotspot: true,
-                    },
-                    fields: [
-                        {
-                            name: 'alt',
-                            type: 'string',
-                            title: 'Alternative text',
-                        },
-                    ],
+
+                    type: 'mainImage',
                 },
             ],
 
