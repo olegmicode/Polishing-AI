@@ -9,7 +9,6 @@ export default {
       type: 'array',
       title: 'Sections',
       of: [
-        { type: 'footer' },
         { type: 'intro' },
         { type: 'about' },
         { type: 'services' },

@@ -9,9 +9,14 @@ export default {
             type: "string",
         },
         {
+            name: "bannerTitle",
+            title: "Banner Title",
+            type: "string",
+        },
+        {
             name: "bannerText",
             title: "Banner text",
-            type: "string",
+            type: "blockContent",
         },
         {
             name: 'productImages',
@@ -66,20 +71,5 @@ export default {
             },
         }
 
-    ],
-    preview: {
-        select: {
-            images: 'productImages',
-            image: 'productImages.0',
-        },
-        prepare(selection) {
-            const { productImages, productImage } = selection;
-
-            return {
-                title: `Gallery block of ${Object.keys(productImages).length} images`,
-                subtitle: `Alt text: ${productImage.alt}`,
-                media: productImage,
-            };
-        },
-    },
+    ],   
 }

@@ -11,9 +11,14 @@ export default {
             type: "string",
         },
         {
-            name: "bannerText",
-            title: "Banner text",
+            name: "bannerTitle",
+            title: "Banner Title",
             type: "string",
+        },
+        {
+            name: "bannerText",
+            title: "Banner Text",
+            type: "blockContent",
         },
         {
             name: 'overImage',

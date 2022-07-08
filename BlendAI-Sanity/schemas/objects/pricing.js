@@ -9,13 +9,13 @@ export default {
             type: "string",
         },
         {
-            name: "bannerText",
-            title: "Banner text",
+            name: "bannerTitle",
+            title: "Banner Title",
             type: "string",
         },
         {
             name: "bannerSubText",
-            title: "Banner text",
+            title: "Banner Text",
             type: "string",
         },
 

@@ -14,6 +14,11 @@ export default {
             type: "string",
         },
         {
+            name: "bannerSubText",
+            title: "Sub text",
+            type: "string",
+        },
+        {
             name: 'images',
             type: 'array',
             title: 'Images',
@@ -40,20 +45,5 @@ export default {
             },
         }
 
-    ],
-    preview: {
-        select: {
-            images: 'images',
-            image: 'images.0',
-        },
-        prepare(selection) {
-            const { images, image } = selection;
-
-            return {
-                title: `Gallery block of ${Object.keys(images).length} images`,
-                subtitle: `Alt text: ${image.alt}`,
-                media: image,
-            };
-        },
-    },
+    ]
 }

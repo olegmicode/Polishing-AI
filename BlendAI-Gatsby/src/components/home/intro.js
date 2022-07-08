@@ -559,7 +559,7 @@ const Intro = ({ data }) => (
           >
             <div
               className="tn-atom t-bgimg"
-              data-original={SofaGgImg}
+              data-original={SofaFbImg1}
               style={{
                 backgroundImage: 'url(./images/tild6465-3431-4636-b164-356265333039__-__resize__20x__sofa_google.png)'
               }}

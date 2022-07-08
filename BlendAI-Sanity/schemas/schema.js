@@ -14,7 +14,6 @@ import privacyPolicy from './documents/privacyPolicy'
 import termsAndConditions from './documents/termsAndConditions'
 
 // objects
-import footer from './objects/footer'
 import intro from './objects/intro'
 import about from './objects/about'
 import services from './objects/services'
@@ -28,6 +27,7 @@ import ourPartners from './objects/ourPartners'
 import pricing from './objects/pricing'
 import recentViews from './objects/recentViews'
 import blockContent from './objects/blockContent'
+import textWithTitle from './objects/textWithTitle'
 
 
 
@@ -45,7 +45,6 @@ export default createSchema({
     termsAndConditions,
 
     // objects
-    footer,
     intro,
     about,
     services,
@@ -58,6 +57,7 @@ export default createSchema({
     ourPartners,
     pricing,
     recentViews,
-    blockContent
+    blockContent,
+    textWithTitle
   ]),
 })

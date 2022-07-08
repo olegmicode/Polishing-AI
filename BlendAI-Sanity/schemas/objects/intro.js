@@ -15,13 +15,21 @@ export default {
         },
         {
             name: "bannerSubText",
-            title: "Banner text",
+            title: "Banner Sub Text",
             type: "string",
         },
         {
-            name: 'images',
+            name: "mainProductImage",
+            title: "Main Product image",
+            type: "image",
+            options: {
+                hotspot: true,
+            },
+        },
+        {
+            name: 'ProductImages',
             type: 'array',
-            title: 'Images',
+            title: 'Product Images',
             of: [
                 {
                     name: 'image',
@@ -43,22 +51,8 @@ export default {
             options: {
                 layout: 'grid',
             },
-        }
-
-    ],
-    preview: {
-        select: {
-            images: 'images',
-            image: 'images.0',
         },
-        prepare(selection) {
-            const { images, image } = selection;
 
-            return {
-                title: `Gallery block of ${Object.keys(images).length} images`,
-                subtitle: `Alt text: ${image.alt}`,
-                media: image,
-            };
-        },
-    },
+
+    ]
 }

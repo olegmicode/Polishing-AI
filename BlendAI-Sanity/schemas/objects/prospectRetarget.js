@@ -11,6 +11,11 @@ export default {
             type: "string",
         },
         {
+            name: "bannerTitle",
+            title: "Banner Title",
+            type: "string",
+        },
+        {
             name: "bannerText",
             title: "Banner text",
             type: "string",

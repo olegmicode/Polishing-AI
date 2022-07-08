@@ -9,8 +9,8 @@ export default {
             type: "string",
         },
         {
-            name: "bannerText",
-            title: "Banner text",
+            name: "bannerTitle",
+            title: "Banner Title",
             type: "string",
         },
         {
@@ -19,9 +19,9 @@ export default {
             type: "string",
         },
         {
-            name: 'images',
+            name: 'partnerImages',
             type: 'array',
-            title: 'Images',
+            title: 'Partners Images',
             of: [
                 {
                     name: 'image',

@@ -4,20 +4,13 @@ export default {
     type: "document",
     fields: [
       {
-        name: "title",
-        title: "Title",
-        type: "string",
-      },
-      {
-        name: "bannerText",
-        title: "Banner text",
-        type: "blockContent",
-      },
-    ],
-    preview: {
-      select: {
-        title: "title",
-      },
-    },
+        name: 'sections',
+        type: 'array',
+        title: 'Sections',
+        of: [
+          { type: 'textWithTitle' },
+        ]
+      }
+    ]
   };
   
