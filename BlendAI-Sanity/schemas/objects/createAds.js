@@ -11,12 +11,12 @@ export default {
             type: "string",
         },
         {
-            name: "bannerTitle",
-            title: "Banner Title",
+            name: "text",
+            title: "Banner Text",
             type: "string",
         },
         {
-            name: "bannerText",
+            name: "blockText",
             title: "Banner Text",
             type: "blockContent",
         },

@@ -67,7 +67,7 @@ const Privacy = ({ data }) => {
                                     <div className="t-col t-col_8 t-prefix_2">
                                         <div field="text" className="t-text t-text_md " style={{ color: "#222e63", fontSize: "18px", fontWeight: 500, fontFamily: 'NunitoSans' }}>
                                             <BlockContent
-                                                blocks={item.text}
+                                                blocks={item.blockText}
                                             />
                                         </div>
                                     </div>
@@ -88,7 +88,6 @@ export const query = graphql`
 query Privacy {
     allSanityPrivacyPolicy {
         nodes {
-          mainTitle
           subText {
             _type
             children {
@@ -96,15 +95,15 @@ query Privacy {
               _type
             }
           }
+          mainTitle
           sections {
             title
-            text {
+            _type
+            blockText {
               _type
               children {
-                marks
                 text
                 _type
-                _key
               }
             }
           }

@@ -66,7 +66,7 @@ const Terms = ({ data }) => {
                                             <div class="t-col t-col_8 t-prefix_2">
                                                 <div field="text" class="t-text t-text_md " style={{ color: "#222e63", fontSize: "18px", fontWeight: 500, fontFamily: 'NunitoSans' }}>
                                                     <BlockContent
-                                                        blocks={item.text}
+                                                        blocks={item.blockText}
                                                     />
                                                 </div>
                                             </div>
@@ -91,7 +91,7 @@ query Terms {
           mainTitle
           sections {
             _type
-            text {
+            blockText {
               _type
               children {
                 text

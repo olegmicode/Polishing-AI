@@ -9,14 +9,14 @@ export default {
             type: "string",
         },
         {
-            name: "bannerTitle",
-            title: "Banner Title",
+            name: "text",
+            title: "Banner Text",
             type: "string",
         },
         {
-            name: "bannerSubText",
+            name: "blockText",
             title: "Banner Text",
-            type: "string",
+            type: "blockContent",
         },
 
     ],

@@ -9,13 +9,13 @@ export default {
             type: "string",
         },
         {
-            name: "bannerTitle",
-            title: "Banner Title",
+            name: "text",
+            title: "Banner Text",
             type: "string",
         },
         {
-            name: "bannerText",
-            title: "Banner text",
+            name: "blockText",
+            title: "Banner Text",
             type: "blockContent",
         },
         {
@@ -26,7 +26,6 @@ export default {
                 {
 
                     type: 'mainImage',
-                    title: 'Image',
 
                 },
             ],

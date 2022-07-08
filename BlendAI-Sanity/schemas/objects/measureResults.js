@@ -11,9 +11,14 @@ export default {
             type: "string",
         },
         {
-            name: "bannerText",
-            title: "Banner text",
+            name: "text",
+            title: "Banner Text",
             type: "string",
+        },
+        {
+            name: "blockText",
+            title: "Banner Text",
+            type: "blockContent",
         },
         {
             name: 'chartImage',
@@ -23,6 +28,11 @@ export default {
                 hotspot: true,
             },
 
+        },
+        {
+            name: "bottomText",
+            title: "Bottom Text",
+            type: "string",
         },
 
     ]

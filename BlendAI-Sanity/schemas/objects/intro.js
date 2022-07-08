@@ -9,9 +9,9 @@ export default {
             type: "string",
         },
         {
-            name: "bannerText",
-            title: "Banner text",
-            type: "string",
+            name: "blockText",
+            title: "Banner Text",
+            type: "blockContent",
         },
         {
             name: "bannerSubText",
