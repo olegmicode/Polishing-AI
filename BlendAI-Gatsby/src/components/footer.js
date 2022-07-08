@@ -141,7 +141,7 @@ const Footer = () => (
             <div className="tn-atom" field="tn_text_1610709018424">
               ©2021 All Rights Reserved.
               <a
-                href="/privacy_policy"
+                href="/privacy"
                 style={{color: "#00cab7 !important"}}
                 target="_blank"
               >Privacy Policy</a
