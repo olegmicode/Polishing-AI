@@ -29,6 +29,7 @@ import recentViews from './objects/recentViews'
 import blockContent from './objects/blockContent'
 import textWithTitle from './objects/textWithTitle'
 import mainImage from './objects/mainImage'
+import recentView from './objects/recentView'
 
 
 
@@ -60,6 +61,7 @@ export default createSchema({
     recentViews,
     blockContent,
     textWithTitle,
-    mainImage
+    mainImage,
+    recentView
   ]),
 })

@@ -16,10 +16,16 @@ export default {
             type: "string",
         },
         {
-            name: "blockText",
-            title: "Banner Text",
-            type: "blockContent",
-        },
+            name: 'recentViewsData',
+            type: 'array',
+            title: 'Recent Views Data',
+            of: [
+                {
+                    type: 'recentView',
+                },
+            ],
+
+        }
 
     ]
 }

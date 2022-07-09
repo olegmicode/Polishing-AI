@@ -1,18 +1,13 @@
 import React, { useEffect } from "react"
 import "./reviews.css"
 
-import { Swiper, SwiperSlide, useSwiper   } from 'swiper/react';
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 import 'swiper/css';
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
 
 
 const RecentViews = ({ data }) => {
-
-    useEffect(() => {
-       
-
-    }, [])
 
     return (
 
@@ -100,7 +95,7 @@ const RecentViews = ({ data }) => {
                                                             style={{ fontSize: "36px", fontFamily: 'NunitoSans' }}
                                                             data-customstyle="yes"
                                                         >
-                                                            Most recent reviews<br />
+                                                            {data.text}<br />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -119,9 +114,47 @@ const RecentViews = ({ data }) => {
                                                     modules={[Navigation]}
                                                     spaceBetween={30}
                                                     loop={true}
-                                               
+
                                                 >
-                                                    <SwiperSlide>
+                                                    {
+                                                        data.recentViewsData.map((item, idx) => (
+                                                            <SwiperSlide>
+                                                                <div className="" data-slide-index="1">
+                                                                    <div
+                                                                        className="t-slds__wrapper t-align_center t-width_8 t-margin_auto"
+                                                                    >
+                                                                        <div
+                                                                            className="t659__text t-text t-text-impact_xs"
+                                                                            field="li_text__1612884709487"
+                                                                            style={{
+                                                                                color: "#ffffff",
+                                                                                fontSize: "20px",
+                                                                                fontFamily: 'NunitoSans'
+                                                                            }}
+                                                                        >
+                                                                            {item.recommendation}<br />
+                                                                        </div>
+                                                                        <div
+                                                                            className="t659__title t-name t-name_xs"
+                                                                            field="li_title__1612884709487"
+                                                                        >
+                                                                            {item.name}
+                                                                        </div>
+                                                                        <div
+                                                                            className="t659__descr t-descr t-descr_xxs"
+                                                                            field="li_descr__1612884709487"
+                                                                        >
+                                                                            <a
+                                                                                href={item.siteLink}
+                                                                                style={{ color: `rgb(34, 46, 99) !important` }}
+                                                                            >{item.siteName}</a><br />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </SwiperSlide>
+                                                        ))
+                                                    }
+                                                    {/* <SwiperSlide>
                                                         <div className="" data-slide-index="1">
                                                             <div
                                                                 className="t-slds__wrapper t-align_center t-width_8 t-margin_auto"
@@ -156,8 +189,8 @@ const RecentViews = ({ data }) => {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </SwiperSlide>
-                                                    <SwiperSlide>
+                                                    </SwiperSlide> */}
+                                                    {/* <SwiperSlide>
                                                         <div className="" data-slide-index="2">
                                                             <div
                                                                 className="t-slds__wrapper t-align_center t-width_8 t-margin_auto"
@@ -268,7 +301,7 @@ const RecentViews = ({ data }) => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    </SwiperSlide>
+                                                    </SwiperSlide> */}
                                                 </Swiper>
 
                                             </div>
@@ -276,7 +309,7 @@ const RecentViews = ({ data }) => {
                                     </div>
                                 </div>
                             </div>
-                           
+
                         </div>
 
                     </div>

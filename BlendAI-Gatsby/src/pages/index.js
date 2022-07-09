@@ -21,11 +21,11 @@ import Contact from "../components/home/contact"
 const IndexPage = ({ data }) => {
 
   const sections = data?.allSanityHome.nodes[0].sections;
-  
+
   const selectSection = (sectionData) => {
     switch (sectionData._type) {
       case "intro":
-        return  <Intro data={sectionData}></Intro>
+        return <Intro data={sectionData}></Intro>
         break;
       case "about":
         return <About data={sectionData}></About>
@@ -297,19 +297,19 @@ query Home {
             }
           }
         }
+
         ... on SanityRecentViews {
-          _key
-          _type
-          title
           text
-          blockText {
-            _type
-            children {
-              text
-              _type
-            }
+          title
+          recentViewsData {
+            name
+            recommendation
+            siteLink
+            siteName
           }
+        _type
         }
+
         ... on SanityServices {
           _key
           _type
