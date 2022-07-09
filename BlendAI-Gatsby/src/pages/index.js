@@ -220,6 +220,7 @@ query Home {
               text
               _type
             }
+            _type
           }
           overImage {
             asset {

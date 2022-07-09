@@ -1,4 +1,6 @@
 import React from "react"
+import BlockContent from "@sanity/block-content-to-react";
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./multipleadchannels.css"
 
 import { Vector3Blue } from "../../utils/imgImport"
@@ -14,7 +16,13 @@ import LkadImg from "../../images/tild3038-3838-4264-b666-346135313131__linked_i
 import TwadImg from "../../images/tild3764-3661-4134-b633-306433643662__twitter_ad-min.png"
 import AdminImg from "../../images/tild6433-3265-4434-b738-346534643133__blend_ad-min.png"
 
-const Multipleadchannels = ({ data }) => (
+const Multipleadchannels = ({ data }) => {
+  const text = data.text
+  const blockText = data.blockText
+  const overImage = data.overImage.asset
+  const adCardImages = data.adCardImages
+
+  return (
     <div id="multipleadchannels" className="multipleadchannels-container">
       <div
         id="rec225479802"
@@ -22,7 +30,7 @@ const Multipleadchannels = ({ data }) => (
         data-animationappear="off"
         data-record-type="396"
       >
-        
+
         <div className="t396">
           <div
             className="t396__artboard"
@@ -63,7 +71,7 @@ const Multipleadchannels = ({ data }) => (
               data-field-widthunits-value="px"
             >
               <h2 className="tn-atom" field="tn_text_1598884642155">
-                Multiple ad channels
+                {text}
               </h2>
             </div>
             <div
@@ -93,9 +101,10 @@ const Multipleadchannels = ({ data }) => (
               data-field-widthunits-value="px"
             >
               <div className="tn-atom" field="tn_text_1598884642164">
-                Tired of learning new ad channels? <br /><br />Our support for
-                multiple advertising channels lets you quickly spread your
-                message and trial new strategies in seconds. <br />
+                <BlockContent
+                  blocks={blockText}
+                />
+                <br />
               </div>
             </div>
             <div
@@ -153,12 +162,14 @@ const Multipleadchannels = ({ data }) => (
               data-field-fileheight-value="620"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={AdminImg}
                   src={AdminImg}
                   imgfield="tn_img_1598885259842"
-                />
+                /> */}
+                <GatsbyImage className="tn-atom__img t-img" image={getImage(overImage)} alt="product image" />
+
               </div>
             </div>
             <div
@@ -193,12 +204,14 @@ const Multipleadchannels = ({ data }) => (
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={FbAdImg}
                   src={FbAdImg}
                   imgfield="tn_img_1598885640298"
-                />
+                /> */}
+                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[0].asset)} alt="product image" />
+
               </div>
             </div>
             <div
@@ -233,12 +246,14 @@ const Multipleadchannels = ({ data }) => (
               data-field-fileheight-value="676"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={InstagramAdImg}
                   src={InstagramAdImg}
                   imgfield="tn_img_1598885752849"
-                />
+                /> */}
+                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[1].asset)} alt="product image" />
+
               </div>
             </div>
             <div
@@ -273,12 +288,14 @@ const Multipleadchannels = ({ data }) => (
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={GgadImg}
                   src={GgadImg}
                   imgfield="tn_img_1599232345532"
-                />
+                /> */}
+                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[2].asset)} alt="product image" />
+
               </div>
             </div>
             <div
@@ -313,12 +330,14 @@ const Multipleadchannels = ({ data }) => (
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={LkadImg}
                   src={LkadImg}
                   imgfield="tn_img_1599232472471"
-                />
+                /> */}
+                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[3].asset)} alt="product image" />
+
               </div>
             </div>
             <div
@@ -353,12 +372,14 @@ const Multipleadchannels = ({ data }) => (
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={TwadImg}
                   src={TwadImg}
                   imgfield="tn_img_1599232481074"
-                />
+                /> */}
+                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[4].asset)} alt="product image" />
+
               </div>
             </div>
             <div
@@ -569,12 +590,8 @@ const Multipleadchannels = ({ data }) => (
             </div>
           </div>
         </div>
-        <script>
-          $(document).ready(function () {
-            // t396_init("225479802");
-          });
-        </script>
       </div>
     </div>
-)
+  )
+}
 export default Multipleadchannels
