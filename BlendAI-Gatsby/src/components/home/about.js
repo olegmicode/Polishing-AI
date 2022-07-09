@@ -1,6 +1,4 @@
 import React, { useEffect } from "react"
-
-import BlockContent from "@sanity/block-content-to-react";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import "./about.css"
