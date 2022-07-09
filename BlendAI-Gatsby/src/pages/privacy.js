@@ -1,14 +1,25 @@
 import React from "react"
 import { graphql } from "gatsby"
-import BlockContent from "@sanity/block-content-to-react";
+import SanityBlockContent from "@sanity/block-content-to-react";
 import { LogoBlack } from "../utils/imgImport"
 
 const Privacy = ({ data }) => {
+
     const mainTitle = data?.allSanityPrivacyPolicy.nodes[0].mainTitle;
-    const subText = data?.allSanityPrivacyPolicy.nodes[0].subText;
+    const _rawSubText = data?.allSanityPrivacyPolicy.nodes[0]._rawSubText;
     const privacy = data?.allSanityPrivacyPolicy.nodes[0].sections;
+
+    // const serializers = {
+    //     marks: {
+    //         link: ({ mark, children }) => {
+    //             const { href } = mark
+    //             return <a href={href} target="_blank" rel="noopener">{children}</a>
+    //         }
+    //     }
+    // }
+
     return (
-        <>
+        <div className="privacy">
             <div id="allrecords" data-tilda-export="yes" className="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2918486" data-tilda-page-id="13886707" data-tilda-page-alias="privacy_policy" data-tilda-formskey="1c52105f6442dd6f3f3f9c8fb72f48d7" data-tilda-lazy="yes" data-tilda-project-headcode="yes">
                 <div id="rec229885448" className="r t-rec" style={{ backgroundColor: "#dff6f4" }} data-animationappear="off" data-record-type="257" data-bg-color="#dff6f4">
                     <div id="nav229885448marker"></div>
@@ -40,8 +51,9 @@ const Privacy = ({ data }) => {
                         <div className="t-container ">
                             <div className="t-col t-col_8 t-prefix_2">
                                 <div field="text" className="t-text t-text_md " style={{ color: "#222e63", fontSize: "18px", fontWeight: "400", fontFamily: 'NunitoSans' }}>
-                                    <BlockContent
-                                        blocks={subText}
+                                    <SanityBlockContent
+                                        blocks={_rawSubText}
+                                        // serializers={serializers}
                                     />
                                 </div>
                             </div>
@@ -66,8 +78,8 @@ const Privacy = ({ data }) => {
                                 <div className="t-container ">
                                     <div className="t-col t-col_8 t-prefix_2">
                                         <div field="text" className="t-text t-text_md " style={{ color: "#222e63", fontSize: "18px", fontWeight: 500, fontFamily: 'NunitoSans' }}>
-                                            <BlockContent
-                                                blocks={item.blockText}
+                                            <SanityBlockContent
+                                                blocks={item._rawBlockText}
                                             />
                                         </div>
                                     </div>
@@ -79,7 +91,7 @@ const Privacy = ({ data }) => {
 
 
             </div>
-        </>
+        </div>
     )
 }
 export default Privacy
@@ -87,28 +99,31 @@ export default Privacy
 export const query = graphql`
 query Privacy {
     allSanityPrivacyPolicy {
-        nodes {
-          subText {
+      nodes {
+        subText {
+          _type
+          children {
+            text
+            _type
+            marks
+          }
+        }
+        mainTitle
+        sections {
+          title
+          _type
+          blockText {
             _type
             children {
               text
               _type
+              marks
             }
           }
-          mainTitle
-          sections {
-            title
-            _type
-            blockText {
-              _type
-              children {
-                text
-                _type
-              }
-            }
-          }
+          _rawBlockText(resolveReferences: {maxDepth: 10})
         }
+        _rawSubText(resolveReferences: {maxDepth: 10})
       }
-  }
-  
+    }
+  }  
 ` 

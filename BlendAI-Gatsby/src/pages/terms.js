@@ -1,16 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
-import BlockContent from "@sanity/block-content-to-react";
+import SanityBlockContent from "@sanity/block-content-to-react";
 import { LogoBlack } from "../utils/imgImport"
 
 const Terms = ({ data }) => {
 
     const mainTitle = data?.allSanityTermsAndConditions.nodes[0].mainTitle;
-    const subText = data?.allSanityTermsAndConditions.nodes[0].subText;
+    const _rawSubText = data?.allSanityTermsAndConditions.nodes[0]._rawSubText;
     const terms = data?.allSanityTermsAndConditions.nodes[0].sections;
 
     return (
-        <>
+        <div className="terms">
             <div id="allrecords" data-tilda-export="yes" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="2918486" data-tilda-page-id="13886707" data-tilda-page-alias="privacy_policy" data-tilda-formskey="1c52105f6442dd6f3f3f9c8fb72f48d7" data-tilda-lazy="yes" data-tilda-project-headcode="yes">
                 <div id="rec229885448" class="r t-rec" style={{ backgroundColor: "#dff6f4" }} data-animationappear="off" data-record-type="257" data-bg-color="#dff6f4">
                     <div id="nav229885448marker"></div>
@@ -40,8 +40,8 @@ const Terms = ({ data }) => {
                             <div class="t-container ">
                                 <div class="t-col t-col_8 t-prefix_2">
                                     <div field="text" class="t-text t-text_md " style={{ color: "#222e63", fontSize: "18px", fontWeight: 400, fontFamily: 'NunitoSans' }}>
-                                        <BlockContent
-                                            blocks={subText}
+                                        <SanityBlockContent
+                                            blocks={_rawSubText}
                                         />
                                         <br /></div>
                                 </div>
@@ -65,8 +65,8 @@ const Terms = ({ data }) => {
                                         <div class="t-container ">
                                             <div class="t-col t-col_8 t-prefix_2">
                                                 <div field="text" class="t-text t-text_md " style={{ color: "#222e63", fontSize: "18px", fontWeight: 500, fontFamily: 'NunitoSans' }}>
-                                                    <BlockContent
-                                                        blocks={item.blockText}
+                                                    <SanityBlockContent
+                                                        blocks={item._rawBlockText}
                                                     />
                                                 </div>
                                             </div>
@@ -79,7 +79,7 @@ const Terms = ({ data }) => {
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default Terms
@@ -87,28 +87,30 @@ export default Terms
 export const query = graphql`
 query Terms {
     allSanityTermsAndConditions {
-        nodes {
-          mainTitle
-          sections {
-            _type
-            blockText {
-              _type
-              children {
-                text
-                _type
-              }
-            }
-            title
-          }
-          subText {
+      nodes {
+        mainTitle
+        sections {
+          _type
+          blockText {
             _type
             children {
               text
               _type
             }
           }
+          title
+          _rawBlockText
         }
+        subText {
+          _type
+          children {
+            text
+            _type
+          }
+        }
+        _rawSubText
       }
-  }
+    }
+  }  
   
 `
