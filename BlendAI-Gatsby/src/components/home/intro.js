@@ -33,10 +33,10 @@ import GoogleMin from "../../images/tild6163-6365-4532-a334-366366313232__google
 const Intro = ({ data }) => {
 
   const mainImage = getImage(data.mainProductImage.asset)
-  const productImage3 = getImage(data.ProductImages[0].asset)
+  const productImage1 = getImage(data.ProductImages[0].asset)
   const productImage2 = getImage(data.ProductImages[1].asset)
-  const productImage4 = getImage(data.ProductImages[2].asset)
-  const productImage1 = getImage(data.ProductImages[3].asset)
+  const productImage3 = getImage(data.ProductImages[2].asset)
+  const productImage4 = getImage(data.ProductImages[3].asset)
 
   return (
     <div id="intro" className="intro-container">

@@ -123,7 +123,7 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="140"
                     >
                         <div className="tn-atom">
-                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[3].asset)} alt="product image" />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[1].asset)} alt="product image" />
                         </div>
                     </div>
 
@@ -156,7 +156,7 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="504"
                     >
                         <div className="tn-atom">
-                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[1].asset)} alt="product image" />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[2].asset)} alt="product image" />
 
                         </div>
                     </div>
@@ -190,7 +190,7 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="560"
                     >
                         <div className="tn-atom">
-                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[0].asset)} alt="product image" />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[3].asset)} alt="product image" />
 
                         </div>
                     </div>
@@ -224,7 +224,7 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="128"
                     >
                         <div className="tn-atom">
-                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[2].asset)} alt="product image" />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[0].asset)} alt="product image" />
 
                         </div>
                     </div>
