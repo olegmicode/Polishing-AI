@@ -12,6 +12,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import home from './documents/home'
 import privacyPolicy from './documents/privacyPolicy'
 import termsAndConditions from './documents/termsAndConditions'
+import seoManage from './documents/seoManage'
 
 // objects
 import intro from './objects/intro'
@@ -30,6 +31,8 @@ import blockContent from './objects/blockContent'
 import textWithTitle from './objects/textWithTitle'
 import mainImage from './objects/mainImage'
 import recentView from './objects/recentView'
+import seoItem from './objects/seoItem'
+
 
 
 
@@ -45,6 +48,7 @@ export default createSchema({
     home,
     privacyPolicy,
     termsAndConditions,
+    seoManage,
 
     // objects
     intro,
@@ -62,6 +66,7 @@ export default createSchema({
     blockContent,
     textWithTitle,
     mainImage,
-    recentView
+    recentView,
+    seoItem
   ]),
 })

@@ -15,12 +15,14 @@ import OurPartners from "../components/home/ourpartners"
 import Pricing from "../components/home/pricing"
 import RecentViews from "../components/home/recentviews"
 import Contact from "../components/home/contact"
+import Seo from "../components/seo"
 
 
 
 const IndexPage = ({ data }) => {
 
   const sections = data?.allSanityHome.nodes[0].sections;
+  const seoData = data?.allSanitySeoManage.nodes[0].seoItems;
 
   const selectSection = (sectionData) => {
     switch (sectionData._type) {
@@ -68,6 +70,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
+      <Seo data={seoData}></Seo>
       <Contact></Contact>
       {
         sections.map((item, idx) => (
@@ -76,17 +79,6 @@ const IndexPage = ({ data }) => {
           </div>
         ))
       }
-      {/* <About></About>
-      <Services></Services>
-      <ProductFeed></ProductFeed>
-      <CreateAds></CreateAds>
-      <MngAudiences></MngAudiences>
-      <Multipleadchannels></Multipleadchannels>
-      <MeasureResults></MeasureResults>
-      <ProspectRetarget></ProspectRetarget>
-      <OurPartners></OurPartners>
-      <Pricing></Pricing>
-      <RecentViews></RecentViews> */}
     </Layout>
   )
 }
@@ -322,6 +314,15 @@ query Home {
             }
           }
         }
+      }
+    }
+  }
+  allSanitySeoManage {
+    nodes {
+      seoItems {
+        seoContent
+        selectPropertyName
+        seoPropertyName
       }
     }
   }

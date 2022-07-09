@@ -14,6 +14,7 @@ module.exports = {
         overlayDrafts: true
       }
     },
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp",
     {
       resolve: 'gatsby-source-filesystem',
