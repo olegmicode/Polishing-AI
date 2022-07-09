@@ -1,15 +1,20 @@
 import React, { useEffect } from "react"
+
+import BlockContent from "@sanity/block-content-to-react";
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
 import "./about.css"
 import { DotMin } from "../../utils/imgImport"
-import CampaignOverview from "../../images/tild3765-3736-4332-b961-313562326137__campaign_overview-mi.png"
-import CampaignOverviewSidebar from "../../images/tild3662-3164-4838-a630-663338646437__sidebar.png"
-import CampaignOverviewTooltips from "../../images/tild3339-3163-4965-b639-386333346333__tooltips.png"
+
+// import CampaignOverview from "../../images/tild3765-3736-4332-b961-313562326137__campaign_overview-mi.png"
+// import CampaignOverviewSidebar from "../../images/tild3662-3164-4838-a630-663338646437__sidebar.png"
+// import CampaignOverviewTooltips from "../../images/tild3339-3163-4965-b639-386333346333__tooltips.png"
 
 const About = ({ data }) => {
-
-  useEffect(() => {
-
-  }, [])
+  const text = data.text
+  const CampaignOverview = getImage(data.overviewImage.asset)
+  const CampaignOverviewSidebar = getImage(data.deviceImage.asset)
+  const CampaignOverviewTooltips = getImage(data.statusImage.asset)
 
   return (
     <div>
@@ -71,7 +76,7 @@ const About = ({ data }) => {
               data-animate-distance="50"
             >
               <h2 className="tn-atom" field="tn_text_1598875098592">
-                Making online advertising easy for everyone.
+                {text}
               </h2>
             </div>
             <div
@@ -107,12 +112,13 @@ const About = ({ data }) => {
               data-field-fileheight-value="840"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={CampaignOverview}
                   src={CampaignOverview}
                   imgfield="tn_img_1599489601275"
-                />
+                /> */}
+                <GatsbyImage image={CampaignOverview} alt="CampaignOverview image" />
               </div>
             </div>
             <div
@@ -149,12 +155,13 @@ const About = ({ data }) => {
               data-field-fileheight-value="896"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={CampaignOverviewSidebar}
                   src={CampaignOverviewSidebar}
                   imgfield="tn_img_1599489637723"
-                />
+                /> */}
+                <GatsbyImage image={CampaignOverviewSidebar} alt="CampaignOverviewSidebar image" />
               </div>
             </div>
             <div
@@ -223,12 +230,13 @@ const About = ({ data }) => {
               data-field-fileheight-value="320"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
                   data-original={CampaignOverviewTooltips}
                   src={CampaignOverviewTooltips}
                   imgfield="tn_img_1599497499130"
-                />
+                /> */}
+                <GatsbyImage image={CampaignOverviewTooltips} alt="CampaignOverviewTooltips image" />
               </div>
             </div>
           </div>
