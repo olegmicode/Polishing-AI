@@ -19,14 +19,64 @@ import Contact from "../components/home/contact"
 
 
 const IndexPage = ({ data }) => {
-  
+
   const sections = data?.allSanityHome.nodes[0].sections;
+  
+  const selectSection = (sectionData) => {
+    switch (sectionData._type) {
+      case "intro":
+        return  <Intro data={sectionData}></Intro>
+        break;
+      case "about":
+        return <About data={sectionData}></About>
+        break;
+      case "services":
+        return <Services data={sectionData}></Services>
+        break;
+      case "productFeed":
+        return <ProductFeed data={sectionData}></ProductFeed>
+        break;
+      case "createAds":
+        return <CreateAds data={sectionData}></CreateAds>
+        break;
+      case "mngAudiences":
+        return <MngAudiences data={sectionData}></MngAudiences>
+        break;
+      case "multipleAdchannels":
+        return <Multipleadchannels data={sectionData}></Multipleadchannels>
+        break;
+      case "measureResults":
+        return <MeasureResults data={sectionData}></MeasureResults>
+        break;
+      case "prospectRetarget":
+        return <ProspectRetarget data={sectionData}></ProspectRetarget>
+        break;
+      case "ourPartners":
+        return <OurPartners data={sectionData}></OurPartners>
+        break;
+      case "pricing":
+        return <Pricing data={sectionData}></Pricing>
+        break;
+      case "recentViews":
+        return <RecentViews data={sectionData}></RecentViews>
+        break;
+
+      default:
+        break;
+    }
+  }
 
   return (
     <Layout>
       <Contact></Contact>
-      <Intro></Intro>
-      <About></About>
+      {
+        sections.map((item, idx) => (
+          <div>
+            {selectSection(item)}
+          </div>
+        ))
+      }
+      {/* <About></About>
       <Services></Services>
       <ProductFeed></ProductFeed>
       <CreateAds></CreateAds>
@@ -36,13 +86,13 @@ const IndexPage = ({ data }) => {
       <ProspectRetarget></ProspectRetarget>
       <OurPartners></OurPartners>
       <Pricing></Pricing>
-      <RecentViews></RecentViews>
+      <RecentViews></RecentViews> */}
     </Layout>
   )
 }
 export default IndexPage
 
-export const query=graphql`
+export const query = graphql`
 query Home {
   allSanityHome {
     nodes {

@@ -8,7 +8,7 @@ import CampaignOverviewTooltips from "../../images/tild3339-3163-4965-b639-38633
 const About = ({ data }) => {
 
   useEffect(() => {
-   
+
   }, [])
 
   return (
@@ -233,11 +233,7 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
-        <script>
-          $(document).ready(function () {
-            // t396_init("225394903")
-          });
-        </script>
+
       </div>
     </div>
   )
