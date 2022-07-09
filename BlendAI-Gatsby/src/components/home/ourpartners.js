@@ -1,4 +1,7 @@
 import React from "react"
+import BlockContent from "@sanity/block-content-to-react";
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
 import "./ourpartners.css"
 import { GooglePartner } from "../../utils/imgImport"
 import { FbPartner } from "../../utils/imgImport"
@@ -54,7 +57,7 @@ const OurPartners = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <h2 className="tn-atom" field="tn_text_1598890093555">
-                            Our partners
+                            {data.text}
                         </h2>
                     </div>
                     <div
@@ -84,9 +87,12 @@ const OurPartners = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <div className="tn-atom" field="tn_text_1598890093562">
-                            Blend AI is a marketing partner of leading social platforms.
+                            <BlockContent
+                                blocks={data.blockText}
+                            />
                         </div>
                     </div>
+
                     <div
                         className="t396__elem tn-elem tn-elem__2321845781600784926587"
                         data-elem-id="1600784926587"
@@ -117,14 +123,10 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="140"
                     >
                         <div className="tn-atom">
-                            <img
-                                className="tn-atom__img t-img"
-                                data-original={FbPartner}
-                                src={FbPartner}
-                                imgfield="tn_img_1600784926587"
-                            />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[3].asset)} alt="product image" />
                         </div>
                     </div>
+
                     <div
                         className="t396__elem tn-elem tn-elem__2321845781600784972693"
                         data-elem-id="1600784972693"
@@ -154,12 +156,8 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="504"
                     >
                         <div className="tn-atom">
-                            <img
-                                className="tn-atom__img t-img"
-                                data-original={OfficialPartner}
-                                src={OfficialPartner}
-                                imgfield="tn_img_1600784972693"
-                            />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[1].asset)} alt="product image" />
+
                         </div>
                     </div>
                     <div
@@ -192,12 +190,8 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="560"
                     >
                         <div className="tn-atom">
-                            <img
-                                className="tn-atom__img t-img"
-                                data-original={MarketingPartner}
-                                src={MarketingPartner}
-                                imgfield="tn_img_1600784992356"
-                            />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[0].asset)} alt="product image" />
+
                         </div>
                     </div>
                     <div
@@ -230,21 +224,12 @@ const OurPartners = ({ data }) => (
                         data-field-fileheight-value="128"
                     >
                         <div className="tn-atom">
-                            <img
-                                className="tn-atom__img t-img"
-                                data-original={GooglePartner}
-                                src={GooglePartner}
-                                imgfield="tn_img_1600785021964"
-                            />
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.partnerImages[2].asset)} alt="product image" />
+
                         </div>
                     </div>
                 </div>
             </div>
-            <script>
-                $(document).ready(function () {
-                    // t396_init("232184578");
-                });
-            </script>
         </div>
     </div>
 )

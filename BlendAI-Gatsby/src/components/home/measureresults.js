@@ -1,10 +1,12 @@
 import React from "react"
+import BlockContent from "@sanity/block-content-to-react";
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./measureresults.css"
 
 import { CharacterW } from "../../utils/imgImport"
 import ChartsMin from "../../images/tild6239-6364-4137-b464-323063383465__charts-min.png"
 import { SignupEnable } from "../../utils/imgImport"
-import {SignupHover } from "../../utils/imgImport"
+import { SignupHover } from "../../utils/imgImport"
 
 
 const MeasureResults = ({ data }) => (
@@ -14,7 +16,7 @@ const MeasureResults = ({ data }) => (
             className="r t-rec"
             data-animationappear="off"
             data-record-type="396"
-            style={{overflow: "hidden"}}
+            style={{ overflow: "hidden" }}
         >
 
             <div className="t396">
@@ -54,7 +56,7 @@ const MeasureResults = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <h2 className="tn-atom" field="tn_text_1598889024363">
-                            Measure results
+                            {data.text}
                         </h2>
                     </div>
                     <div
@@ -84,9 +86,10 @@ const MeasureResults = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <div className="tn-atom" field="tn_text_1598889024372">
-                            Measure return on ad spend accurately with sales attributed
-                            directly to your adverts thanks to our integration with your
-                            store. <br />
+                            <BlockContent
+                                blocks={data.blockText}
+                            />
+                            <br />
                         </div>
                     </div>
                     <div
@@ -179,12 +182,14 @@ const MeasureResults = ({ data }) => (
                         data-field-fileheight-value="984"
                     >
                         <div className="tn-atom">
-                            <img
+                            {/* <img
                                 className="tn-atom__img t-img"
                                 data-original={ChartsMin}
                                 src={ChartsMin}
                                 imgfield="tn_img_1598889801732"
-                            />
+                            /> */}
+                            <GatsbyImage className="tn-atom__img t-img" image={getImage(data.chartImage.asset)} alt="product image" />
+
                         </div>
                     </div>
                     <div
@@ -275,16 +280,11 @@ const MeasureResults = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <div className="tn-atom" field="tn_text_1599462044795">
-                            Manage your entire portfolio of online ads.
+                            {data.bottomText}
                         </div>
                     </div>
                 </div>
             </div>
-            <script>
-                $(document).ready(function () {
-                    // t396_init("225496984");
-                });
-            </script>
         </div>
     </div>
 )

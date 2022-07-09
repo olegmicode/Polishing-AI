@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react"
+import BlockContent from "@sanity/block-content-to-react";
+
 // import RangeSlider from "../common/rangeslider";
 import "./pricing.css"
 import $ from 'jquery'
@@ -19,7 +21,7 @@ const Pricing = ({ data }) => {
 
     if (eleThumbText && eleInfoWindow) {
       eleThumbText.style.left = `calc(${value / 10}% - 60px)`;
-     
+
       //Set range left position
       // eleThumbText.style.transform = `translate(-${value / 10}%, 0px)`; //Set range translate to correct
       eleThumbText.innerHTML = `$${formatNumber(value * 10)}`;
@@ -81,7 +83,7 @@ const Pricing = ({ data }) => {
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <h2 class="tn-atom" field="tn_text_1603784887988">Pricing</h2>
+              <h2 class="tn-atom" field="tn_text_1603784887988">{data.text}</h2>
             </div>
             <div
               class="t396__elem tn-elem tn-elem__2434111251603784887993"
@@ -111,7 +113,10 @@ const Pricing = ({ data }) => {
               data-field-widthunits-value="px"
             >
               <div class="tn-atom" field="tn_text_1603784887993">
-                Simple and transparent pricing for everyone.<br />
+                <BlockContent
+                  blocks={data.blockText}
+                />
+                <br />
               </div>
             </div>
             <div

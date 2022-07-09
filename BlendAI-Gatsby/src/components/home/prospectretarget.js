@@ -1,4 +1,6 @@
 import React from "react"
+import BlockContent from "@sanity/block-content-to-react";
+
 import "./prospectretarget.css"
 import { ShoppingMin2 } from "../../utils/imgImport"
 
@@ -52,7 +54,7 @@ const ProspectRetarget = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <h2 className="tn-atom" field="tn_text_1598890093555">
-                            Prospect &amp; Retarget
+                            {data.text}
                         </h2>
                     </div>
                     <div
@@ -82,9 +84,9 @@ const ProspectRetarget = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <div className="tn-atom" field="tn_text_1598890093562">
-                            Automatic prospecting and retargeting, spend allocation and
-                            constant monitoring means your ad budget is working harder,
-                            smarter and maximising return.
+                            <BlockContent
+                                blocks={data.blockText}
+                            />
                         </div>
                     </div>
                     <div
@@ -151,7 +153,7 @@ const ProspectRetarget = ({ data }) => (
                         data-field-widthunits-value="px"
                     >
                         <div className="tn-atom" field="tn_text_1599462078538">
-                            Maximise your return on ad spend.
+                            {data.bottomText}
                         </div>
                     </div>
                 </div>
