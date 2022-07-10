@@ -192,14 +192,14 @@ const Footer = () => {
                   href="/privacy"
                   style={{ color: "#00cab7 !important" }}
                   target="_blank"
-                >Privacy Policy</a
+                > Privacy Policy </a
                 >
                 and
                 <a
                   href="/terms"
                   style={{ color: "#00cab7 !important" }}
                   target="_blank"
-                >Terms and Conditions</a
+                > Terms and Conditions</a
                 >.
               </div>
             </div>
