@@ -14,7 +14,7 @@ import ProspectRetarget from "../components/home/prospectretarget"
 import OurPartners from "../components/home/ourpartners"
 import Pricing from "../components/home/pricing"
 import RecentViews from "../components/home/recentviews"
-import Contact from "../components/home/contact"
+// import Contact from "../components/home/contact"
 import Seo from "../components/seo"
 
 
@@ -71,7 +71,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Seo data={seoData}></Seo>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
       {
         sections.map((item, idx) => (
           <div>
