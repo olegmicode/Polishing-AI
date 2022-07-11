@@ -22,7 +22,8 @@ import Seo from "../components/seo"
 const IndexPage = ({ data }) => {
 
   const sections = data?.allSanityHome.nodes[0].sections;
-  const seoData = data?.allSanitySeoManage.nodes[0].seoItems;
+  const seoData = data?.allSanityHome.nodes[0].seo;
+  const seoImageData = data?.allSanityHome.nodes[0].seoImage;
 
   const selectSection = (sectionData) => {
     switch (sectionData._type) {
@@ -70,7 +71,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <Seo data={seoData}></Seo>
+      <Seo seoData={seoData} seoImageData={seoImageData}></Seo>
       {/* <Contact></Contact> */}
       {
         sections.map((item, idx) => (
@@ -88,6 +89,17 @@ export const query = graphql`
 query Home {
   allSanityHome {
     nodes {
+      seo {
+        focus_keyword
+        focus_synonyms
+        meta_description
+        seo_title
+      }
+      seoImage {
+        asset {
+          gatsbyImageData
+        }
+      }
       sections {
         ... on SanityAbout {
           _key
@@ -314,15 +326,6 @@ query Home {
             }
           }
         }
-      }
-    }
-  }
-  allSanitySeoManage {
-    nodes {
-      seoItems {
-        seoContent
-        selectPropertyName
-        seoPropertyName
       }
     }
   }

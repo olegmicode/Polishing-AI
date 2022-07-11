@@ -11,7 +11,11 @@
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/components",
+    "@sanity/dashboard",
+    "@sanity/desk-tool",
+    "seo-pane",
+    "seo-tools"
   ],
   "env": {
     "development": {

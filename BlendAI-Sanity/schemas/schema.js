@@ -10,9 +10,9 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // documents
 import home from './documents/home'
-import privacyPolicy from './documents/privacyPolicy'
-import termsAndConditions from './documents/termsAndConditions'
-import seoManage from './documents/seoManage'
+// import privacyPolicy from './documents/privacyPolicy'
+// import termsAndConditions from './documents/termsAndConditions'
+// import seoManage from './documents/seoManage'
 
 // objects
 import intro from './objects/intro'
@@ -46,9 +46,9 @@ export default createSchema({
 
     // documents
     home,
-    privacyPolicy,
-    termsAndConditions,
-    seoManage,
+    // privacyPolicy,
+    // termsAndConditions,
+    // seoManage,
 
     // objects
     intro,
