@@ -4,10 +4,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./about.css"
 import { DotMin } from "../../utils/imgImport"
 
-// import CampaignOverview from "../../images/tild3765-3736-4332-b961-313562326137__campaign_overview-mi.png"
-// import CampaignOverviewSidebar from "../../images/tild3662-3164-4838-a630-663338646437__sidebar.png"
-// import CampaignOverviewTooltips from "../../images/tild3339-3163-4965-b639-386333346333__tooltips.png"
-
 const About = ({ data }) => {
   const text = data.text
   const CampaignOverview = getImage(data.overviewImage.asset)

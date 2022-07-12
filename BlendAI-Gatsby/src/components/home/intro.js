@@ -307,11 +307,7 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={StrollerTwitterImg}
-                style={{
-                  backgroundImage: "url(./images/tild6662-3237-4862-a361-613939383763__-__resize__20x__stroller_twitter.png)"
-                }}
-              >
+                >
                 <GatsbyImage image={productImage1} alt="product image" />
               </div>
             </div>
@@ -355,10 +351,7 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={StrollerFbImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3239-6263-4036-a532-316138336665__-__resize__20x__stroller_fb.png)'
-                }}
+                
               >
                 <GatsbyImage image={productImage1} alt="product image" />
                 
@@ -402,10 +395,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={StrollerGgImg}
-                style={{
-                  backgroundImage: 'url(./images/tild6361-3064-4331-b939-353232386637__-__resize__20x__stroller_google.png)'
-                }}
               >
                 <GatsbyImage image={productImage1} alt="product image" />
 
@@ -451,10 +440,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={StrollerInstaImg}
-                style={{
-                  backgroundImage: 'url(./images/tild6136-6333-4635-b463-663637626235__-__resize__20x__stroller_insta.png)'
-                }}
               >
                 <GatsbyImage image={productImage1} alt="product image" />
 
@@ -541,10 +526,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={SofaFbImg1}
-                style={{
-                  backgroundImage: 'url(./images/tild3734-6364-4262-a531-386634376263__-__resize__20x__sofa_fb-1.png)'
-                }}
               >
                 <GatsbyImage image={productImage2} alt="product image" />
 
@@ -587,10 +568,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={SofaFbImg1}
-                style={{
-                  backgroundImage: 'url(./images/tild6465-3431-4636-b164-356265333039__-__resize__20x__sofa_google.png)'
-                }}
               >
                 <GatsbyImage image={productImage2} alt="product image" />
 
@@ -635,10 +612,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={SofaFbImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3337-3863-4539-a264-343235653436__-__resize__20x__sofa_fb.png)'
-                }}
               >
                 <GatsbyImage image={productImage2} alt="product image" />
 
@@ -684,10 +657,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={SofaBingImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3162-6336-4239-a365-383363326564__-__resize__20x__sofar_bing.png)'
-                }}
               >
                 <GatsbyImage image={productImage2} alt="product image" />
 
@@ -732,10 +701,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={BagInstaImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3736-3133-4232-b764-373162396461__-__resize__20x__bag_insta.png);'
-                }}
               >
                 <GatsbyImage image={productImage3} alt="product image" />
 
@@ -780,10 +745,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={BagFbImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3039-3037-4165-b337-313639616535__-__resize__20x__bag_fb.png)'
-                }}
               >
                 <GatsbyImage image={productImage3} alt="product image" />
 
@@ -826,10 +787,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={BagGgImg}
-                style={{
-                  backgroundImage: 'url(./images/tild6235-3937-4637-a335-646163353065__-__resize__20x__bag_google.png)'
-                }}
               >
                 <GatsbyImage image={productImage3} alt="product image" />
 
@@ -875,10 +832,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={BagBingImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3535-3639-4838-a563-663830333136__-__resize__20x__bag_bing.png)'
-                }}
               >
                 <GatsbyImage image={productImage3} alt="product image" />
 
@@ -923,10 +876,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={ShoesFbImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3830-3839-4866-b834-623462313762__-__resize__20x__shoes_fb.png)'
-                }}
               >
                 <GatsbyImage image={productImage4} alt="product image" />
 
@@ -970,10 +919,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={mainImage}
-                style={{
-                  backgroundImage: 'url(./images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
-                }}
               >
                 <GatsbyImage image={mainImage} alt="main product" />
               </div>
@@ -1017,10 +962,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={ShoesInsta}
-                style={{
-                  backgroundImage: 'url(./images/tild3139-3538-4565-b464-306363376264__-__resize__20x__shoes_insta.png)'
-                }}
               >
                 <GatsbyImage image={productImage4} alt="product image" />
 
@@ -1066,10 +1007,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={ShoesBingImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3733-3465-4734-b733-303639353131__-__resize__20x__shoes_bing.png)'
-                }}
               >
                 <GatsbyImage image={productImage4} alt="product image" />
 
@@ -1112,10 +1049,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={ShoesGgImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3138-6235-4138-b032-663535366332__-__resize__20x__shoes_google.png)'
-                }}
               >
                 <GatsbyImage image={productImage4} alt="product image" />
 
@@ -1203,10 +1136,6 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                // data-original={ShoesMainImg}
-                style={{
-                  backgroundImage: 'url(./images/tild3936-3234-4033-b338-353262343230__-__resize__20x__shoes_main.png)'
-                }}
               >
                 <GatsbyImage image={mainImage} alt="main product" />
 
