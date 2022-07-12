@@ -106,12 +106,6 @@ const About = ({ data }) => {
               data-field-fileheight-value="840"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={CampaignOverview}
-                  src={CampaignOverview}
-                  imgfield="tn_img_1599489601275"
-                /> */}
                 <GatsbyImage image={CampaignOverview} alt="CampaignOverview image" />
               </div>
             </div>
@@ -149,12 +143,6 @@ const About = ({ data }) => {
               data-field-fileheight-value="896"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={CampaignOverviewSidebar}
-                  src={CampaignOverviewSidebar}
-                  imgfield="tn_img_1599489637723"
-                /> */}
                 <GatsbyImage image={CampaignOverviewSidebar} alt="CampaignOverviewSidebar image" />
               </div>
             </div>
@@ -224,12 +212,6 @@ const About = ({ data }) => {
               data-field-fileheight-value="320"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={CampaignOverviewTooltips}
-                  src={CampaignOverviewTooltips}
-                  imgfield="tn_img_1599497499130"
-                /> */}
                 <GatsbyImage image={CampaignOverviewTooltips} alt="CampaignOverviewTooltips image" />
               </div>
             </div>

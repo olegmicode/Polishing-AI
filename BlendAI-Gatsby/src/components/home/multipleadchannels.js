@@ -162,12 +162,6 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="620"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={AdminImg}
-                  src={AdminImg}
-                  imgfield="tn_img_1598885259842"
-                /> */}
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(overImage)} alt="product image" />
 
               </div>
@@ -204,12 +198,6 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={FbAdImg}
-                  src={FbAdImg}
-                  imgfield="tn_img_1598885640298"
-                /> */}
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[0].asset)} alt="product image" />
 
               </div>
@@ -288,12 +276,6 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={GgadImg}
-                  src={GgadImg}
-                  imgfield="tn_img_1599232345532"
-                /> */}
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[2].asset)} alt="product image" />
 
               </div>
@@ -372,12 +354,6 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={TwadImg}
-                  src={TwadImg}
-                  imgfield="tn_img_1599232481074"
-                /> */}
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[4].asset)} alt="product image" />
 
               </div>

@@ -266,14 +266,7 @@ const CreateAds = ({ data }) => {
                             data-field-fileheight-value="1019"
                         >
                             <div className="tn-atom">
-                                {/* <img
-                                    className="tn-atom__img t-img"
-                                    data-original={Rectangle}
-                                    src={Rectangle}
-                                    imgfield="tn_img_1598883041521"
-                                /> */}
                                 <GatsbyImage className="tn-atom__img t-img" image={getImage(data.productImage.asset)} alt="product image" />
-
                             </div>
                         </div>
                         <div

@@ -4,7 +4,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./mngaudiences.css"
 
 import { Character1min } from "../../utils/imgImport"
-// import { UserCard } from "../../utils/imgImport"
 import { SignupEnable } from "../../utils/imgImport"
 import { SignupHover } from "../../utils/imgImport"
 import { Vector4 } from "../../utils/imgImport"
@@ -213,12 +212,6 @@ const MngAudiences = ({ data }) => (
             data-field-fileheight-value="373"
           >
             <div className="tn-atom">
-              {/* <img
-                className="tn-atom__img t-img"
-                data-original={UserCard}
-                src={UserCard}
-                imgfield="tn_img_1598881901954"
-              /> */}
               <GatsbyImage className="tn-atom__img t-img" image={getImage(data.cardImage.asset)} alt="product image" />
 
             </div>
@@ -780,11 +773,6 @@ const MngAudiences = ({ data }) => (
           </div>
         </div>
       </div>
-      <script>
-        $(document).ready(function () {
-          // t396_init("225458528");
-        });
-      </script>
     </div>
   </div>
 )

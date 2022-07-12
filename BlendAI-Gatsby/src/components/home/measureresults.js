@@ -4,7 +4,6 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./measureresults.css"
 
 import { CharacterW } from "../../utils/imgImport"
-import ChartsMin from "../../images/tild6239-6364-4137-b464-323063383465__charts-min.png"
 import { SignupEnable } from "../../utils/imgImport"
 import { SignupHover } from "../../utils/imgImport"
 
@@ -182,12 +181,7 @@ const MeasureResults = ({ data }) => (
                         data-field-fileheight-value="984"
                     >
                         <div className="tn-atom">
-                            {/* <img
-                                className="tn-atom__img t-img"
-                                data-original={ChartsMin}
-                                src={ChartsMin}
-                                imgfield="tn_img_1598889801732"
-                            /> */}
+                          
                             <GatsbyImage className="tn-atom__img t-img" image={getImage(data.chartImage.asset)} alt="product image" />
 
                         </div>
