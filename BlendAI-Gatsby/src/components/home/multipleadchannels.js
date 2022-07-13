@@ -3,24 +3,17 @@ import BlockContent from "@sanity/block-content-to-react";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./multipleadchannels.css"
 
-import { Vector3Blue } from "../../utils/imgImport"
-import { Vector3 } from "../../utils/imgImport"
-import { Line7 } from "../../utils/imgImport"
-import { Line6 } from "../../utils/imgImport"
-import { Line8 } from "../../utils/imgImport"
-
-import InstagramAdImg from "../../images/tild3734-6433-4265-a361-376664326338__instagram_ad-min.png"
-import FbAdImg from "../../images/tild6237-3061-4130-b133-393437316231__facebook_ad.png"
-import GgadImg from "../../images/tild3836-3564-4639-a531-313737616639__google_ad-min.png"
-import LkadImg from "../../images/tild3038-3838-4264-b666-346135313131__linked_in_ad-min.png"
-import TwadImg from "../../images/tild3764-3661-4134-b633-306433643662__twitter_ad-min.png"
-import AdminImg from "../../images/tild6433-3265-4434-b738-346534643133__blend_ad-min.png"
-
 const Multipleadchannels = ({ data }) => {
   const text = data.text
   const blockText = data.blockText
   const overImage = data.overImage.asset
   const adCardImages = data.adCardImages
+
+  const vector3Blue = getImage(data.vector3BlueImage.asset)
+  const Vector3 = getImage(data.vector3Image.asset)
+  const Line6 = getImage(data.line6Image.asset)
+  const Line7 = getImage(data.line7Image.asset)
+  const Line8 = getImage(data.line8Image.asset)
 
   return (
     <div id="multipleadchannels" className="multipleadchannels-container">
@@ -234,12 +227,7 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="676"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={InstagramAdImg}
-                  src={InstagramAdImg}
-                  imgfield="tn_img_1598885752849"
-                /> */}
+               
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[1].asset)} alt="product image" />
 
               </div>
@@ -312,12 +300,7 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={LkadImg}
-                  src={LkadImg}
-                  imgfield="tn_img_1599232472471"
-                /> */}
+               
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[3].asset)} alt="product image" />
 
               </div>
@@ -392,12 +375,9 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="393"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={Line6}
-                  src={Line6}
-                  imgfield="tn_img_1599489865571"
-                />
+                
+                <GatsbyImage className="tn-atom__img t-img" image={Line6} alt="Vector4 image" />
+
               </div>
             </div>
             <div
@@ -434,12 +414,9 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="199"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={Line7}
-                  src={Line7}
-                  imgfield="tn_img_1599490178897"
-                />
+                
+                <GatsbyImage className="tn-atom__img t-img" image={Line7} alt="Vector4 image" />
+
               </div>
             </div>
             <div
@@ -476,12 +453,9 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="765"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={Line8}
-                  src={Line8}
-                  imgfield="tn_img_1599490340587"
-                />
+                
+                <GatsbyImage image={Line8} alt="Vector4 image" />
+
               </div>
             </div>
             <div
@@ -518,12 +492,9 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="120"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={Vector3Blue}
-                  src={Vector3Blue}
-                  imgfield="tn_img_1599490405097"
-                />
+               
+                <GatsbyImage className="tn-atom__img t-img" image={vector3Blue} alt="Vector4 image" />
+
               </div>
             </div>
             <div
@@ -556,12 +527,9 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="1030"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={Vector3}
-                  src={Vector3}
-                  imgfield="tn_img_1599659282627"
-                />
+                
+                <GatsbyImage className="tn-atom__img t-img" image={Vector3} alt="Vector4 image" />
+
               </div>
             </div>
           </div>

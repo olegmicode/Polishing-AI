@@ -1,10 +1,10 @@
 import React, { useState } from "react"
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./header.css"
 
-import { Logo } from "../utils/imgImport"
+const Header = ({ headerLogo }) => {
 
-
-const Header = () => {
+  const headerLogoImg = getImage(headerLogo)
   const [hambugerActive, setHambugerActiveState] = useState(false)
 
   const hamburgerHandler = () => {
@@ -84,13 +84,9 @@ const Header = () => {
             <div className="t228__leftside">
               <div className="t228__leftcontainer">
                 <a href="https://blend-ai.com" >
-                  <img
-                    src={Logo}
-                    className="t228__imglogo"
-                    imgfield="img"
-                    style={{ maxHeight: "80px" }}
-                    alt="BlendAi"
-                  /></a>
+
+                  <GatsbyImage image={headerLogoImg} alt="Header Logo image" />
+                </a>
               </div>
             </div>
             <div className="t228__centerside">
@@ -296,11 +292,7 @@ const Header = () => {
               data-field-fileheight-value="32"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={Logo}
-                  imgfield="tn_img_1599720199226"
-                />
+                <GatsbyImage image={headerLogoImg} alt="Header Logo image" />
               </div>
             </div>
             <div

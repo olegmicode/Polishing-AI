@@ -2,25 +2,7 @@ import React, { useEffect } from "react"
 import Helmet from "react-helmet"
 import { withPrefix } from "gatsby"
 
-import Footer from "./footer"
-import Header from "./header"
-
 const Layout = ({ children }) => {
-
-  useEffect(() => {
-    // await loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js', { inBody: true });
-    // window.onload = () => {
-    //   addScript("https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
-
-    // }
-  }, [])
-
-  // const addScript = url => {
-  //   const script = document.createElement("script")
-  //   script.src = url
-  //   script.async = true
-  //   document.body.appendChild(script)
-  // }
 
   return (
     <div>
@@ -55,9 +37,7 @@ const Layout = ({ children }) => {
         data-tilda-lazy="yes"
         data-tilda-project-headcode="yes"
       >
-        <Header />
         {children}
-        <Footer />
 
       </div>
     </div>

@@ -30,6 +30,33 @@ export default {
 
         },
         {
+            name: 'characterWimage',
+            type: 'image',
+            title: 'Character Woman Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
+            name: 'signupEnableImage',
+            type: 'image',
+            title: 'Signup Enable Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
+            name: 'signupHoverImage',
+            type: 'image',
+            title: 'Signup Hover Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
             name: "bottomText",
             title: "Bottom Text",
             type: "string",

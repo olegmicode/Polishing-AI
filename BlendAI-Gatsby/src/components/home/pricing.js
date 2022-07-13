@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react"
 import BlockContent from "@sanity/block-content-to-react";
 
-// import RangeSlider from "../common/rangeslider";
 import "./pricing.css"
-import $ from 'jquery'
 
 const Pricing = ({ data }) => {
   const [value, onChange] = useState(100);
@@ -21,11 +19,7 @@ const Pricing = ({ data }) => {
 
     if (eleThumbText && eleInfoWindow) {
       eleThumbText.style.left = `calc(${value / 10}% - 60px)`;
-
-      //Set range left position
-      // eleThumbText.style.transform = `translate(-${value / 10}%, 0px)`; //Set range translate to correct
       eleThumbText.innerHTML = `$${formatNumber(value * 10)}`;
-      // .style.left = `calc(${Number(value / 1000 * 100)}% - 35px)`;
       eleInfoWindow.style.left = `calc(${Number(value / 1000 * 100)}% - 170px)`;
     }
   })
@@ -220,10 +214,6 @@ const Pricing = ({ data }) => {
                 ></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 
-                {/* <div id="slider">
-                  <div id="custom-handle" class="ui-slider-handle"></div>
-                </div> */}
-                {/* custom range slider */}
                 <div className="slider-parent">
                   <input
                     type="range"
@@ -246,17 +236,6 @@ const Pricing = ({ data }) => {
                     <div className="fee-dur">/month</div>
                   </div>
                 </div>
-                {/* <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                  <div id="custom-handle" class="ui-slider-handle ui-corner-all ui-state-default" tabindex="0" >$5,100</div>
-                  <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style={{ width: "45.5556%" }}></div></div>
-                <div class="info-window">
-                  <div class="info-arrow"></div>
-                  <div class="info-title">Fee</div>
-                  <div class="info-desc">Based on your Ad spend</div>
-                  <div class="fee-amount">$100</div>
-                  <div class="fee-dur">/month</div>
-                </div> */}
-
               </div>
             </div>
           </div>

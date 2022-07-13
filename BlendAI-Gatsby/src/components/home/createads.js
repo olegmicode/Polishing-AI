@@ -3,17 +3,14 @@ import BlockContent from "@sanity/block-content-to-react";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./createads.css"
 
-import Adsmin from "../../images/tild6461-3731-4131-a438-346363383636__ad-min.png"
-import Rectangle from "../../images/tild6333-3334-4736-a132-653934613065__rectangle_165.png"
-import { Hand } from "../../utils/imgImport"
-import { Vector3 } from "../../utils/imgImport"
 
 const CreateAds = ({ data }) => {
 
     const text = data.text
     const blockText = data.blockText
     const bottomText = data.bottomText
-
+    const Hand = getImage(data.handImage.asset)
+    const Vector3 = getImage(data.vector3Image.asset)
 
     return (
         <div id="createads" className="createads-container">
@@ -69,12 +66,6 @@ const CreateAds = ({ data }) => {
                             data-field-fileheight-value="504"
                         >
                             <div className="tn-atom">
-                                {/* <img
-                                    className="tn-atom__img t-img"
-                                    data-original={Adsmin}
-                                    src={Adsmin}
-                                    imgfield="tn_img_1598880049829"
-                                /> */}
                                 <GatsbyImage className="tn-atom__img t-img" image={getImage(data.bgImage.asset)} alt="product image" />
                             </div>
                         </div>
@@ -111,12 +102,9 @@ const CreateAds = ({ data }) => {
                             data-field-fileheight-value="1107"
                         >
                             <div className="tn-atom">
-                                <img
-                                    className="tn-atom__img t-img"
-                                    data-original={Hand}
-                                    src={Hand}
-                                    imgfield="tn_img_1598880838326"
-                                />
+
+                                <GatsbyImage image={Hand} alt="Hand image" />
+
                             </div>
                         </div>
                         <div
@@ -299,13 +287,9 @@ const CreateAds = ({ data }) => {
                             data-field-fileheight-value="1030"
                         >
                             <div className="tn-atom">
-                                <img
-                                    className="tn-atom__img t-img"
-                                    data-original={Vector3}
-                                    src={Vector3}
-                                    imgfield="tn_img_1599231862763"
 
-                                />
+                                <GatsbyImage image={Vector3} alt="DotMin image" />
+
                             </div>
                         </div>
                         <div

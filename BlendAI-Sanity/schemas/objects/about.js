@@ -42,5 +42,14 @@ export default {
             },
 
         },
+        {
+            name: 'dotImage',
+            type: 'image',
+            title: 'Dot Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
     ]
 }

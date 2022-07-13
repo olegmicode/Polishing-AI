@@ -1,14 +1,6 @@
 import React from "react"
 import BlockContent from "@sanity/block-content-to-react";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-
-// import Shoes from "../../images/tild6633-6336-4830-a666-346164333235__group_707.png"
-// import Tshirt from "../../images/tild6436-3235-4436-b933-656534623663__group_709.png"
-// import Ruler from "../../images/tild6436-3134-4332-a463-353334626631__group_708.png"
-import { GroupArrow } from "../../utils/imgImport"
-// import BingFrame from "../../images/tild3764-6131-4363-b335-616435333837__frame_777.png"
-// import FbFrame from "../../images/tild3062-6534-4866-b962-663237333765__frame_778.png"
-// import GgFrame from "../../images/tild6232-6539-4139-b462-323761643364__frame_779.png"
 import "./productFeed.css"
 
 const ProductFeed = ({ data }) => {
@@ -16,7 +8,7 @@ const ProductFeed = ({ data }) => {
   const blockText = data.blockText
   const productImages = data.productImages
   const adImages = data.adImages
-
+  const GroupArrow = getImage(data.groupArrowImage.asset)
 
   return (
     <div id="productfeed" className="productfeed-container">
@@ -141,12 +133,7 @@ const ProductFeed = ({ data }) => {
               data-field-fileheight-value="328"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={Shoes}
-                  src={Shoes}
-                  imgfield="tn_img_1616584424277"
-                /> */}
+                
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(productImages[0].asset)} alt="product image" />
 
               </div>
@@ -182,12 +169,7 @@ const ProductFeed = ({ data }) => {
               data-field-fileheight-value="328"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={Ruler}
-                  src={Ruler}
-                  imgfield="tn_img_1616584459787"
-                /> */}
+                
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(productImages[1].asset)} alt="product image" />
 
               </div>
@@ -223,12 +205,7 @@ const ProductFeed = ({ data }) => {
               data-field-fileheight-value="328"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={Tshirt}
-                  src={Tshirt}
-                  imgfield="tn_img_1616584463076"
-                /> */}
+                
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(productImages[2].asset)} alt="product image" />
 
               </div>
@@ -265,12 +242,7 @@ const ProductFeed = ({ data }) => {
               data-field-fileheight-value="658"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={BingFrame}
-                  src={BingFrame}
-                  imgfield="tn_img_1616584796737"
-                /> */}
+                
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adImages[0].asset)} alt="product image" />
 
               </div>
@@ -307,12 +279,7 @@ const ProductFeed = ({ data }) => {
               data-field-fileheight-value="658"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={FbFrame}
-                  src={FbFrame}
-                  imgfield="tn_img_1616584822421"
-                /> */}
+               
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adImages[1].asset)} alt="product image" />
               </div>
             </div>
@@ -348,12 +315,7 @@ const ProductFeed = ({ data }) => {
               data-field-fileheight-value="658"
             >
               <div className="tn-atom">
-                {/* <img
-                  className="tn-atom__img t-img"
-                  data-original={GgFrame}
-                  src={GgFrame}
-                  imgfield="tn_img_1616584855982"
-                /> */}
+              
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(adImages[2].asset)} alt="product image" />
               </div>
             </div>
@@ -389,13 +351,9 @@ const ProductFeed = ({ data }) => {
               data-field-fileheight-value="161"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={GroupArrow}
-                  src={GroupArrow}
-                  imgfield="tn_img_1616584925547"
-                />
-                
+
+                <GatsbyImage className="tn-atom__img t-img" image={GroupArrow} alt="GroupArrow image" />
+
               </div>
             </div>
           </div>

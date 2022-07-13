@@ -4,13 +4,13 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import "./intro.css"
 
-import FBMin from "../../images/tild3664-3733-4336-b162-373133666336__fb-min.png"
-import InstaMin from "../../images/tild3232-3063-4231-b733-303431393035__insta-min.png"
-import TwitterMin from "../../images/tild3037-3330-4130-a339-623031343433__twitter-min.png"
-import GoogleMin from "../../images/tild6163-6365-4532-a334-366366313232__google-min.png"
-
 
 const Intro = ({ data }) => {
+
+  const FBMin = getImage(data.frametImages[0].asset)
+  const InstaMin = getImage(data.frametImages[1].asset)
+  const TwitterMin = getImage(data.frametImages[2].asset)
+  const GoogleMin = getImage(data.frametImages[3].asset)
 
   const mainImage = getImage(data.mainProductImage.asset)
   const productImage1 = getImage(data.ProductImages[0].asset)
@@ -150,12 +150,8 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="468"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={FBMin}
-                  src={FBMin}
-                  imgfield="tn_img_1599580706341"
-                />
+                
+                <GatsbyImage className="tn-atom__img t-img" image={FBMin} alt="foolter logo image"/>
               </div>
             </div>
             <div
@@ -194,12 +190,8 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="626"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={InstaMin}
-                  src={InstaMin}
-                  imgfield="tn_img_1599580706363"
-                />
+                
+                <GatsbyImage className="tn-atom__img t-img" image={InstaMin} alt="Instagram Frame image" />
               </div>
             </div>
             <div
@@ -238,12 +230,8 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="514"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={TwitterMin}
-                  src={TwitterMin}
-                  imgfield="tn_img_1599580706371"
-                />
+                
+                 <GatsbyImage className="tn-atom__img t-img" image={TwitterMin} alt="TwitterMin Frame image" />
               </div>
             </div>
             {/* Background images Ads End  */}
@@ -1070,12 +1058,8 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="250"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={GoogleMin}
-                  src={GoogleMin}
-                  imgfield="tn_img_1648638183416"
-                />
+                
+                <GatsbyImage className="tn-atom__img t-img" image={GoogleMin} alt="GoogleMin Frame image" /> 
               </div>
             </div>
             <div

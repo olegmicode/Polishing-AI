@@ -25,5 +25,14 @@ export default {
             title: "Bottom Text",
             type: "string",
         },
+        {
+            name: 'shoppingMin2Image',
+            type: 'image',
+            title: 'ShoppingMin2 Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
     ]
 }

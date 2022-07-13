@@ -19,6 +19,15 @@ export default {
             type: "blockContent",
         },
         {
+            name: 'groupArrowImage',
+            type: 'image',
+            title: 'Group Arrow Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
             name: 'productImages',
             type: 'array',
             title: 'Product Images',

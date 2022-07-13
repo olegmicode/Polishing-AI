@@ -1,3 +1,4 @@
+
 #rec229990459 .t-slds__bullet_active .t-slds__bullet_body {
     background-color: #ffffff !important;
 }
@@ -99,4 +100,8 @@
     font-size: 14px !important;
     color: rgb(34, 34, 34) !important;
 
+}
+
+.review-link-block {
+    color: rgb(34, 46, 99) !important;
 }

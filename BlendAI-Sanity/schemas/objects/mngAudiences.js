@@ -33,6 +33,42 @@ export default {
                 hotspot: true,
             },
         },
+        {
+            name: 'character1minImage',
+            type: 'image',
+            title: 'Character Man Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
+            name: 'signupEnableImage',
+            type: 'image',
+            title: 'Signup Enable Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
+            name: 'signupHoverImage',
+            type: 'image',
+            title: 'Signup Hover Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
+            name: 'vector4Image',
+            type: 'image',
+            title: 'Vector4 Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
         
     ]
 }

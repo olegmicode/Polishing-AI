@@ -33,7 +33,7 @@ export default {
             of: [
                 {
                     type: 'mainImage',
-                    
+
                 },
             ],
 
@@ -41,7 +41,20 @@ export default {
                 layout: 'grid',
             },
         },
+        {
+            name: 'frametImages',
+            type: 'array',
+            title: 'Frame Images',
+            of: [
+                {
+                    type: 'mainImage',
 
+                },
+            ],
 
+            options: {
+                layout: 'grid',
+            },
+        },
     ]
 }

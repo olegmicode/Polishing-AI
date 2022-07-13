@@ -1,31 +1,11 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-
-// import ShopifyImg from "../../images/tild3763-6263-4138-b437-396561643236__shopify.png"
-// import MarapostImg from "../../images/tild3162-6339-4337-a363-636165623431__marapost.png"
-// import WoocommerceImg from "../../images/tild3561-3866-4163-b466-303031373737__woocommerce.png"
 import "./services.css"
 
 const Services = ({ data }) => {
   const text = data.text
   const bannerSubText = data.bannerSubText
   const platformImages = data.platformImages
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     const script = document.createElement("script")
-  //     script.src =
-  //       "tilda-blocks-2.7.js"
-  //     let jqueryScript = document.getElementsByTagName("script")
-  //     let src = Array.from(jqueryScript).filter(item => item.src === script.src)
-  //     if (src.length === 0) {
-  //       document.body.appendChild(script)
-  //     }
-  //     script.addEventListener("load", () => {
-  //       // t396_init("225394903");
-  //     })
-  //   }, 500);
-  // }, [])
 
   return (
     <div id="services" className="services-container">

@@ -10,8 +10,16 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // documents
 import home from './documents/home'
-// import privacyPolicy from './documents/privacyPolicy'
-// import termsAndConditions from './documents/termsAndConditions'
+import homePageContent from './documents/homePageContent'
+import homePageOptions from './documents/homePageOptions'
+
+import privacyPolicy from './documents/privacyPolicy'
+import privacyPageContent from './documents/privacyPageContent'
+import privacyPageOptions from './documents/privacyPageOptions'
+
+import termsAndConditions from './documents/termsAndConditions'
+import termsPageContent from './documents/termsPageContent'
+import termsPageOptions from './documents/termsPageOptions'
 // import seoManage from './documents/seoManage'
 
 // objects
@@ -32,6 +40,8 @@ import textWithTitle from './objects/textWithTitle'
 import mainImage from './objects/mainImage'
 import recentView from './objects/recentView'
 import seoItem from './objects/seoItem'
+import header from './objects/header'
+import footer from './objects/footer'
 
 
 
@@ -45,9 +55,15 @@ export default createSchema({
   types: schemaTypes.concat([
 
     // documents
-    home,
+    // home,
     // privacyPolicy,
     // termsAndConditions,
+    homePageContent,
+    privacyPageContent,
+    termsPageContent,
+    homePageOptions,
+    privacyPageOptions,
+    termsPageOptions,
     // seoManage,
 
     // objects
@@ -67,6 +83,8 @@ export default createSchema({
     textWithTitle,
     mainImage,
     recentView,
-    seoItem
+    seoItem,
+    header,
+    footer
   ]),
 })

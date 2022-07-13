@@ -1,7 +1,9 @@
 import React from "react"
+import { graphql } from "gatsby"
+
 import { LogoBlack } from "../utils/imgImport"
 
-const Privacy = () => {
+const Privacy = ({ data }) => {
 
     return (
         <div className="privacy">
@@ -258,3 +260,35 @@ const Privacy = () => {
     )
 }
 export default Privacy
+
+export const query = graphql`
+query Privacy {
+    allSanityPrivacyPageContent {
+      nodes {
+        subText {
+          _type
+          children {
+            text
+            _type
+          }
+        }
+      }
+    }
+    allSanityPrivacyPageOptions {
+      nodes {
+        seo {
+          focus_keyword
+          focus_synonyms
+          meta_description
+          seo_title
+        }
+        seoImage {
+          asset {
+            gatsbyImageData
+          }
+        }
+      }
+    }
+  }
+  
+`

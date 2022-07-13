@@ -1,16 +1,14 @@
 import React from "react"
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import Modal from "./common/Modal"
-import Contact from "./home/Contact"
 
-import { LogoBlack } from "../utils/imgImport"
 import "./footer.css"
 
-const Footer = () => {
-  const [
-    showModal,
-    setShowModal
-  ] = React.useState(false);
+const Footer = ({ footerLogo }) => {
+  const [showModal, setShowModal] = React.useState(false);
+
+  const footerLogoImg = getImage(footerLogo)
 
   return (
     <footer className="footer">
@@ -58,12 +56,8 @@ const Footer = () => {
               data-field-fileheight-value="64"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={LogoBlack}
-                  src={LogoBlack}
-                  imgfield="tn_img_1599148361969"
-                />
+
+                <GatsbyImage image={footerLogoImg} alt="foolter logo image" />
               </div>
             </div>
             <div
@@ -145,17 +139,19 @@ const Footer = () => {
                     By clicking the button you agree to our
                     <a
                       href="/privacy"
-                      style={{ color: "#00cab7 !important" }}
-                      target="_blank"
-                    > Privacy Policy </a
-                    >
+                      className="footer-link"
+                      // style={{ color: "#00cab7 !important" }}
+                      target="_blank">
+                      {` Privacy Policy `}
+                    </a>
                     and
                     <a
                       href="/terms"
-                      style={{ color: "#00cab7 !important" }}
-                      target="_blank"
-                    > Terms and Conditions</a
-                    >.
+                      className="footer-link"
+                      // style={{ color: "#00cab7 !important" }}
+                      target="_blank">
+                      {` Terms and Conditions`}
+                    </a>.
                   </div>
                 </div>
               </Modal>
@@ -190,17 +186,16 @@ const Footer = () => {
                 ©2021 All Rights Reserved.
                 <a
                   href="/privacy"
-                  style={{ color: "#00cab7 !important" }}
-                  target="_blank"
-                > Privacy Policy </a
-                >
+                  className="footer-link"
+                  target="_blank">
+                  {` Privacy Policy `}
+                </a>
                 and
                 <a
                   href="/terms"
-                  style={{ color: "#00cab7 !important" }}
-                  target="_blank"
-                > Terms and Conditions</a
-                >.
+                  className="footer-link"
+                  target="_blank"> {` Terms and Conditions`}
+                </a>.
               </div>
             </div>
           </div>

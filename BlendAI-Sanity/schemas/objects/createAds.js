@@ -35,6 +35,24 @@ export default {
 
         },
         {
+            name: 'handImage',
+            type: 'image',
+            title: 'Hand Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
+            name: 'vector3Image',
+            type: 'image',
+            title: 'Vector3 Image',
+            options: {
+                hotspot: true,
+            },
+
+        },
+        {
             name: 'productImage',
             type: 'image',
             title: 'product Image',

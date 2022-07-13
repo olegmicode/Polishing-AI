@@ -1,7 +1,9 @@
 import React from "react"
+import { graphql } from "gatsby"
+
 import { LogoBlack } from "../utils/imgImport"
 
-const Terms = () => {
+const Terms = ({data}) => {
 
     return (
         <div className="terms">
@@ -172,3 +174,30 @@ const Terms = () => {
     )
 }
 export default Terms
+
+export const query = graphql`
+query Terms {
+    allSanityTermsPageContent {
+      nodes {
+        subText {
+          _type
+        }
+      }
+    }
+    allSanityTermsPageOptions {
+      nodes {
+        seoImage {
+          asset {
+            gatsbyImageData
+          }
+        }
+        seo {
+          focus_keyword
+          focus_synonyms
+          meta_description
+          seo_title
+        }
+      }
+    }
+  }
+`

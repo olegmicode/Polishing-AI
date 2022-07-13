@@ -9,17 +9,9 @@ export default {
       type: "string",
     },
     {
-      name: "subText",
-      title: "Sub Text",
-      type: "blockContent",
-    },
-    {
-      name: 'sections',
-      type: 'array',
-      title: 'Sections',
-      of: [
-        { type: 'textWithTitle' },
-      ]
+      name: "bodyContent",
+      title: "Content",
+      type: "privacyPageContent",
     }
   ]
 };

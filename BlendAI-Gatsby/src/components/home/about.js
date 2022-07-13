@@ -1,10 +1,10 @@
-import React, { useEffect } from "react"
+import React  from "react"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import "./about.css"
-import { DotMin } from "../../utils/imgImport"
 
 const About = ({ data }) => {
+  const DotMin = getImage(data.dotImage.asset)
   const text = data.text
   const CampaignOverview = getImage(data.overviewImage.asset)
   const CampaignOverviewSidebar = getImage(data.deviceImage.asset)
@@ -175,12 +175,9 @@ const About = ({ data }) => {
               data-field-fileheight-value="72"
             >
               <div className="tn-atom">
-                <img
-                  className="tn-atom__img t-img"
-                  data-original={DotMin}
-                  src={DotMin}
-                  imgfield="tn_img_1599497419170"
-                />
+                
+                <GatsbyImage image={DotMin} alt="DotMin image" />
+
               </div>
             </div>
             <div

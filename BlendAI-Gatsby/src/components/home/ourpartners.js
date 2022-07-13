@@ -3,12 +3,10 @@ import BlockContent from "@sanity/block-content-to-react";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import "./ourpartners.css"
-import { GooglePartner } from "../../utils/imgImport"
-import { FbPartner } from "../../utils/imgImport"
-import { OfficialPartner } from "../../utils/imgImport"
-import { MarketingPartner } from "../../utils/imgImport"
 
-const OurPartners = ({ data }) => (
+const OurPartners = ({ data }) => {
+
+    return (
     <div id="ourpartners" className="ourpartners-container">
         <div
             id="rec232184578"
@@ -233,5 +231,5 @@ const OurPartners = ({ data }) => (
         </div>
     </div>
 )
-
+}
 export default OurPartners
