@@ -9,6 +9,11 @@ export default {
       type: "string",
     },
     {
+      name: 'logoBlackImage',
+      type: 'image',
+      title: 'Logo Black Image',
+    },
+    {
       name: "bodyContent",
       title: "Content",
       type: "termsPageContent",
