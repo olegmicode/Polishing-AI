@@ -2,10 +2,12 @@ import React, { useState } from "react"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./header.css"
 
-const Header = ({ headerLogo }) => {
+// import { Logo } from "../images/tild6439-3531-4862-a162-323766313961__logo.svg"
 
-  const headerLogoImg = getImage(headerLogo)
+
+const Header = ({ headerLogo }) => {
   const [hambugerActive, setHambugerActiveState] = useState(false)
+  const Logo = getImage(headerLogo)
 
   const hamburgerHandler = () => {
     setHambugerActiveState(!hambugerActive)
@@ -84,7 +86,14 @@ const Header = ({ headerLogo }) => {
             <div className="t228__leftside">
               <div className="t228__leftcontainer">
                 <a href="https://blend-ai.com" >
-                  <GatsbyImage className="t228__imglogo" image={headerLogoImg} alt="Header Logo image" />
+                  {/* <img
+                    // src={Logo}
+                    className="t228__imglogo"
+                    imgfield="img"
+                    style={{ maxHeight: "80px" }}
+                    alt="BlendAi"
+                  /> */}
+                  <GatsbyImage className="t228__imglogo" imgfield="img" image={Logo} alt="header logo image" style={{ width: "140px", height:"32px" }} />
                 </a>
               </div>
             </div>
@@ -207,46 +216,6 @@ const Header = ({ headerLogo }) => {
             <div className="t228__padding40px"></div>
           </div>
         </div>
-
-        {/* <script>
-          $(window).on("load", function () {
-            if (typeof t228_setWidth !== "undefined") {
-              t228_setWidth("290925405");
-            }
-          });
-          $(window).on("resize", function () {
-            if (typeof t228_setWidth !== "undefined") {
-              t228_setWidth("290925405");
-            }
-            t228_setBg("290925405");
-          });
-          $(document).ready(function () {
-            setTimeout(function () {
-              t228_highlight();
-            }, 500);
-            t228_checkAnchorLinks("290925405");
-            if (typeof t228__init === "function") {
-              t228__init("290925405");
-            }
-            t228_setBg("290925405");
-            if (typeof t228_setWidth !== "undefined") {
-              t228_setWidth("290925405");
-            }
-            t228_createMobileMenu("290925405");
-          });
-        </script> */}
-
-
-        {/* <script type="text/javascript">
-          $(document).ready(function () {
-            setTimeout(function () {
-              t_onFuncLoad("t_menusub_init", function () {
-                t_menusub_init("290925405");
-              });
-            }, 500);
-          });
-        </script> */}
-
       </div>
 
       <div
@@ -291,7 +260,14 @@ const Header = ({ headerLogo }) => {
               data-field-fileheight-value="32"
             >
               <div className="tn-atom">
-                <GatsbyImage image={headerLogoImg} alt="Header Logo image" />
+                <img
+                  className="tn-atom__img t-img"
+                  data-original={Logo}
+                  // src={Logo}
+                  imgfield="tn_img_1599720199226"
+                />
+                <GatsbyImage className="tn-atom__img t-img" imgfield="img" image={Logo} alt="header logo image" />
+
               </div>
             </div>
             <div
@@ -368,11 +344,6 @@ const Header = ({ headerLogo }) => {
             </div>
           </div>
         </div>
-        <script>
-          $(document).ready(function () {
-            // t396_init("290926020");
-          });
-        </script>
       </div>
     </header >
   )
