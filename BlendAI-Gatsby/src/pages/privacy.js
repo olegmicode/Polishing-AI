@@ -67,6 +67,8 @@ query Privacy {
               text
               _type
             }
+            style
+            list
           }
           logoBlackImage {
             asset {

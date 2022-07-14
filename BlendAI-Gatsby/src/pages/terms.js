@@ -62,6 +62,7 @@ query Terms {
               text
               _type
             }
+            style
           }
           logoBlackImage {
             asset {

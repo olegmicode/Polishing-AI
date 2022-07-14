@@ -84,8 +84,7 @@ const Header = ({ headerLogo }) => {
             <div className="t228__leftside">
               <div className="t228__leftcontainer">
                 <a href="https://blend-ai.com" >
-
-                  <GatsbyImage image={headerLogoImg} alt="Header Logo image" />
+                  <GatsbyImage className="t228__imglogo" image={headerLogoImg} alt="Header Logo image" />
                 </a>
               </div>
             </div>

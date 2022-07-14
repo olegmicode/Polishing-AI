@@ -2,7 +2,14 @@
     a {
         color: #00cab7 !important;
     }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.55;
+    }
 }
+
 @media screen and (max-width: 980px) {
     #rec270035961 .t228__leftcontainer {
         padding: 20px;
@@ -70,9 +77,11 @@
         color: #222e63 !important;
     }
 }
+
 .link {
     color: #00cab7 !important;
 }
-.list{
+
+.list {
     list-style: unset;
 }
