@@ -45,11 +45,11 @@ const Pricing = ({ data }) => {
     const eleThumbText = document.querySelector('.thumb-text');
     const eleInfoWindow = document.querySelector('.info-window');
     
-    if (eleThumbText && eleInfoWindow && size.width >= 480) {
+    if (eleThumbText && eleInfoWindow && size.width >= 960) {
       eleThumbText.style.left = `calc(${value / 10}% - 60px)`;
       eleThumbText.innerHTML = `$${formatNumber(value * 10)}`;
       eleInfoWindow.style.left = `calc(${Number(value / 1000 * 100)}% - 170px)`;
-    } else if (size.width < 480) {
+    } else if (size.width < 960) {
       eleThumbText.style.left = `calc(${value / 10}% - 60px)`;
       eleThumbText.innerHTML = `$${formatNumber(value * 10)}`;
       eleInfoWindow.style.left = `calc(50% - 160px)`;
