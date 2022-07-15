@@ -56,6 +56,9 @@
   #rec243411125 .t396__carrier {
     height: 650px;
   }
+  .info-window .responsive{
+    /* left: calc(10% - 38px) !important; */
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -69,6 +72,9 @@
 
   #rec243411125 .t396__carrier {
     height: 680px;
+  }
+  .info-window .responsive{
+    /* left: calc(10% - 38px) !important; */
   }
 }
 

@@ -260,12 +260,12 @@ const Header = ({ headerLogo }) => {
               data-field-fileheight-value="32"
             >
               <div className="tn-atom">
-                <img
+                {/* <img
                   className="tn-atom__img t-img"
-                  data-original={Logo}
+                  // data-original={Logo}
                   // src={Logo}
                   imgfield="tn_img_1599720199226"
-                />
+                /> */}
                 <GatsbyImage className="tn-atom__img t-img" imgfield="img" image={Logo} alt="header logo image" />
 
               </div>

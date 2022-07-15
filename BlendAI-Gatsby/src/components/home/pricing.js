@@ -3,8 +3,36 @@ import BlockContent from "@sanity/block-content-to-react";
 
 import "./pricing.css"
 
+// Hook
+function useWindowSize() {
+  // Initialize state with undefined width/height so server and client renders match
+  // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+  useEffect(() => {
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); // Empty array ensures that effect is only run on mount
+  return windowSize;
+}
+
 const Pricing = ({ data }) => {
   const [value, onChange] = useState(100);
+  const size = useWindowSize();
 
   const formatNumber = (x) => {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -16,12 +44,18 @@ const Pricing = ({ data }) => {
   useEffect(() => {
     const eleThumbText = document.querySelector('.thumb-text');
     const eleInfoWindow = document.querySelector('.info-window');
-
-    if (eleThumbText && eleInfoWindow) {
+    
+    if (eleThumbText && eleInfoWindow && size.width >= 480) {
       eleThumbText.style.left = `calc(${value / 10}% - 60px)`;
       eleThumbText.innerHTML = `$${formatNumber(value * 10)}`;
       eleInfoWindow.style.left = `calc(${Number(value / 1000 * 100)}% - 170px)`;
+    } else if (size.width < 480) {
+      eleThumbText.style.left = `calc(${value / 10}% - 60px)`;
+      eleThumbText.innerHTML = `$${formatNumber(value * 10)}`;
+      eleInfoWindow.style.left = `calc(50% - 160px)`;
+
     }
+
   })
 
   return (
@@ -228,7 +262,7 @@ const Pricing = ({ data }) => {
                   <div className="thumb-text">
                     {/* ${`${formatNumber(value * 10)}`} */}
                   </div>
-                  <div className="info-window">
+                  <div className="info-window responsive">
                     <div className="info-arrow"></div>
                     <div className="info-title">Fee</div>
                     <div className="info-desc">Based on your Ad spend</div>

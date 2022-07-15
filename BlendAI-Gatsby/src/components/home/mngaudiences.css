@@ -327,7 +327,7 @@
     z-index: 18;
     top: 69px;
     left: calc(50% - 600px + 822px);
-    width: 0px !important;
+    /* width: 0px !important; */
 }
 
 #rec225458528 .tn-elem[data-elem-id="1598881901954"] .tn-atom {
