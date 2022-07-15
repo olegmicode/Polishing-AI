@@ -150,8 +150,8 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="468"
             >
               <div className="tn-atom">
-                
-                <GatsbyImage className="tn-atom__img t-img" image={FBMin} alt="foolter logo image"/>
+
+                <GatsbyImage className="tn-atom__img t-img" image={FBMin} alt="foolter logo image" />
               </div>
             </div>
             <div
@@ -190,7 +190,7 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="626"
             >
               <div className="tn-atom">
-                
+
                 <GatsbyImage className="tn-atom__img t-img" image={InstaMin} alt="Instagram Frame image" />
               </div>
             </div>
@@ -230,8 +230,8 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="514"
             >
               <div className="tn-atom">
-                
-                 <GatsbyImage className="tn-atom__img t-img" image={TwitterMin} alt="TwitterMin Frame image" />
+
+                <GatsbyImage className="tn-atom__img t-img" image={TwitterMin} alt="TwitterMin Frame image" />
               </div>
             </div>
             {/* Background images Ads End  */}
@@ -275,8 +275,11 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                >
-                <GatsbyImage image={productImage1} alt="product image" />
+              >
+                <GatsbyImage image={productImage1} style={{
+                  maxWidth: "100% !important",
+                  maxHeight: "100% !important"
+                }} alt="product image" />
               </div>
             </div>
             <div
@@ -319,10 +322,10 @@ const Intro = ({ data }) => {
             >
               <div
                 className="tn-atom t-bgimg"
-                
+
               >
                 <GatsbyImage image={productImage1} alt="product image" />
-                
+
               </div>
             </div>
             <div
@@ -1058,8 +1061,8 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="250"
             >
               <div className="tn-atom">
-                
-                <GatsbyImage className="tn-atom__img t-img" image={GoogleMin} alt="GoogleMin Frame image" /> 
+
+                <GatsbyImage className="tn-atom__img t-img" image={GoogleMin} alt="GoogleMin Frame image" />
               </div>
             </div>
             <div
