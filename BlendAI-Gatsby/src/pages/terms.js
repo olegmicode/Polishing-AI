@@ -1,14 +1,24 @@
 import React from "react"
 import { graphql } from "gatsby"
-import BlockContent from "@sanity/block-content-to-react";
+import PortableText from "@sanity/block-content-to-react";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Seo from "../components/seo"
 
 const Terms = ({ data }) => {
     const logoBlackImage = getImage(data.allSanityTermsPageContent.nodes[0].logoBlackImage.asset)
-    const blockText = data.allSanityTermsPageContent.nodes[0].subText
+    const blockText = data.allSanityTermsPageContent.nodes[0]._rawSubText
     const seoDatas = data?.allSanityTermsPageOptions.nodes[0];
-
+    const serializers = {
+      marks: {
+        link: ({mark, children}) => {
+          // Read https://css-tricks.com/use-target_blank/
+          const { blank, href } = mark
+          return blank ?
+            <a href={href} target="_blank" rel="noopener">{children}</a>
+            : <a href={href}>{children}</a>
+        }
+      }
+    }
     return (
         <div className="terms">
             <Seo seoData={seoDatas.seo} seoImageData={seoDatas.seoImage}></Seo>
@@ -35,8 +45,9 @@ const Terms = ({ data }) => {
                             <div class="t-container t-align_left">
                                 <div class="t-col t-col_10 t-prefix_2">
                                     <div style={{ color: "#222e63" }}>
-                                        <BlockContent
+                                        <PortableText 
                                             blocks={blockText}
+                                            serializers={serializers} 
                                         />
                                         <br />
                                     </div>
@@ -54,37 +65,39 @@ export default Terms
 
 export const query = graphql`
 query Terms {
-    allSanityTermsPageContent {
-        nodes {
-          subText {
-            _type
-            children {
-              text
-              _type
-            }
-            style
-          }
-          logoBlackImage {
-            asset {
-              gatsbyImageData
-            }
-          }
+  allSanityTermsPageContent {
+    nodes {
+      subText {
+        _type
+        children {
+          text
+          _type
+          marks
+        }
+        style
+      }
+      logoBlackImage {
+        asset {
+          gatsbyImageData
         }
       }
-      allSanityTermsPageOptions {
-        nodes {
-          seo {
-            focus_keyword
-            focus_synonyms
-            meta_description
-            seo_title
-          }
-          seoImage {
-            asset {
-              gatsbyImageData
-            }
-          }
+      _rawSubText(resolveReferences: {maxDepth: 10})
+    }
+  }
+  allSanityTermsPageOptions {
+    nodes {
+      seo {
+        focus_keyword
+        focus_synonyms
+        meta_description
+        seo_title
+      }
+      seoImage {
+        asset {
+          gatsbyImageData
         }
       }
+    }
+  }
 }
 `
