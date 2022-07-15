@@ -21,7 +21,7 @@ const Terms = ({ data }) => {
                             <div class="t228__padding40px"></div>
                             <div class="t228__leftside">
                                 <div class="t228__leftcontainer"> <a href="/" >
-                                    <GatsbyImage image={logoBlackImage} className="t228__imglogo t228__imglogomobile" imgfield="img" style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi" />
+                                    <GatsbyImage image={logoBlackImage}  imgfield="img" style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi" />
                                 </a>
                                 </div>
                             </div>

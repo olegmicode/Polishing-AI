@@ -24,7 +24,7 @@ const Privacy = ({ data }) => {
                             <div className="t228__leftside">
                                 <div className="t228__leftcontainer">
                                     <a href="/" >
-                                        <GatsbyImage image={logoBlackImage} className="t228__imglogo t228__imglogomobile" imgfield="img" style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi" />
+                                        <GatsbyImage image={logoBlackImage}  style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }}  alt="BlendAi" />
                                     </a>
                                 </div>
 
