@@ -1,5 +1,3 @@
-// import "bootstrap/dist/css/bootstrap.min.css"
-// import "bootstrap/dist/js/bootstrap.min.js"
 import "./src/style/app.scss"
 import "./src/style/css/tilda-grid-3.0.min.css"
 import "./src/style/css/tilda-blocks-2.14.css"

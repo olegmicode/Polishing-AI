@@ -2,9 +2,6 @@ import React, { useState } from "react"
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./header.css"
 
-// import { Logo } from "../images/tild6439-3531-4862-a162-323766313961__logo.svg"
-
-
 const Header = ({ headerLogo }) => {
   const [hambugerActive, setHambugerActiveState] = useState(false)
   const Logo = getImage(headerLogo)

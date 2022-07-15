@@ -211,11 +211,7 @@ const MngAudiences = ({ data }) => {
               data-field-fileheight-value="373"
             >
               <div className="tn-atom" style={{ width: "300px" }}>
-                {/* <img
-                  class="tn-atom__img t-img"
-                  // data-original="images/tild6636-3933-4535-b839-643964656139__user_card.png"
-                  imgfield="tn_img_1598881901954"
-                /> */}
+               
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(data.cardImage.asset)} alt="product image" />
 
               </div>

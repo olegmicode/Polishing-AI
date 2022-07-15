@@ -158,11 +158,6 @@ const ProspectRetarget = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <script>
-                    $(document).ready(function () {
-                        // t396_init("225509389");
-                    });
-                </script>
             </div>
         </div>
     )
