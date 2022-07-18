@@ -185,7 +185,7 @@ const MeasureResults = ({ data }) => {
                             </div>
                         </div>
                         <div
-                            className="t396__elem tn-elem tn-elem__2254969841599148751104"
+                            className="t396__elem tn-elem tn-elem__2254969841599148751104 btn-enable"
                             data-elem-id="1599148751104"
                             data-elem-type="image"
                             data-field-top-value="483"
@@ -213,7 +213,7 @@ const MeasureResults = ({ data }) => {
                             </div>
                         </div>
                         <div
-                            className="t396__elem tn-elem tn-elem__2254969841599148751113"
+                            className="t396__elem tn-elem tn-elem__2254969841599148751113 btn-hover"
                             data-elem-id="1599148751113"
                             data-elem-type="image"
                             data-field-top-value="483"

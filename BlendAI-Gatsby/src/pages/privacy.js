@@ -79,7 +79,6 @@ query Privacy {
           _type
         }
         style
-        list
       }
       logoBlackImage {
         asset {
