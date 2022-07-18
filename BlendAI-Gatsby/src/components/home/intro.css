@@ -1,6 +1,7 @@
 .intro-container {
-overflow-x: clip;
+    overflow-x: clip;
 }
+
 #rec294576515 .t396__artboard {
     height: 800px;
     background-color: #6a85fc;
@@ -1449,6 +1450,10 @@ overflow-x: clip;
         width: 354px;
         height: 386px;
     }
+
+    .twitter-product-img {
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -1458,4 +1463,12 @@ overflow-x: clip;
         width: 269px;
         height: 364px;
     }
+}
+
+.tw-img .gatsby-image-wrapper {
+    position: inherit !important;
+}
+
+.tw-img .gatsby-image-wrapper img {
+    object-fit: unset !important;
 }

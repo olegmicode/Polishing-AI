@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
         <script src={withPrefix("tilda-animation-sbs-1.0.min.js")} type="text/javascript" />
         <script src={withPrefix("tilda-stat-1.0.min.js")} type="text/javascript" />
         <script src={withPrefix("https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js")} type="text/javascript" />
-        <script src={withPrefix("https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js")} type="text/javascript" />
+        {/* <script src={withPrefix("https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js")} type="text/javascript" /> */}
 
       </Helmet>
 

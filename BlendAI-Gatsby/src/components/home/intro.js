@@ -231,7 +231,7 @@ const Intro = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={TwitterMin} alt="TwitterMin Frame image" />
+                <GatsbyImage className="tn-atom__img t-img twitter-product-img" image={TwitterMin} alt="TwitterMin Frame image" />
               </div>
             </div>
             {/* Background images Ads End  */}
@@ -277,6 +277,7 @@ const Intro = ({ data }) => {
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={productImage1} style={{
+                 
                   maxWidth: "100% !important",
                   maxHeight: "100% !important"
                 }} alt="product image" />
@@ -410,7 +411,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
+                className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage1} alt="product image" />
 
@@ -582,7 +583,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
+                className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage2} alt="product image" />
 
@@ -671,7 +672,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
+                className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage3} alt="product image" />
 
@@ -932,7 +933,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
+                className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage4} alt="product image" />
 
