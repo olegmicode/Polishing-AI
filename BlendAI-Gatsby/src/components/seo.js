@@ -2,7 +2,6 @@ import * as React from "react"
 import { Helmet } from "react-helmet"
 
 function Seo({ seoData, seoImageData }) {
-console.log("seoImage", seoImageData)
   return (
 
     <Helmet>

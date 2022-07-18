@@ -123,7 +123,7 @@ const Footer = ({ footerLogo }) => {
                     isOpen={showModal}
                     handleDismiss={() => setShowModal(false)}
                   >
-                    <div class="container">
+                    <div className="container">
                       <h1>Contact Us</h1><br />
                       <div>
                         Leave your email and message and we'll be in touch as soon as possible.

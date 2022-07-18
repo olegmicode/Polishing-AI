@@ -4,7 +4,7 @@ import "./contact.css"
 const Contact = () => {
 
   return (
-    <div class="container">
+    <div className="container">
       <form action="action_page.php">
 
         <label for="fname">First Name</label>

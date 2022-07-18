@@ -61,19 +61,19 @@ const Pricing = ({ data }) => {
   return (
     <div id="pricing" className="pricing-container">
 
-      <div id="rec261085834" class="r t-rec" data-record-type="215">
+      <div id="rec261085834" className="r t-rec" data-record-type="215">
         <a name="pricing" style={{ fontSize: "0" }}></a>
       </div>
       <div
         id="rec243411125"
-        class="r t-rec"
+        className="r t-rec"
         data-animationappear="off"
         data-record-type="396"
       >
 
-        <div class="t396">
+        <div className="t396">
           <div
-            class="t396__artboard"
+            className="t396__artboard"
             data-artboard-recid="243411125"
             data-artboard-height="610"
             data-artboard-height-res-960="620"
@@ -85,10 +85,10 @@ const Pricing = ({ data }) => {
             data-artboard-upscale=""
             data-artboard-ovrflw=""
           >
-            <div class="t396__carrier" data-artboard-recid="243411125"></div>
-            <div class="t396__filter" data-artboard-recid="243411125"></div>
+            <div className="t396__carrier" data-artboard-recid="243411125"></div>
+            <div className="t396__filter" data-artboard-recid="243411125"></div>
             <div
-              class="t396__elem tn-elem tn-elem__2434111251603784887988"
+              className="t396__elem tn-elem tn-elem__2434111251603784887988"
               data-elem-id="1603784887988"
               data-elem-type="text"
               data-field-top-value="102"
@@ -111,10 +111,10 @@ const Pricing = ({ data }) => {
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <h2 class="tn-atom" field="tn_text_1603784887988">{data.text}</h2>
+              <h2 className="tn-atom" field="tn_text_1603784887988">{data.text}</h2>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2434111251603784887993"
+              className="t396__elem tn-elem tn-elem__2434111251603784887993"
               data-elem-id="1603784887993"
               data-elem-type="text"
               data-field-top-value="161"
@@ -140,7 +140,7 @@ const Pricing = ({ data }) => {
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1603784887993">
+              <div className="tn-atom" field="tn_text_1603784887993">
                 <BlockContent
                   blocks={data.blockText}
                 />
@@ -148,7 +148,7 @@ const Pricing = ({ data }) => {
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2434111251603784926374"
+              className="t396__elem tn-elem tn-elem__2434111251603784926374"
               data-elem-id="1603784926374"
               data-elem-type="text"
               data-field-top-value="161"
@@ -174,12 +174,12 @@ const Pricing = ({ data }) => {
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1603784926374">
+              <div className="tn-atom" field="tn_text_1603784926374">
                 What you pay
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2434111251603784961295"
+              className="t396__elem tn-elem tn-elem__2434111251603784961295"
               data-elem-id="1603784961295"
               data-elem-type="text"
               data-field-top-value="200"
@@ -204,13 +204,13 @@ const Pricing = ({ data }) => {
               data-field-heightunits-value=""
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom" field="tn_text_1603784961295">
+              <div className="tn-atom" field="tn_text_1603784961295">
                 Select your average monthly Ad spend below to see what you will
                 pay.
               </div>
             </div>
             <div
-              class="t396__elem tn-elem tn-elem__2434111251604563123595"
+              className="t396__elem tn-elem tn-elem__2434111251604563123595"
               data-elem-id="1604563123595"
               data-elem-type="html"
               data-field-top-value="280"
@@ -241,7 +241,7 @@ const Pricing = ({ data }) => {
               data-field-heightunits-value="px"
               data-field-widthunits-value="px"
             >
-              <div class="tn-atom tn-atom__html">
+              <div className="tn-atom tn-atom__html">
                 <script
                   src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
                   rel="preload"
