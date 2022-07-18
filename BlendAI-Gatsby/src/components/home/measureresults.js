@@ -208,6 +208,7 @@ const MeasureResults = ({ data }) => {
                             <div className="tn-atom">
                                 
                                 <GatsbyImage className="tn-atom__img t-img" image={SignupEnable} alt="Character image" />
+                                
 
                             </div>
                         </div>

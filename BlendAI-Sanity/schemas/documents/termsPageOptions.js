@@ -19,6 +19,9 @@ export default {
                 // title(doc) {
                 //   return 'page title'; // (OPTIONAL) return page title otherwise inferred from scrape
                 // },
+                slug(doc) { // (REQUIRED) a function to return the slug of the current page, which will be appended to the baseUrl
+                    return doc.slug.current;
+                },
                 // description(doc) {
                 //   return 'page description'; // (OPTIONAL) return page description otherwise inferred from scrape
                 // },
