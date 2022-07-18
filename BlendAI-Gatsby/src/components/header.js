@@ -20,7 +20,7 @@ const Header = ({ headerLogo }) => {
   }
 
   return (
-    <header className="container">
+    <header>
       <div
         id="rec246667908"
         className="r t-rec"
