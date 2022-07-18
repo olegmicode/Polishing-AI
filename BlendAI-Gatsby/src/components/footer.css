@@ -75,11 +75,11 @@
 @media screen and (max-width: 639px) {
     #rec226479320 .tn-elem[data-elem-id="1599148547451"] {
         top:80px !important;
-        left: 50px !important;
+        left: 220px !important;
     }
     #rec226479320 .tn-elem[data-elem-id="1599148573268"] {
         top: 70px !important;
-        left: 180px !important;
+        left: 50px !important;
 
     }
     #rec226479320 .tn-elem[data-elem-id="1610709018424"] {
@@ -96,17 +96,18 @@
     }
     #rec226479320 .tn-elem[data-elem-id="1599148547451"] {
         top:80px !important;
-        left: 50px !important;
+        left: 220px !important;
     }
     #rec226479320 .tn-elem[data-elem-id="1599148573268"] {
         top: 70px !important;
-        left: 180px !important;
+        left: 50px !important;
 
     }
     #rec226479320 .tn-elem[data-elem-id="1610709018424"] {
         margin-top: 30px !important;
         margin-bottom: 20px !important;
         top: 100px !important;
+        width: 210px;
     }
 }
 

@@ -92,7 +92,7 @@ const RecentViews = ({ data }) => {
                                                         field="btitle"
                                                     >
                                                         <div
-                                                            style={{ fontSize: "36px", fontFamily: 'NunitoSans' }}
+                                                            style={{ fontSize: "32px", fontFamily: 'NunitoSans' }}
                                                             data-customstyle="yes"
                                                         >
                                                             {data.text}<br />
