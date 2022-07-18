@@ -81,7 +81,7 @@ const IndexPage = ({ data }) => {
       <Seo seoData={seoDatas.seo} seoImageData={seoDatas.seoImage}></Seo>
       {
         sections.map((item, idx) => (
-          <div>
+          <div key={idx}>
             {selectSection(item)}
           </div>
         ))

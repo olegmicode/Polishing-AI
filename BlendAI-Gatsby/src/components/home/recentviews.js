@@ -118,7 +118,7 @@ const RecentViews = ({ data }) => {
                                                 >
                                                     {
                                                         data.recentViewsData.map((item, idx) => (
-                                                            <SwiperSlide>
+                                                            <SwiperSlide key={idx}>
                                                                 <div className="" data-slide-index="1">
                                                                     <div
                                                                         className="t-slds__wrapper t-align_center t-width_8 t-margin_auto"

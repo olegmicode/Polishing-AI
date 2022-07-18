@@ -90,7 +90,7 @@ const Header = ({ headerLogo }) => {
                     style={{ maxHeight: "80px" }}
                     alt="BlendAi"
                   /> */}
-                  <GatsbyImage className="t228__imglogo" imgfield="img" image={Logo} alt="header logo image" style={{ width: "140px", height:"32px" }} />
+                  <GatsbyImage className="t228__imglogo" imgfield="img" image={Logo} alt="header logo image" style={{ width: "140px", height: "32px" }} />
                 </a>
               </div>
             </div>
@@ -179,9 +179,11 @@ const Header = ({ headerLogo }) => {
                         }}
                       >
                         <table style={{ width: "100%", height: "100%" }}>
-                          <tr>
-                            <td>Sign Up</td>
-                          </tr>
+                          <tbody>
+                            <tr>
+                              <td>Sign Up</td>
+                            </tr>
+                          </tbody>
                         </table>
                       </a>
                     </div>
@@ -200,9 +202,11 @@ const Header = ({ headerLogo }) => {
                         }}
                       >
                         <table style={{ width: "100%", height: "100%" }}>
-                          <tr>
-                            <td>Log In</td>
-                          </tr>
+                          <tbody>
+                            <tr>
+                              <td>Log In</td>
+                            </tr>
+                          </tbody>
                         </table>
                       </a>
                     </div>
