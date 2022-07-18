@@ -15,24 +15,26 @@ export default {
             type: 'seo-tools', // use seo-tools type
             options: {
                 baseUrl: 'http://blend-ai.com', // (REQUIRED) This is the baseUrl for your site
-                fetchRemote: false, // Can be set to false to disable fetching the remote source (you will need to pass the content helpers for analysis)
-                // title(doc) {
-                //   return 'page title'; // (OPTIONAL) return page title otherwise inferred from scrape
-                // },
-                slug(doc) { // (REQUIRED) a function to return the slug of the current page, which will be appended to the baseUrl
-                    return doc.slug.current;
+                baseUrl(doc) {
+                    return 'http://blend-ai.com'; // for dynamic baseUrls
                 },
-                // description(doc) {
-                //   return 'page description'; // (OPTIONAL) return page description otherwise inferred from scrape
-                // },
-                "focus_keyword_required": false, // makes the focus_keyword field required
-                // "focus_synonyms_required": false, // makes the focus_synonyms field required
-                "seo_title_required": false, // makes the seo_title field required
-                "meta_description_required": false // makes the meta_description field required
-                // locale(doc) {
-                //   return 'page locale'; // (OPTIONAL) return page locale otherwise inferred from scrape
-                // },
-                // contentSelector: 'body' // (OPTIONAL) option to finetune where Yoast will look for the content. (only applicable for scraping without content function)
+                slug(doc) { // (REQUIRED) a function to return the slug of the current page, which will be appended to the baseUrl
+                    // return doc.slug.current;
+                },
+                fetchRemote: false, // Can be set to false to disable fetching the remote source (you will need to pass the content helpers for analysis)
+                content(doc) {
+                    return 'simple html representation of your doc'; // (OPTIONAL) If your site is generated after Sanity content updates you can use this for better real time feedback
+                },
+                title(doc) {
+                    return 'page title'; // (OPTIONAL) return page title otherwise inferred from scrape
+                },
+                description(doc) {
+                    return 'page description'; // (OPTIONAL) return page description otherwise inferred from scrape
+                },
+                locale(doc) {
+                    return 'page locale'; // (OPTIONAL) return page locale otherwise inferred from scrape
+                },
+                contentSelector: 'body' // (OPTIONAL) option to finetune where Yoast will look for the content. (only applicable for scraping without content function)
             }
         },
         {
