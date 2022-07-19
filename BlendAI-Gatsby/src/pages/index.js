@@ -169,6 +169,21 @@ query Home {
               gatsbyImageData
             }
           }
+          Product2Images {
+            asset {
+              gatsbyImageData
+            }
+          }
+          Product3Images {
+            asset {
+              gatsbyImageData
+            }
+          }
+          Product4Images {
+            asset {
+              gatsbyImageData
+            }
+          }
           blockText {
             _type
             children {

@@ -29,7 +29,52 @@ export default {
         {
             name: 'ProductImages',
             type: 'array',
-            title: 'Product Images',
+            title: 'Product1 Images',
+            of: [
+                {
+                    type: 'mainImage',
+
+                },
+            ],
+
+            options: {
+                layout: 'grid',
+            },
+        },
+        {
+            name: 'Product2Images',
+            type: 'array',
+            title: 'Product2 Images',
+            of: [
+                {
+                    type: 'mainImage',
+
+                },
+            ],
+
+            options: {
+                layout: 'grid',
+            },
+        },
+        {
+            name: 'Product3Images',
+            type: 'array',
+            title: 'Product3 Images',
+            of: [
+                {
+                    type: 'mainImage',
+
+                },
+            ],
+
+            options: {
+                layout: 'grid',
+            },
+        },
+        {
+            name: 'Product4Images',
+            type: 'array',
+            title: 'Product4 Images',
             of: [
                 {
                     type: 'mainImage',
