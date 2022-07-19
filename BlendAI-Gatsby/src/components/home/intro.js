@@ -15,15 +15,15 @@ const Intro = ({ data }) => {
   const mainImage = getImage(data.mainProductImage.asset)
   const productImage11 = getImage(data.ProductImages[0].asset)
   const productImage12 = getImage(data.ProductImages[1].asset)
-  // const productImage13 = getImage(data.ProductImages[2].asset)
+  const productImage13 = getImage(data.ProductImages[2].asset)
 
   const productImage21 = getImage(data.Product2Images[0].asset)
   const productImage22 = getImage(data.Product2Images[1].asset)
-  // const productImage23 = getImage(data.Product2Images[2].asset)
+  const productImage23 = getImage(data.Product2Images[2].asset)
 
   const productImage31 = getImage(data.Product3Images[0].asset)
   const productImage32 = getImage(data.Product3Images[1].asset)
-  // const productImage33 = getImage(data.Product3Images[2].asset)
+  const productImage33 = getImage(data.Product3Images[2].asset)
 
   const productImage41 = getImage(data.Product4Images[0].asset)
   const productImage42 = getImage(data.Product4Images[1].asset)
@@ -287,13 +287,13 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage11} style={{
+                <GatsbyImage image={productImage13} style={{
                  
                   
                 }} alt="product11 image" />
               </div>
             </div>
-             <div
+              <div
               className="t396__elem tn-elem tn-elem__2945765151616416826174 t-animate"
               data-elem-id="1616416826174"
               data-elem-type="shape"
@@ -335,7 +335,7 @@ const Intro = ({ data }) => {
                 className="tn-atom t-bgimg"
 
               >
-                <GatsbyImage image={productImage11} alt="product12 image" />
+                <GatsbyImage image={productImage13} alt="product12 image" />
 
               </div>
             </div>
@@ -378,7 +378,7 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage11} alt="product13 image" />
+                <GatsbyImage image={productImage13} alt="product13 image" />
 
               </div>
             </div>
@@ -510,11 +510,11 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage22} alt="product image" />
+                <GatsbyImage image={productImage21} alt="product image" />
 
               </div>
             </div>
-             <div
+            <div
               className="t396__elem tn-elem tn-elem__2945765151616496542381 t-animate"
               data-elem-id="1616496542381"
               data-elem-type="shape"
@@ -552,7 +552,7 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage22} alt="product image" />
+                <GatsbyImage image={productImage21} alt="product image" />
 
               </div>
             </div>
@@ -596,7 +596,7 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg tw-img"
               >
-                <GatsbyImage image={productImage21} alt="product image" />
+                <GatsbyImage image={productImage22} alt="product image" />
 
               </div>
             </div>
@@ -641,11 +641,11 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage22} alt="product image" />
+                <GatsbyImage image={productImage21} alt="product image" />
 
               </div>
             </div>
-              <div
+               <div
               className="t396__elem tn-elem tn-elem__2945765151616506319528 t-animate"
               data-elem-id="1616506319528"
               data-elem-type="shape"
@@ -860,7 +860,7 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage42} alt="product image" />
+                <GatsbyImage image={productImage41} alt="product image" />
 
               </div>
             </div>
@@ -991,7 +991,7 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage42} alt="product image" />
+                <GatsbyImage image={productImage41} alt="product image" />
 
               </div>
             </div>
@@ -1033,7 +1033,7 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage42} alt="product image" />
+                <GatsbyImage image={productImage41} alt="product image" />
 
               </div>
               </div>
