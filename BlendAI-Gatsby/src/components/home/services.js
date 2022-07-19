@@ -9,9 +9,9 @@ const Services = ({ data }) => {
 
   return (
     <div id="services" className="services-container">
-      <div id="rec261087063" className="r t-rec" data-record-type="215">
+      {/* <div id="rec261087063" className="r t-rec" data-record-type="215">
         <a name="services" style={{ fontSize: 0 }}></a>
-      </div>
+      </div> */}
       <div
         id="rec225410738"
         className="r t-rec t-rec_pt_0 t-rec_pb_0"

@@ -12,9 +12,9 @@ const About = ({ data }) => {
 
   return (
     <div>
-      <div id="rec261086492" className="r t-rec" data-record-type="215">
+      {/* <div id="rec261086492" className="r t-rec" data-record-type="215">
         <a name="about" style={{ fontSize: 0 }}></a>
-      </div>
+      </div> */}
       <div
         id="rec225394903"
         className="r t-rec t-rec_pb_0"

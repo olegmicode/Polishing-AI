@@ -13,9 +13,9 @@ const ProductFeed = ({ data }) => {
   return (
     <div id="productfeed" className="productfeed-container">
 
-      <div id="rec261087265" className="r t-rec" data-record-type="215">
+      {/* <div id="rec261087265" className="r t-rec" data-record-type="215">
         <a name="productfeed" style={{ fontSize: "0" }}></a>
-      </div>
+      </div> */}
       <div
         id="rec279166044"
         className="r t-rec"

@@ -30,47 +30,33 @@ const IndexPage = ({ data }) => {
   const selectSection = (sectionData) => {
     switch (sectionData._type) {
       case "header":
-        return <Header headerLogo={sectionData?.logoImage.asset}/>
-        break;
+        return <Header headerLogo={sectionData?.logoImage.asset} />
       case "intro":
         return <Intro data={sectionData}></Intro>
-        break;
       case "about":
         return <About data={sectionData}></About>
-        break;
       case "services":
         return <Services data={sectionData}></Services>
-        break;
       case "productFeed":
         return <ProductFeed data={sectionData}></ProductFeed>
-        break;
       case "createAds":
         return <CreateAds data={sectionData}></CreateAds>
-        break;
       case "mngAudiences":
         return <MngAudiences data={sectionData}></MngAudiences>
-        break;
       case "multipleAdchannels":
         return <Multipleadchannels data={sectionData}></Multipleadchannels>
-        break;
       case "measureResults":
         return <MeasureResults data={sectionData}></MeasureResults>
-        break;
       case "prospectRetarget":
         return <ProspectRetarget data={sectionData}></ProspectRetarget>
-        break;
       case "ourPartners":
         return <OurPartners data={sectionData}></OurPartners>
-        break;
       case "pricing":
         return <Pricing data={sectionData}></Pricing>
-        break;
       case "recentViews":
         return <RecentViews data={sectionData}></RecentViews>
-        break;
-        case "footer":
-          return <Footer footerLogo={sectionData?.logoBlackImage.asset}></Footer>
-          break;
+      case "footer":
+        return <Footer footerLogo={sectionData?.logoBlackImage.asset}></Footer>
       default:
         break;
     }
@@ -85,7 +71,7 @@ const IndexPage = ({ data }) => {
             {selectSection(item)}
           </div>
         ))
-      } 
+      }
     </Layout>
   )
 }

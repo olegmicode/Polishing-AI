@@ -61,9 +61,9 @@ const Pricing = ({ data }) => {
   return (
     <div id="pricing" className="pricing-container">
 
-      <div id="rec261085834" className="r t-rec" data-record-type="215">
+      {/* <div id="rec261085834" className="r t-rec" data-record-type="215">
         <a name="pricing" style={{ fontSize: "0" }}></a>
-      </div>
+      </div> */}
       <div
         id="rec243411125"
         className="r t-rec"

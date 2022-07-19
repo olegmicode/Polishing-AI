@@ -10,8 +10,8 @@ module.exports = {
         projectId: "iq02y4do", // ke52mdjq (test)
         dataset: "production",
         // token: process.env.SANITY_TOKEN,
-        watchMode: true,
-        overlayDrafts: true
+        // watchMode: true,
+        // overlayDrafts: true
       }
     },
     "gatsby-plugin-react-helmet",
@@ -30,6 +30,12 @@ module.exports = {
         // theme_color: `#663399`,
         // display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
       },
     },
    

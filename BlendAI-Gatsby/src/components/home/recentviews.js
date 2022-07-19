@@ -28,10 +28,10 @@ const RecentViews = ({ data }) => {
                         style=
                         {{
                             height: "700px",
-                            backgroundImage: `-webkit-linear-gradient(top, #ccc, #777)`,
-                            backgroundImage: `-moz-linear-gradient(top, #ccc, #777)`,
-                            backgroundImage: `-o-linear-gradient(top, #ccc, #777)`,
-                            backgroundImage: `-ms-linear-gradient(top, #ccc, #777)`,
+                            // backgroundImage: `-webkit-linear-gradient(top, #ccc, #777)`,
+                            // backgroundImage: `-moz-linear-gradient(top, #ccc, #777)`,
+                            // backgroundImage: `-o-linear-gradient(top, #ccc, #777)`,
+                            // backgroundImage: `-ms-linear-gradient(top, #ccc, #777)`,
                             backgroundImage: `linear-gradient(top, #ccc, #777)`,
                         }}
                     >
@@ -48,26 +48,26 @@ const RecentViews = ({ data }) => {
                             className="t-cover__filter"
                             style={{
                                 height: "700px",
-                                backgroundImage: `-moz-linear-gradient(
-                            top,
-                            rgba(247, 92, 72, 1),
-                            rgba(247, 92, 72, 1)
-                        )`,
-                                backgroundImage: `-webkit-linear-gradient(
-                            top,
-                            rgba(247, 92, 72, 1),
-                            rgba(247, 92, 72, 1)
-                        )`,
-                                backgroundImage: `-o-linear-gradient(
-                            top,
-                            rgba(247, 92, 72, 1),
-                            rgba(247, 92, 72, 1)
-                        )`,
-                                backgroundImage: `-ms-linear-gradient(
-                            top,
-                            rgba(247, 92, 72, 1),
-                            rgba(247, 92, 72, 1)
-                        )`,
+                        //         backgroundImage: `-moz-linear-gradient(
+                        //     top,
+                        //     rgba(247, 92, 72, 1),
+                        //     rgba(247, 92, 72, 1)
+                        // )`,
+                        //         backgroundImage: `-webkit-linear-gradient(
+                        //     top,
+                        //     rgba(247, 92, 72, 1),
+                        //     rgba(247, 92, 72, 1)
+                        // )`,
+                        //         backgroundImage: `-o-linear-gradient(
+                        //     top,
+                        //     rgba(247, 92, 72, 1),
+                        //     rgba(247, 92, 72, 1)
+                        // )`,
+                        //         backgroundImage: `-ms-linear-gradient(
+                        //     top,
+                        //     rgba(247, 92, 72, 1),
+                        //     rgba(247, 92, 72, 1)
+                        // )`,
                                 backgroundImage: `linear-gradient(
                             top,
                             rgba(247, 92, 72, 1),
