@@ -11,7 +11,7 @@ const About = ({ data }) => {
   const CampaignOverviewTooltips = getImage(data.statusImage.asset)
 
   return (
-    <div>
+    <div id="about">
       {/* <div id="rec261086492" className="r t-rec" data-record-type="215">
         <a name="about" style={{ fontSize: 0 }}></a>
       </div> */}
