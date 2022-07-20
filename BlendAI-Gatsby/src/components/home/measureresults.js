@@ -143,7 +143,7 @@ const MeasureResults = ({ data }) => {
                         >
                             <div className="tn-atom">
 
-                                <GatsbyImage className="tn-atom__img t-img" image={CharacterW} alt="Character image" />
+                                <GatsbyImage image={CharacterW} alt="Character image" />
 
                             </div>
                         </div>
@@ -181,7 +181,7 @@ const MeasureResults = ({ data }) => {
                         >
                             <div className="tn-atom">
 
-                                <GatsbyImage className="tn-atom__img t-img" image={getImage(data.chartImage.asset)} alt="product image" />
+                                <GatsbyImage image={getImage(data.chartImage.asset)} alt="product image" />
 
                             </div>
                         </div>

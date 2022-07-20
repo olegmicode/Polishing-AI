@@ -98,7 +98,7 @@ const Services = ({ data }) => {
               data-field-fileheight-value="508"
             >
               <div className="tn-atom">
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(platformImages[0].asset)} alt="product image" />
+                <GatsbyImage image={getImage(platformImages[0].asset)} alt="product image" />
               </div>
             </div>
 
@@ -133,7 +133,7 @@ const Services = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(platformImages[1].asset)} alt="product image" />
+                <GatsbyImage image={getImage(platformImages[1].asset)} alt="product image" />
 
               </div>
             </div>
@@ -168,7 +168,7 @@ const Services = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(platformImages[2].asset)} alt="product image" />
+                <GatsbyImage image={getImage(platformImages[2].asset)} alt="product image" />
 
               </div>
             </div>

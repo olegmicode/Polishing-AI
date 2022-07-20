@@ -66,7 +66,7 @@ const CreateAds = ({ data }) => {
                             data-field-fileheight-value="504"
                         >
                             <div className="tn-atom">
-                                <GatsbyImage className="tn-atom__img t-img" image={getImage(data.bgImage.asset)} alt="product image" />
+                                <GatsbyImage image={getImage(data.bgImage.asset)} alt="product image" />
                             </div>
                         </div>
                         <div
@@ -254,7 +254,7 @@ const CreateAds = ({ data }) => {
                             data-field-fileheight-value="1019"
                         >
                             <div className="tn-atom">
-                                <GatsbyImage className="tn-atom__img t-img" image={getImage(data.productImage.asset)} alt="product image" />
+                                <GatsbyImage image={getImage(data.productImage.asset)} alt="product image" />
                             </div>
                         </div>
                         <div

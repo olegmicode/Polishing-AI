@@ -145,7 +145,7 @@ const MngAudiences = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={Character1min} alt="Character image" />
+                <GatsbyImage image={Character1min} alt="Character image" />
 
               </div>
             </div>
@@ -210,7 +210,7 @@ const MngAudiences = ({ data }) => {
             >
               <div className="tn-atom" style={{ width: "300px" }}>
 
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(data.cardImage.asset)} alt="product image" />
+                <GatsbyImage image={getImage(data.cardImage.asset)} alt="product image" />
 
               </div>
             </div>
@@ -377,7 +377,7 @@ const MngAudiences = ({ data }) => {
               data-field-fileheight-value="650"
             >
               <div className="tn-atom">
-                <GatsbyImage className="tn-atom__img t-img" image={Vector4} alt="Vector4 image" />
+                <GatsbyImage image={Vector4} alt="Vector4 image" />
 
               </div>
             </div>

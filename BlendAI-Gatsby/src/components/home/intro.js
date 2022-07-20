@@ -162,7 +162,7 @@ const Intro = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={TwitterMin} alt="TwitterMin image" />
+                <GatsbyImage image={TwitterMin} alt="TwitterMin image" />
               </div>
             </div>
             <div
@@ -202,7 +202,7 @@ const Intro = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={InstaMin} alt="Instagram Frame image" />
+                <GatsbyImage image={InstaMin} alt="Instagram Frame image" />
               </div>
             </div>
             <div
@@ -242,7 +242,7 @@ const Intro = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img twitter-product-img" image={FBMin} alt="FBMin Frame image" />
+                <GatsbyImage image={FBMin} alt="FBMin Frame image" />
               </div>
             </div>
             {/* Background images Ads End  */}
@@ -1086,8 +1086,7 @@ const Intro = ({ data }) => {
               data-field-fileheight-value="250"
             >
               <div className="tn-atom">
-
-                <GatsbyImage className="tn-atom__img t-img" image={GoogleMin} alt="GoogleMin Frame image" />
+                <GatsbyImage  image={GoogleMin} alt="GoogleMin Frame image" />
               </div>
             </div>
             <div

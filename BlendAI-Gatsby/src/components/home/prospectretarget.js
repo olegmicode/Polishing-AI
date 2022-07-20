@@ -122,7 +122,7 @@ const ProspectRetarget = ({ data }) => {
                         >
                             <div className="tn-atom">
 
-                                <GatsbyImage className="tn-atom__img t-img" image={ShoppingMin2} alt="ShoppingMin2 image" />
+                                <GatsbyImage image={ShoppingMin2} alt="ShoppingMin2 image" />
 
                             </div>
                         </div>

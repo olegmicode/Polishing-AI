@@ -134,7 +134,7 @@ const ProductFeed = ({ data }) => {
             >
               <div className="tn-atom">
                 
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(productImages[0].asset)} alt="product image" />
+                <GatsbyImage image={getImage(productImages[0].asset)} alt="product image" />
 
               </div>
             </div>
@@ -170,7 +170,7 @@ const ProductFeed = ({ data }) => {
             >
               <div className="tn-atom">
                 
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(productImages[1].asset)} alt="product image" />
+                <GatsbyImage image={getImage(productImages[1].asset)} alt="product image" />
 
               </div>
             </div>
@@ -206,7 +206,7 @@ const ProductFeed = ({ data }) => {
             >
               <div className="tn-atom">
                 
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(productImages[2].asset)} alt="product image" />
+                <GatsbyImage image={getImage(productImages[2].asset)} alt="product image" />
 
               </div>
             </div>
@@ -243,7 +243,7 @@ const ProductFeed = ({ data }) => {
             >
               <div className="tn-atom">
                 
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adImages[0].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adImages[0].asset)} alt="product image" />
 
               </div>
             </div>
@@ -280,7 +280,7 @@ const ProductFeed = ({ data }) => {
             >
               <div className="tn-atom">
                
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adImages[1].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adImages[1].asset)} alt="product image" />
               </div>
             </div>
             <div
@@ -316,7 +316,7 @@ const ProductFeed = ({ data }) => {
             >
               <div className="tn-atom">
               
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adImages[2].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adImages[2].asset)} alt="product image" />
               </div>
             </div>
             <div
@@ -352,7 +352,7 @@ const ProductFeed = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={GroupArrow} alt="GroupArrow image" />
+                <GatsbyImage image={GroupArrow} alt="GroupArrow image" />
 
               </div>
             </div>

@@ -155,7 +155,7 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="620"
             >
               <div className="tn-atom">
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(overImage)} alt="product image" />
+                <GatsbyImage image={getImage(overImage)} alt="product image" />
 
               </div>
             </div>
@@ -191,7 +191,7 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[0].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adCardImages[0].asset)} alt="product image" />
 
               </div>
             </div>
@@ -228,7 +228,7 @@ const Multipleadchannels = ({ data }) => {
             >
               <div className="tn-atom">
                
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[1].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adCardImages[1].asset)} alt="product image" />
 
               </div>
             </div>
@@ -264,7 +264,7 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[2].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adCardImages[2].asset)} alt="product image" />
 
               </div>
             </div>
@@ -301,7 +301,7 @@ const Multipleadchannels = ({ data }) => {
             >
               <div className="tn-atom">
                
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[3].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adCardImages[3].asset)} alt="product image" />
 
               </div>
             </div>
@@ -337,7 +337,7 @@ const Multipleadchannels = ({ data }) => {
               data-field-fileheight-value="592"
             >
               <div className="tn-atom">
-                <GatsbyImage className="tn-atom__img t-img" image={getImage(adCardImages[4].asset)} alt="product image" />
+                <GatsbyImage image={getImage(adCardImages[4].asset)} alt="product image" />
 
               </div>
             </div>
@@ -376,7 +376,7 @@ const Multipleadchannels = ({ data }) => {
             >
               <div className="tn-atom">
                 
-                <GatsbyImage className="tn-atom__img t-img" image={Line6} alt="Vector4 image" />
+                <GatsbyImage image={Line6} alt="Vector4 image" />
 
               </div>
             </div>
@@ -415,7 +415,7 @@ const Multipleadchannels = ({ data }) => {
             >
               <div className="tn-atom">
                 
-                <GatsbyImage className="tn-atom__img t-img" image={Line7} alt="Vector4 image" />
+                <GatsbyImage image={Line7} alt="Vector4 image" />
 
               </div>
             </div>
@@ -493,7 +493,7 @@ const Multipleadchannels = ({ data }) => {
             >
               <div className="tn-atom">
                
-                <GatsbyImage className="tn-atom__img t-img" image={vector3Blue} alt="Vector4 image" />
+                <GatsbyImage image={vector3Blue} alt="Vector4 image" />
 
               </div>
             </div>
@@ -528,7 +528,7 @@ const Multipleadchannels = ({ data }) => {
             >
               <div className="tn-atom">
                 
-                <GatsbyImage className="tn-atom__img t-img" image={Vector3} alt="Vector4 image" />
+                <GatsbyImage image={Vector3} alt="Vector4 image" />
 
               </div>
             </div>
