@@ -6,8 +6,6 @@ import "./mngaudiences.css"
 const MngAudiences = ({ data }) => {
 
   const Character1min = getImage(data.character1minImage.asset)
-  const SignupEnable = getImage(data.signupEnableImage.asset)
-  const SignupHover = getImage(data.signupHoverImage.asset)
   const Vector4 = getImage(data.vector4Image.asset)
 
   return (
@@ -211,7 +209,7 @@ const MngAudiences = ({ data }) => {
               data-field-fileheight-value="373"
             >
               <div className="tn-atom" style={{ width: "300px" }}>
-               
+
                 <GatsbyImage className="tn-atom__img t-img" image={getImage(data.cardImage.asset)} alt="product image" />
 
               </div>
@@ -563,68 +561,9 @@ const MngAudiences = ({ data }) => {
             >
               <div className="tn-atom"></div>
             </div>
-            <div
-              className="t396__elem tn-elem tn-elem__2254585281599141932841"
-              data-elem-id="1599141932841"
-              data-elem-type="image"
-              data-field-top-value="539"
-              data-field-top-res-960-value="484"
-              data-field-top-res-640-value="359"
-              data-field-top-res-480-value="360"
-              data-field-top-res-320-value="407"
-              data-field-left-value="20"
-              data-field-left-res-960-value="20"
-              data-field-left-res-640-value="90"
-              data-field-left-res-480-value="10"
-              data-field-left-res-320-value="10"
-              data-field-width-value="200"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-field-filewidth-value="400"
-              data-field-fileheight-value="128"
-            >
-              <div className="tn-atom">
-
-                <GatsbyImage className="tn-atom__img t-img" image={SignupEnable} alt="Character image" />
-
-              </div>
-            </div>
-            <div
-              className="t396__elem tn-elem tn-elem__2254585281599141932848"
-              data-elem-id="1599141932848"
-              data-elem-type="image"
-              data-field-top-value="539"
-              data-field-top-res-960-value="484"
-              data-field-top-res-640-value="359"
-              data-field-top-res-480-value="360"
-              data-field-top-res-320-value="407"
-              data-field-left-value="20"
-              data-field-left-res-960-value="20"
-              data-field-left-res-640-value="90"
-              data-field-left-res-480-value="10"
-              data-field-left-res-320-value="10"
-              data-field-width-value="200"
-              data-field-axisy-value="top"
-              data-field-axisx-value="left"
-              data-field-container-value="grid"
-              data-field-topunits-value="px"
-              data-field-leftunits-value="px"
-              data-field-heightunits-value=""
-              data-field-widthunits-value="px"
-              data-animate-sbs-event="hover"
-              data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':200,'mx':'0','my':0,'sx':'1','sy':'1','op':1,'ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
-              data-field-filewidth-value="400"
-              data-field-fileheight-value="128"
-            >
-              <a className="tn-atom" href="https://app.blend-ai.com/#/auth/shopify">
-
-                <GatsbyImage className="tn-atom__img t-img" image={SignupHover} alt="Character image" />
-
+            <div className="mng-btn-signup-block">
+              <a className="btn-signup" href="https://app.blend-ai.com/#/auth/shopify">
+                SIGN UP
               </a>
             </div>
             <div

@@ -143,11 +143,22 @@
     border-color: transparent;
     border-style: solid;
 }
+.mng-btn-signup-block {
+    position: absolute;
+    top: 550px;
+    left: calc(50% - 600px + 22px);
+    width: 250px;
+    z-index: 15;
+}
 
 @media screen and (max-width: 1199px) {
     #rec225458528 .tn-elem[data-elem-id="1598881632912"] {
         top: 289px;
         left: calc(50% - 480px + 20px);
+    }
+    .mng-btn-signup-block {
+        top: 500px;
+        left: calc(50% - 480px + 22px);
     }
 }
 
@@ -157,12 +168,22 @@
         left: calc(50% - 320px + 90px);
         width: 460px;
     }
+    .mng-btn-signup-block {
+        top: 350px;
+        left: calc(50% - 320px + 91px);
+
+    }
 }
 
 @media screen and (max-width: 639px) {
     #rec225458528 .tn-elem[data-elem-id="1598881632912"] {
         top: 194px;
         left: calc(50% - 240px + 10px);
+    }
+    .mng-btn-signup-block {
+        top: 350px;
+        left: calc(50% - 240px + 10px);
+
     }
 }
 
@@ -171,6 +192,11 @@
         top: 188px;
         left: calc(50% - 160px + 10px);
         width: 300px;
+    }
+    .mng-btn-signup-block {
+        top: 400px;
+        left: calc(50% - 160px + 10px);
+
     }
 }
 

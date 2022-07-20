@@ -5,10 +5,11 @@ import "./measureresults.css"
 
 const MeasureResults = ({ data }) => {
 
+    const text = data.text
+    const blockText = data.blockText
+    const bottomText = data.bottomText
     const CharacterW = getImage(data.characterWimage.asset)
-    const SignupEnable = getImage(data.signupEnableImage.asset)
-    const SignupHover = getImage(data.signupHoverImage.asset)
-    
+
     return (
         <div id="measureresults" className="measureresults-container">
             <div
@@ -56,7 +57,7 @@ const MeasureResults = ({ data }) => {
                             data-field-widthunits-value="px"
                         >
                             <h2 className="tn-atom" field="tn_text_1598889024363">
-                                {data.text}
+                                {text}
                             </h2>
                         </div>
                         <div
@@ -87,7 +88,7 @@ const MeasureResults = ({ data }) => {
                         >
                             <div className="tn-atom" field="tn_text_1598889024372">
                                 <BlockContent
-                                    blocks={data.blockText}
+                                    blocks={blockText}
                                 />
                                 <br />
                             </div>
@@ -141,9 +142,9 @@ const MeasureResults = ({ data }) => {
                             data-field-fileheight-value="518"
                         >
                             <div className="tn-atom">
-                                
+
                                 <GatsbyImage className="tn-atom__img t-img" image={CharacterW} alt="Character image" />
-                                
+
                             </div>
                         </div>
                         <div
@@ -184,61 +185,10 @@ const MeasureResults = ({ data }) => {
 
                             </div>
                         </div>
-                        <div
-                            className="t396__elem tn-elem tn-elem__2254969841599148751104 btn-enable"
-                            data-elem-id="1599148751104"
-                            data-elem-type="image"
-                            data-field-top-value="483"
-                            data-field-top-res-640-value="359"
-                            data-field-top-res-480-value="328"
-                            data-field-left-value="22"
-                            data-field-left-res-640-value="91"
-                            data-field-left-res-480-value="10"
-                            data-field-width-value="200"
-                            data-field-axisy-value="top"
-                            data-field-axisx-value="left"
-                            data-field-container-value="grid"
-                            data-field-topunits-value="px"
-                            data-field-leftunits-value="px"
-                            data-field-heightunits-value=""
-                            data-field-widthunits-value="px"
-                            data-field-filewidth-value="400"
-                            data-field-fileheight-value="128"
-                        >
-                            <div className="tn-atom">
-                                
-                                <GatsbyImage className="tn-atom__img t-img" image={SignupEnable} alt="Character image" />
-                                
 
-                            </div>
-                        </div>
-                        <div
-                            className="t396__elem tn-elem tn-elem__2254969841599148751113 btn-hover"
-                            data-elem-id="1599148751113"
-                            data-elem-type="image"
-                            data-field-top-value="483"
-                            data-field-top-res-640-value="359"
-                            data-field-top-res-480-value="328"
-                            data-field-left-value="22"
-                            data-field-left-res-640-value="91"
-                            data-field-left-res-480-value="10"
-                            data-field-width-value="200"
-                            data-field-axisy-value="top"
-                            data-field-axisx-value="left"
-                            data-field-container-value="grid"
-                            data-field-topunits-value="px"
-                            data-field-leftunits-value="px"
-                            data-field-heightunits-value=""
-                            data-field-widthunits-value="px"
-                            data-animate-sbs-event="hover"
-                            data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':200,'mx':'0','my':0,'sx':'1','sy':'1','op':1,'ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
-                            data-field-filewidth-value="400"
-                            data-field-fileheight-value="128"
-                        >
-                            <a className="tn-atom" href="https://app.blend-ai.com/#/auth/shopify">
-                                
-                                <GatsbyImage className="tn-atom__img t-img" image={SignupHover} alt="Character image" />
-
+                        <div className="btn-signup-block">
+                            <a className="btn-signup" href="https://app.blend-ai.com/#/auth/shopify">
+                                SIGN UP
                             </a>
                         </div>
                         <div
@@ -267,7 +217,7 @@ const MeasureResults = ({ data }) => {
                             data-field-widthunits-value="px"
                         >
                             <div className="tn-atom" field="tn_text_1599462044795">
-                                {data.bottomText}
+                                {bottomText}
                             </div>
                         </div>
                     </div>

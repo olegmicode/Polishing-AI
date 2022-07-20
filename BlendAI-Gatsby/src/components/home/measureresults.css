@@ -24,6 +24,7 @@
     #rec225496984 .t396__carrier {
         background-attachment: scroll;
     }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024363"] {
         color: #ffffff;
         z-index: 1;
@@ -45,7 +46,7 @@
     #rec225496984 .t396__carrier {
         height: 1060px;
     }
-    
+
 }
 
 @media screen and (max-width: 639px) {}
@@ -123,6 +124,14 @@
     width: 400px;
 }
 
+.btn-signup-block {
+    position: absolute;
+    top: 500px;
+    left: calc(50% - 600px + 22px);
+    width: 250px;
+    z-index: 2;
+}
+
 #rec225496984 .tn-elem[data-elem-id="1598889024372"] .tn-atom {
     color: #ffffff;
     font-size: 20px;
@@ -140,6 +149,13 @@
         left: calc(50% - 480px + 22px);
         width: 350px;
     }
+
+    .btn-signup-block {
+        top: 500px;
+        left: calc(50% - 480px + 22px);
+        width: 200px;
+    }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024381"] {
         color: #ffffff;
         z-index: 3;
@@ -147,10 +163,12 @@
         left: calc(50% - 480px + 22px);
         width: 80px;
     }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024363"] {
         left: calc(50% - 480px + 22px);
 
     }
+
     #rec225496984 .tn-elem[data-elem-id="1599148751113"] {
         left: calc(50% - 480px + 22px);
 
@@ -163,9 +181,17 @@
         top: 195px;
         left: calc(50% - 320px + 91px);
     }
+
+    .btn-signup-block {
+        top: 350px;
+        left: calc(50% - 320px + 91px);
+        width: 200px;
+    }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024363"] {
         left: calc(50% - 320px + 91px);
     }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024381"] {
         left: calc(50% - 320px + 91px);
 
@@ -178,6 +204,12 @@
         left: calc(50% - 240px + 10px);
         width: 460px;
     }
+
+    .btn-signup-block {
+        top: 350px;
+        left: calc(50% - 240px + 10px);
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -187,13 +219,21 @@
         width: 300px;
     }
 
+    .btn-signup-block {
+        top: 350px;
+        left: calc(50% - 160px + 10px);
+        width: 200px;
+    }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024372"] .tn-atom {
         font-size: 18px;
     }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024363"] {
         left: calc(50% - 160px + 10px);
 
     }
+
     #rec225496984 .tn-elem[data-elem-id="1598889024381"] {
         left: calc(50% - 160px + 10px);
 
@@ -312,13 +352,13 @@
         left: calc(50% - 320px + 0px);
         width: 480px;
     }
-    
-#rec225496984 .tn-elem[data-elem-id="1599148751104"] {
-    z-index: 9;
-    top: 483px;
-    left: calc(50% - 525px + 22px);
-    width: 200px;
-}
+
+    #rec225496984 .tn-elem[data-elem-id="1599148751104"] {
+        z-index: 9;
+        top: 483px;
+        left: calc(50% - 525px + 22px);
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 639px) {
@@ -350,17 +390,18 @@
 }
 
 @media screen and (max-width: 1199px) {
-    
-#rec225496984 .tn-elem[data-elem-id="1599148751113"] {
-    z-index: 10;
-    top: 483px;
-    left: calc(50% - 525px + 22px);
-    width: 200px;
-}
-#rec225496984 .tn-elem[data-elem-id="1599148751104"] {
-    left: calc(50% - 480px + 22px);
 
-}
+    #rec225496984 .tn-elem[data-elem-id="1599148751113"] {
+        z-index: 10;
+        top: 483px;
+        left: calc(50% - 525px + 22px);
+        width: 200px;
+    }
+
+    #rec225496984 .tn-elem[data-elem-id="1599148751104"] {
+        left: calc(50% - 480px + 22px);
+
+    }
 }
 
 @media screen and (max-width: 959px) {
@@ -484,9 +525,30 @@
         font-size: 22px;
     }
 }
-.btn-hover {
-    opacity: 0;
+
+.btn-signup-block {
+    /* width: 200px;
+  z-index: 200;
+    height: 64px; */
 }
-.btn-hover:hover {
-    opacity: 1;
+
+.btn-signup {
+    background-color: #ffffff;
+    /* Green */
+    border: none;
+    color: #222e63;
+    padding: 20px 65px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    /* margin: 4px 2px; */
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn-signup:hover {
+    color: #02b9a8;
 }
