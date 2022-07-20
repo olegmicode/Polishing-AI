@@ -329,7 +329,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.ProductImages[2].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.ProductImages[2].asset.gatsbyImageData.images.fallback.src})`
@@ -373,7 +373,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.ProductImages[2].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.ProductImages[2].asset.gatsbyImageData.images.fallback.src})`
@@ -507,7 +507,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.Product2Images[0].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.Product2Images[0].asset.gatsbyImageData.images.fallback.src})`
@@ -550,7 +550,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.Product2Images[0].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.Product2Images[0].asset.gatsbyImageData.images.fallback.src})`
@@ -730,7 +730,7 @@ const Intro = ({ data }) => {
             >
               
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.Product3Images[1].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.Product3Images[1].asset.gatsbyImageData.images.fallback.src})`
@@ -773,7 +773,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.Product3Images[1].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.Product3Images[1].asset.gatsbyImageData.images.fallback.src})`
@@ -865,7 +865,7 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.Product4Images[0].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.Product4Images[0].asset.gatsbyImageData.images.fallback.src})`
@@ -1043,7 +1043,7 @@ const Intro = ({ data }) => {
             >
               
               <div
-                class="tn-atom t-bgimg"
+                className="tn-atom t-bgimg"
                 data-original={data.Product4Images[2].asset.gatsbyImageData.images.fallback.src}
                 style={{
                   backgroundImage: `url(${data.Product4Images[2].asset.gatsbyImageData.images.fallback.src})`
