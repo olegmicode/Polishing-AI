@@ -162,7 +162,7 @@ const Intro = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img" image={FBMin} alt="foolter logo image" />
+                <GatsbyImage className="tn-atom__img t-img" image={TwitterMin} alt="TwitterMin image" />
               </div>
             </div>
             <div
@@ -242,7 +242,7 @@ const Intro = ({ data }) => {
             >
               <div className="tn-atom">
 
-                <GatsbyImage className="tn-atom__img t-img twitter-product-img" image={TwitterMin} alt="TwitterMin Frame image" />
+                <GatsbyImage className="tn-atom__img t-img twitter-product-img" image={FBMin} alt="FBMin Frame image" />
               </div>
             </div>
             {/* Background images Ads End  */}
@@ -287,10 +287,7 @@ const Intro = ({ data }) => {
               <div
                 className="tn-atom t-bgimg"
               >
-                <GatsbyImage image={productImage13} style={{
-
-
-                }} alt="product11 image" />
+                <GatsbyImage image={productImage13} alt="product11 image" />
               </div>
             </div>
             <div
@@ -332,12 +329,12 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
-
-              >
-                <GatsbyImage image={productImage13} alt="product12 image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.ProductImages[2].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.ProductImages[2].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616416876415 t-animate"
@@ -376,11 +373,12 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
-              >
-                <GatsbyImage image={productImage13} alt="product13 image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.ProductImages[2].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.ProductImages[2].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616417440825 t-animate"
@@ -470,6 +468,7 @@ const Intro = ({ data }) => {
               >SIGN UP</a
               >
             </div>
+              
             <div
               className="t396__elem tn-elem tn-elem__2945765151616496480325 t-animate"
               data-elem-id="1616496480325"
@@ -508,11 +507,12 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
-              >
-                <GatsbyImage image={productImage21} alt="product image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.Product2Images[0].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product2Images[0].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616496542381 t-animate"
@@ -550,11 +550,12 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
-              >
-                <GatsbyImage image={productImage21} alt="product image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.Product2Images[0].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product2Images[0].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616496562949 t-animate"
@@ -645,6 +646,7 @@ const Intro = ({ data }) => {
 
               </div>
             </div>
+            
             <div
               className="t396__elem tn-elem tn-elem__2945765151616506319528 t-animate"
               data-elem-id="1616506319528"
@@ -726,12 +728,14 @@ const Intro = ({ data }) => {
               data-animate-delay="5"
               data-animate-mobile="y"
             >
+              
               <div
-                className="tn-atom t-bgimg"
-              >
-                <GatsbyImage image={productImage32} alt="product image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.Product3Images[1].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product3Images[1].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616506845355 t-animate"
@@ -769,11 +773,12 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
-              >
-                <GatsbyImage image={productImage32} alt="product image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.Product3Images[1].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product3Images[1].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616506872278 t-animate"
@@ -820,6 +825,8 @@ const Intro = ({ data }) => {
 
               </div>
             </div>
+             
+             {/* FB img */}
             <div
               className="t396__elem tn-elem tn-elem__2945765151616508491292 t-animate"
               data-elem-id="1616508491292"
@@ -858,11 +865,12 @@ const Intro = ({ data }) => {
               data-animate-mobile="y"
             >
               <div
-                className="tn-atom t-bgimg"
-              >
-                <GatsbyImage image={productImage41} alt="product image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.Product4Images[0].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product4Images[0].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616508539364 t-animate"
@@ -906,6 +914,7 @@ const Intro = ({ data }) => {
                 <GatsbyImage image={mainImage} alt="main product" />
               </div>
             </div>
+            {/* Insta image */}
             <div
               className="t396__elem tn-elem tn-elem__2945765151616508582576 t-animate"
               data-elem-id="1616508582576"
@@ -950,6 +959,7 @@ const Intro = ({ data }) => {
 
               </div>
             </div>
+            {/* Tw Img */}
             <div
               className="t396__elem tn-elem tn-elem__2945765151616508620151 t-animate"
               data-elem-id="1616508620151"
@@ -995,6 +1005,7 @@ const Intro = ({ data }) => {
 
               </div>
             </div>
+            {/* Gg img */}
             <div
               className="t396__elem tn-elem tn-elem__2945765151616508666944 t-animate"
               data-elem-id="1616508666944"
@@ -1030,12 +1041,14 @@ const Intro = ({ data }) => {
               data-animate-delay="8"
               data-animate-mobile="y"
             >
+              
               <div
-                className="tn-atom t-bgimg"
-              >
-                <GatsbyImage image={productImage41} alt="product image" />
-
-              </div>
+                class="tn-atom t-bgimg"
+                data-original={data.Product4Images[2].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product4Images[2].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151648638183416 t-animate"
