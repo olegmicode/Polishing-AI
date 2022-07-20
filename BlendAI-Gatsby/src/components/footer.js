@@ -1,5 +1,5 @@
 import React from "react"
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 import Modal from "./common/Modal"
 
@@ -8,7 +8,8 @@ import "./home/contact.css"
 const Footer = ({ footerLogo }) => {
   const [showModal, setShowModal] = React.useState(false);
 
-  const footerLogoImg = getImage(footerLogo)
+  // const footerLogoImg = getImage(footerLogo)
+  const foolterLogoURL = footerLogo.gatsbyImageData.images.fallback.src
 
   return (
     <footer className="footer">
@@ -58,8 +59,14 @@ const Footer = ({ footerLogo }) => {
                 data-field-fileheight-value="64"
               >
                 <div className="tn-atom">
-
-                  <GatsbyImage image={footerLogoImg} alt="foolter logo image" />
+                <img
+                    src={foolterLogoURL}
+                    className="t228__imglogo"
+                    imgfield="img"
+                    style={{ maxHeight: "32px" }}
+                    alt="BlendAi"
+                  />
+                  {/* <GatsbyImage image={footerLogoImg} alt="foolter logo image" /> */}
                 </div>
               </div>
               {/* right */}

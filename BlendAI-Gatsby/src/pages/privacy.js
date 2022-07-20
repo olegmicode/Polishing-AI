@@ -1,13 +1,15 @@
 import React from "react"
 import { graphql } from "gatsby"
 import PortableText from "@sanity/block-content-to-react";
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Seo from "../components/seo"
 
 
 const Privacy = ({ data }) => {
 
-  const logoBlackImage = getImage(data.allSanityPrivacyPageContent.nodes[0].logoBlackImage.asset)
+  // const logoBlackImage = getImage(data.allSanityPrivacyPageContent.nodes[0].logoBlackImage.asset)
+  const logoBlackURL = data.allSanityPrivacyPageContent.nodes[0].logoBlackImage.asset.gatsbyImageData.images.fallback.src;
+
   const blockText = data.allSanityPrivacyPageContent.nodes[0]._rawSubText
   const seoDatas = data?.allSanityPrivacyPageOptions.nodes[0];
   const serializers = {
@@ -34,7 +36,11 @@ const Privacy = ({ data }) => {
               <div className="t228__leftside">
                 <div className="t228__leftcontainer">
                   <a href="/" >
-                    <GatsbyImage image={logoBlackImage} style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi" />
+                    {/* <GatsbyImage image={logoBlackImage} style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi" /> */}
+                    <img
+                      src={logoBlackURL}
+                      style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi"
+                    />
                   </a>
                 </div>
 
