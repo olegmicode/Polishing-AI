@@ -1,11 +1,11 @@
 import React, { useState } from "react"
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+// import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import "./header.css"
 
 const Header = ({ headerLogo }) => {
   const [hambugerActive, setHambugerActiveState] = useState(false)
-  const Logo = getImage(headerLogo)
-
+  // const Logo = getImage(headerLogo)
+  const LogoURL = headerLogo.gatsbyImageData.images.fallback.src;
   const hamburgerHandler = () => {
     setHambugerActiveState(!hambugerActive)
   }
@@ -83,14 +83,14 @@ const Header = ({ headerLogo }) => {
             <div className="t228__leftside">
               <div className="t228__leftcontainer">
                 <a href="https://blend-ai.com" >
-                  {/* <img
-                    // src={Logo}
+                  <img
+                    src={LogoURL}
                     className="t228__imglogo"
                     imgfield="img"
                     style={{ maxHeight: "80px" }}
                     alt="BlendAi"
-                  /> */}
-                  <GatsbyImage className="t228__imglogo" imgfield="img" image={Logo} alt="header logo image" style={{ width: "140px", height: "32px" }} />
+                  />
+                  {/* <GatsbyImage className="t228__imglogo" imgfield="img" image={Logo} alt="header logo image" style={{ width: "140px", height: "32px" }} /> */}
                 </a>
               </div>
             </div>
@@ -262,13 +262,14 @@ const Header = ({ headerLogo }) => {
               data-field-fileheight-value="32"
             >
               <div className="tn-atom">
-                {/* <img
+                <img
                   className="tn-atom__img t-img"
                   // data-original={Logo}
-                  // src={Logo}
+                  src={LogoURL}
                   imgfield="tn_img_1599720199226"
-                /> */}
-                <GatsbyImage className="tn-atom__img t-img" imgfield="img" image={Logo} alt="header logo image" />
+                  alt="BlendAI"
+                />
+                {/* <GatsbyImage className="tn-atom__img t-img" imgfield="img" image={Logo} alt="header logo image" /> */}
 
               </div>
             </div>
