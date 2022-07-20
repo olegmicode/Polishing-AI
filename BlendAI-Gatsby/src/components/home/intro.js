@@ -288,12 +288,12 @@ const Intro = ({ data }) => {
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={productImage13} style={{
-                 
-                  
+
+
                 }} alt="product11 image" />
               </div>
             </div>
-              <div
+            <div
               className="t396__elem tn-elem tn-elem__2945765151616416826174 t-animate"
               data-elem-id="1616416826174"
               data-elem-type="shape"
@@ -556,7 +556,7 @@ const Intro = ({ data }) => {
 
               </div>
             </div>
-           <div
+            <div
               className="t396__elem tn-elem tn-elem__2945765151616496562949 t-animate"
               data-elem-id="1616496562949"
               data-elem-type="shape"
@@ -600,7 +600,7 @@ const Intro = ({ data }) => {
 
               </div>
             </div>
-           <div
+            <div
               className="t396__elem tn-elem tn-elem__2945765151616496605755 t-animate"
               data-elem-id="1616496605755"
               data-elem-type="shape"
@@ -645,7 +645,7 @@ const Intro = ({ data }) => {
 
               </div>
             </div>
-               <div
+            <div
               className="t396__elem tn-elem tn-elem__2945765151616506319528 t-animate"
               data-elem-id="1616506319528"
               data-elem-type="shape"
@@ -1036,7 +1036,7 @@ const Intro = ({ data }) => {
                 <GatsbyImage image={productImage41} alt="product image" />
 
               </div>
-              </div>
+            </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151648638183416 t-animate"
               data-elem-id="1648638183416"
