@@ -21,7 +21,7 @@ function Modal({
       onDismiss={handleDismiss}
     >
       <Content aria-label={title}>
-        <Header>
+        <HeaderBlock>
           <Title>{title}</Title>
           <CloseButton onClick={handleDismiss}>
             <X />
@@ -29,7 +29,7 @@ function Modal({
               Dismiss modal
             </VisuallyHidden>
           </CloseButton>
-        </Header>
+        </HeaderBlock>
         <ChildWrapper>{children}</ChildWrapper>
       </Content>
     </Overlay>
@@ -64,7 +64,7 @@ const Content = styled(DialogContent)`
   }
 `;
 
-const Header = styled.header`
+const HeaderBlock = styled.header`
   padding: 16px;
   padding-bottom: 8px;
 
