@@ -12,23 +12,6 @@ const Intro = ({ data }) => {
   const TwitterMin = getImage(data.frametImages[2].asset)
   const GoogleMin = getImage(data.frametImages[3].asset)
 
-  // const mainImage = getImage(data.mainProductImage.asset)
-  // const productImage11 = getImage(data.ProductImages[0].asset)
-  // const productImage12 = getImage(data.ProductImages[1].asset)
-  // const productImage13 = getImage(data.ProductImages[2].asset)
-
-  // const productImage21 = getImage(data.Product2Images[0].asset)
-  // const productImage22 = getImage(data.Product2Images[1].asset)
-  // const productImage23 = getImage(data.Product2Images[2].asset)
-
-  // const productImage31 = getImage(data.Product3Images[0].asset)
-  // const productImage32 = getImage(data.Product3Images[1].asset)
-  // const productImage33 = getImage(data.Product3Images[2].asset)
-
-  // const productImage41 = getImage(data.Product4Images[0].asset)
-  // const productImage42 = getImage(data.Product4Images[1].asset)
-  // const productImage43 = getImage(data.Product4Images[2].asset)
-
   return (
     <div id="intro" className="intro-container">
       <div
