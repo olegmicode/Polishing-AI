@@ -12,22 +12,22 @@ const Intro = ({ data }) => {
   const TwitterMin = getImage(data.frametImages[2].asset)
   const GoogleMin = getImage(data.frametImages[3].asset)
 
-  const mainImage = getImage(data.mainProductImage.asset)
-  const productImage11 = getImage(data.ProductImages[0].asset)
-  const productImage12 = getImage(data.ProductImages[1].asset)
-  const productImage13 = getImage(data.ProductImages[2].asset)
+  // const mainImage = getImage(data.mainProductImage.asset)
+  // const productImage11 = getImage(data.ProductImages[0].asset)
+  // const productImage12 = getImage(data.ProductImages[1].asset)
+  // const productImage13 = getImage(data.ProductImages[2].asset)
 
-  const productImage21 = getImage(data.Product2Images[0].asset)
-  const productImage22 = getImage(data.Product2Images[1].asset)
-  const productImage23 = getImage(data.Product2Images[2].asset)
+  // const productImage21 = getImage(data.Product2Images[0].asset)
+  // const productImage22 = getImage(data.Product2Images[1].asset)
+  // const productImage23 = getImage(data.Product2Images[2].asset)
 
-  const productImage31 = getImage(data.Product3Images[0].asset)
-  const productImage32 = getImage(data.Product3Images[1].asset)
-  const productImage33 = getImage(data.Product3Images[2].asset)
+  // const productImage31 = getImage(data.Product3Images[0].asset)
+  // const productImage32 = getImage(data.Product3Images[1].asset)
+  // const productImage33 = getImage(data.Product3Images[2].asset)
 
-  const productImage41 = getImage(data.Product4Images[0].asset)
-  const productImage42 = getImage(data.Product4Images[1].asset)
-  const productImage43 = getImage(data.Product4Images[2].asset)
+  // const productImage41 = getImage(data.Product4Images[0].asset)
+  // const productImage42 = getImage(data.Product4Images[1].asset)
+  // const productImage43 = getImage(data.Product4Images[2].asset)
 
   return (
     <div id="intro" className="intro-container">
@@ -284,11 +284,19 @@ const Intro = ({ data }) => {
               data-animate-distance="50"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={productImage13} alt="product11 image" />
-              </div>
+                
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.ProductImages[2].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.ProductImages[2].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616416826174 t-animate"
@@ -418,12 +426,19 @@ const Intro = ({ data }) => {
               data-animate-distance="50"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage12} alt="product13 image" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.ProductImages[1].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.ProductImages[1].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616419383643 t-animate"
@@ -594,12 +609,19 @@ const Intro = ({ data }) => {
               data-animate-delay="2"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage22} alt="product image" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.Product2Images[1].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product2Images[1].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616496605755 t-animate"
@@ -639,12 +661,19 @@ const Intro = ({ data }) => {
               data-animate-delay-res-320="1.2"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={productImage21} alt="product image" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.Product2Images[0].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product2Images[0].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             
             <div
@@ -684,12 +713,19 @@ const Intro = ({ data }) => {
               data-animate-delay="5"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage31} alt="product image" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.Product3Images[0].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product3Images[0].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             <div
               className="t396__elem tn-elem tn-elem__2945765151616506417742 t-animate"
@@ -818,12 +854,19 @@ const Intro = ({ data }) => {
               data-animate-delay-res-320="2.2"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={productImage32} alt="product image" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.Product3Images[1].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product3Images[1].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
              
              {/* FB img */}
@@ -908,11 +951,18 @@ const Intro = ({ data }) => {
               data-animate-delay="7"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={mainImage} alt="main product" />
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.mainProductImage.asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.mainProductImage.asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             {/* Insta image */}
             <div
@@ -952,12 +1002,19 @@ const Intro = ({ data }) => {
               data-animate-delay="8"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg tw-img"
               >
                 <GatsbyImage image={productImage43} alt="product image" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.Product4Images[2].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product4Images[2].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             {/* Tw Img */}
             <div
@@ -998,12 +1055,19 @@ const Intro = ({ data }) => {
               data-animate-delay-res-320="3"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={productImage41} alt="product image" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.Product4Images[0].asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.Product4Images[0].asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
             {/* Gg img */}
             <div
@@ -1125,12 +1189,19 @@ const Intro = ({ data }) => {
               data-animate-delay="7"
               data-animate-mobile="y"
             >
-              <div
+              {/* <div
                 className="tn-atom t-bgimg"
               >
                 <GatsbyImage image={mainImage} alt="main product" />
 
-              </div>
+              </div> */}
+              <div
+                className="tn-atom t-bgimg"
+                data-original={data.mainProductImage.asset.gatsbyImageData.images.fallback.src}
+                style={{
+                  backgroundImage: `url(${data.mainProductImage.asset.gatsbyImageData.images.fallback.src})`
+                }}
+              ></div>
             </div>
           </div>
         </div>
