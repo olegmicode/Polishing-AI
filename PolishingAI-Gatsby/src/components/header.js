@@ -82,13 +82,13 @@ const Header = ({ headerLogo }) => {
             <div className="t228__padding40px"></div>
             <div className="t228__leftside">
               <div className="t228__leftcontainer">
-                <a href="https://blend-ai.com" >
+                <a href="https://polish-ai.com" >
                   <img
                     src={LogoURL}
                     className="t228__imglogo"
                     imgfield="img"
                     style={{ maxHeight: "80px" }}
-                    alt="BlendAi"
+                    alt="polishAi"
                   />
                   {/* <GatsbyImage className="t228__imglogo" imgfield="img" image={Logo} alt="header logo image" style={{ width: "140px", height: "32px" }} /> */}
                 </a>
@@ -166,7 +166,7 @@ const Header = ({ headerLogo }) => {
                   <div className="t228__right_buttons_wrap">
                     <div className="t228__right_buttons_but">
                       <a
-                        href="https://app.blend-ai.com/#/auth/ecommerce"
+                        href="https://app.polish-ai.com/#/auth/ecommerce"
                         target="_blank"
                         className="t-btn js-click-stat"
                         data-tilda-event-name="/tilda/click/rec290925405/button1"
@@ -190,7 +190,7 @@ const Header = ({ headerLogo }) => {
                     </div>
                     <div className="t228__right_buttons_but">
                       <a
-                        href="https://app.blend-ai.com/#/auth/login"
+                        href="https://app.polish-ai.com/#/auth/login"
                         target=""
                         className="t-btn js-click-stat"
                         data-tilda-event-name="/tilda/click/rec290925405/button2"
@@ -267,7 +267,7 @@ const Header = ({ headerLogo }) => {
                   // data-original={Logo}
                   src={LogoURL}
                   imgfield="tn_img_1599720199226"
-                  alt="BlendAI"
+                  alt="polishAI"
                 />
                 {/* <GatsbyImage className="tn-atom__img t-img" imgfield="img" image={Logo} alt="header logo image" /> */}
 
@@ -304,7 +304,7 @@ const Header = ({ headerLogo }) => {
             >
               <a
                 className="tn-atom js-click-zero-stat"
-                href="https://app.blend-ai.com/#/auth/login"
+                href="https://app.polish-ai.com/#/auth/login"
                 data-tilda-event-name="/tilda/click/rec290926020/button1599720264742"
               >Log In</a
               >
@@ -340,7 +340,7 @@ const Header = ({ headerLogo }) => {
             >
               <a
                 className="tn-atom js-click-zero-stat"
-                href="https://app.blend-ai.com/#/auth/ecommerce"
+                href="https://app.polish-ai.com/#/auth/ecommerce"
                 data-tilda-event-name="/tilda/click/rec290926020/button1599720426760"
               >Sign Up</a
               >

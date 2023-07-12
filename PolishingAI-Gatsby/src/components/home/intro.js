@@ -459,7 +459,7 @@ const Intro = ({ data }) => {
             >
               <a
                 className="tn-atom js-click-zero-stat"
-                href="https://app.blend-ai.com/#/auth/ecommerce"
+                href="https://app.polish-ai.com/#/auth/ecommerce"
                 target="_blank"
                 rel="noreferrer"
                 data-tilda-event-name="/tilda/click/rec294576515/button1616419383643"

@@ -64,7 +64,7 @@ const Footer = ({ footerLogo }) => {
                     className="t228__imglogo"
                     imgfield="img"
                     style={{ maxHeight: "32px" }}
-                    alt="BlendAi"
+                    alt="polishAi"
                   />
                   {/* <GatsbyImage image={footerLogoImg} alt="foolter logo image" /> */}
                 </div>

@@ -204,7 +204,7 @@ const RecentViews = ({ data }) => {
                                                                         fontFamily: 'NunitoSans'
                                                                     }}
                                                                 >
-                                                                    Blend has changed the way we advertise.<br /><br />
+                                                                    polish has changed the way we advertise.<br /><br />
                                                                 </div>
                                                                 <div
                                                                     className="t659__title t-name t-name_xs"
@@ -244,7 +244,7 @@ const RecentViews = ({ data }) => {
                                                                         fontFamily: 'NunitoSans'
                                                                     }}
                                                                 >
-                                                                    I highly recommend Blend for anyone wanting to
+                                                                    I highly recommend polish for anyone wanting to
                                                                     grow sales profitably through online advertising.
                                                                 </div>
                                                                 <div

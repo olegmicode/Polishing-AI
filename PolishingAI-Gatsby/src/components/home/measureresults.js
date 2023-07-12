@@ -187,7 +187,7 @@ const MeasureResults = ({ data }) => {
                         </div>
 
                         <div className="btn-signup-block">
-                            <a className="btn-signup" href="https://app.blend-ai.com/#/auth/shopify">
+                            <a className="btn-signup" href="https://app.polish-ai.com/#/auth/shopify">
                                 SIGN UP
                             </a>
                         </div>

@@ -5,7 +5,7 @@ function Seo({ seoData, seoImageData }) {
   return (
 
     <Helmet>
-      <title>BlendAI</title>
+      <title>polishAI</title>
       <meta name="description" content={seoData.meta_description} />
       <meta name="keywords" content={seoData.focus_synonyms.toString()} />
       <meta property="og:title" content={seoData.seo_title} />

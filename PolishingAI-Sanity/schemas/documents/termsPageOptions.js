@@ -14,9 +14,9 @@ export default {
             title: 'SEO',
             type: 'seo-tools', // use seo-tools type
             options: {
-                baseUrl: 'http://blend-ai.com', // (REQUIRED) This is the baseUrl for your site
+                baseUrl: 'http://polish-ai.com', // (REQUIRED) This is the baseUrl for your site
                 baseUrl(doc) {
-                    return 'http://blend-ai.com'; // for dynamic baseUrls
+                    return 'http://polish-ai.com'; // for dynamic baseUrls
                 },
                 slug(doc) { // (REQUIRED) a function to return the slug of the current page, which will be appended to the baseUrl
                     // return doc.slug.current;

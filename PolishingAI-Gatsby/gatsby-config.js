@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `blend-ai`,
-    siteUrl: `https://blend-ai.com/`
+    title: `polish-ai`,
+    siteUrl: `https://polish-ai.com/`
   },
   plugins: [
     {

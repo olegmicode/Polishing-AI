@@ -33,10 +33,10 @@ const Terms = ({ data }) => {
               <div className="t228__padding40px"></div>
               <div className="t228__leftside">
                 <div className="t228__leftcontainer"> <a href="/" >
-                  {/* <GatsbyImage image={logoBlackImage}  imgfield="img" style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi" /> */}
+                  {/* <GatsbyImage image={logoBlackImage}  imgfield="img" style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="polishAi" /> */}
                   <img
                     src={logoBlackURL}
-                    style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="BlendAi"
+                    style={{ maxWidth: "150px", width: "150px", minWidth: "150px", height: "auto", display: "block" }} alt="polishAi"
                   />
                 </a>
                 </div>
