@@ -82,7 +82,7 @@ const Header = ({ headerLogo }) => {
             <div className="t228__padding40px"></div>
             <div className="t228__leftside">
               <div className="t228__leftcontainer">
-                <a href="https://polish-ai.com" >
+                <a href="https://polishing-ai.netlify.app" >
                   <img
                     src={LogoURL}
                     className="t228__imglogo"

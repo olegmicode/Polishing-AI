@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `polish-ai`,
-    siteUrl: `https://polish-ai.com/`
+    title: `Polish-AI-Blog`,
+    siteUrl: `https://polishing-ai.netlify.app/`
   },
   plugins: [
     {
       resolve: 'gatsby-source-sanity',
       options: {
-        projectId: "iq02y4do", // ke52mdjq (test)
-        dataset: "production",
+        projectId: process.env.SANITY_PROJECT_ID,        
+        dataset: process.env.SANITY_DATASET,
         // token: process.env.SANITY_TOKEN,
         // watchMode: true,
         // overlayDrafts: true
